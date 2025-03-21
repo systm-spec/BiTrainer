@@ -423,39 +423,55 @@
         "correct": 0
     },
     {
-        "id": "q0",
-        "text": "word",
+        "id": "q041",
+        "text": "MULTI 0,3 You have a Microsoft Excel file in a Microsoft OneDrive folder. The file must be imported to a Power BI dataset. You need to ensure that the dataset can be refreshed in powerbi.com. Which two connectors can you use to connect to the file? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point",
         "images": [],
-        "choices": ["word", "word", "word", "word"],
+        "choices": [
+            "Excel Workbook",
+            "Text/CSV",
+            "Folder",
+            "SharePoint folder",
+            "Web"
+        ],
         "correct": 0
     },
     {
-        "id": "q0",
-        "text": "word",
+        "id": "q042",
+        "text": "How can you create a custom visual in Power BI?",
         "images": [],
-        "choices": ["word", "word", "word", "word"],
-        "correct": 0
+        "choices": [
+            "By importing a custom visual from the marketplace",
+            "By using the Power BI Developer Tools to create a custom visual",
+            "By using the built-in visualizations and customizing them",
+            "By creating a new report page and adding visuals to it"
+        ],
+        "correct": 1
     },
     {
-        "id": "q0",
-        "text": "word",
+        "id": "q043",
+        "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You are modeling data by using Microsoft Power BI. Part of the data model is a large Microsoft SQL Server table named Order that has more than 100 million records.During the development process, you need to import a sample of the data from the Order table.Solution: You add a report-level filter that filters based on the order date.Does this meet the goal?",
         "images": [],
-        "choices": ["word", "word", "word", "word"],
-        "correct": 0
+        "choices": ["Yes", "No"],
+        "correct": 1
     },
     {
-        "id": "q0",
-        "text": "word",
+        "id": "q044",
+        "text": "How can you create a custom theme in Power BI?",
         "images": [],
-        "choices": ["word", "word", "word", "word"],
+        "choices": [
+            "Use the Power BI Desktop",
+            "Use the Power BI Service",
+            "Use the Power BI Mobile App",
+            "Use the Power BI Developer Tools"
+        ],
         "correct": 0
     },
 
     {
-        "id": "q0",
-        "text": "word",
+        "id": "q045",
+        "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have a Power BI report that imports a date table and a sales table from an Azure SQL database data source. The sales table has the following date foreign keys: ✑ Due Date ✑ Order Date ✑ Delivery Date You need to support the analysis of sales over time based on all the date foreign keys. Solution: From the Fields pane, you rename the date table as Due Date. You use a DAX expression to create Order Date and Delivery Date as calculated tables. Does this meet the goal?",
         "images": [],
-        "choices": ["word", "word", "word", "word"],
+        "choices": ["Yes", "No"],
         "correct": 0
     }
 ]
