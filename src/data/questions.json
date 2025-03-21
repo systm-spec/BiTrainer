@@ -1,16 +1,461 @@
 [
     {
         "id": "q001",
-        "text": "Was ist auf diesen Bildern zu sehen?",
-        "images": ["image1.png", "image2.png"],
-        "choices": ["Katze", "Hund", "Vogel", "Fisch"],
+        "text": "You need to import 45 Excel files to Power BI Desktop. All these files are in a unique desktop local folder and share the same structure. You want to import all these Excel files into a single table. Which of the following would help you in achieving the goal?",
+        "images": [],
+        "choices": [
+            "Adding the folder data source; using the Append Queries command",
+            "Adding the folder data source; using the Combine Files Command",
+            "Adding every single file to the model and then using Merge Query Command",
+            "Adding the MS Excel Data Source; selecting all files of the folder",
+            "Adding a folder data source and using the Merge Queries Command"
+        ],
         "correct": 1
     },
     {
         "id": "q002",
-        "text": "Welches Bild zeigt einen Baum?",
-        "images": ["step1.jpg"],
-        "choices": ["Bild 1", "Bild 2", "Bild 3", "Bild 4"],
+        "text": "You have a 200 GB data warehouse that has data consolidated from several applications and runs on SQL Server 2017 Enterprise Edition. You notice that with your reports, there is a default limitation of eight daily refreshes. Your manager asks you to ensure that the reports are never more outdated than 1 hour. Which of the following can help you in achieving the same?",
+        "images": [],
+        "choices": [
+            "Building an application for monitoring the changes in the database and pushing them out utilizing the real-time streaming API",
+            "Migrating the content to Power BI Premium",
+            "Adding an SSAS tabular layer on top and enabling the Live connections",
+            "Convert to DirectQuery to access the data warehouse"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q004",
+        "text": "Consider the statement below. Row Level Security cant be applied in Power BI Desktop while connecting via a Live connection to Analysis Services, these need to be set within the AS model.",
+        "images": [],
+        "choices": ["true", "false"],
+        "correct": 0
+    },
+    {
+        "id": "q004",
+        "text": "Can you create a relationship between two columns having different DATA TYPE?",
+        "images": [],
+        "choices": [
+            "Yes, but the cardinality of the relationship needs to set as one to many",
+            "Yes, but the cardinality of the relationship needs to set as many to many",
+            "Yes, the latest versions of Power BI Desktops fully support creating relationships between such columns",
+            "No, the columns in a relationship need to share the same data type"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q005",
+        "text": "You need to configure a Gauge chart. Where would you set the goal for this?",
+        "images": [],
+        "choices": [
+            "Format Settings",
+            "Power Query",
+            "Calculated Column",
+            "DAX Expression"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q006",
+        "text": "You need to create a histogram with a fixed number of bins in Power BI.Below are the few steps (given in improper sequence) that you need for creating the histogram.a. Choose New Groupb. Enter the bin count c. Choose the clustered column chart icon on the visualization Paned. In the Fields Pane, right-click the data field that you need to analyzee. Set the Group type option to Bin and Bin Type option to Number of binsf. Drag the new Field (Buckets) into the axis of your chart and apply count measure on values.Choose the right sequence of the steps that you will follow. [Build the suitable visualization type first]",
+        "images": [],
+        "choices": [
+            " a-b-c-d-e-f",
+            "a-c-b-d-e-f",
+            "a-c-b-e-d-f",
+            "c-d-a-e-b-f",
+            "c-a-d-e-b-f",
+            "c-a-d-b-e-f"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q007",
+        "text": "Consider the statement below. The nodes in a decomposition tree (the fields through which the metric is analyzed by in the visuals) are fixed and can‘t be modified by the end-users viewing the report.",
+        "images": [],
+        "choices": ["true", "false"],
+        "correct": 1
+    },
+    {
+        "id": "q008",
+        "text": "Which of the following reserved parameters respectively configure the start and end of where Incremental refresh should happen?",
+        "images": [],
+        "choices": [
+            "Start and End parameters",
+            "StartRange and EndRange parameters",
+            "RangeStart and RangeEnd parameters",
+            "RefreshStart and RefreshEnd parameters",
+            "StartRefresh and EndRefresh parameters"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q009",
+        "text": "Which of the following can't be seen from the data lineage view in Power BI?",
+        "images": [],
+        "choices": [
+            "Where the dataflows are being utilized as a data source for datasets",
+            "The data sources that are being utilized by the dashboards/reports/datasets in a workspace",
+            "The credentials utilized to connect to datasets",
+            "Where gateways are being utilized as a data source for datasets"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q010",
+        "text": "Microsoft Information Protection sensitivity labels allow the users to classify the sensitive/critical content in Power BI without affecting the productivity or the collaborating ability.These Sensitivity labels can be applied to which of the following items in Power BI Service?",
+        "images": [],
+        "choices": [
+            "Only datasets",
+            "Only reports",
+            "Only dashboards",
+            "Only dataflows",
+            "Only datasets and reports",
+            "All including reports, datasets, dataflows, and dashboards"
+        ],
+        "correct": 5
+    },
+    {
+        "id": "q011",
+        "text": "For your Power BI dashboard, you have just created a pie chart visualizing the actual sales figures by region for the last year. In order to give decision makers a deeper insight, you want to extend the visual with a breakdown by countries. You decide to use the small multiples feature as a comfortable way of exploding visuals by a given dimension. Is it a feasible solution?",
+        "images": [],
+        "choices": ["Yes", "No"],
+        "correct": 1
+    },
+    {
+        "id": "q012",
+        "text": "You are creating a dashboard by using the Power BI service. You have an existing report page that contains three charts. You need to add the charts to the dashboard while maintaining the interactivity between the charts. What should you do?",
+        "images": [],
+        "choices": [
+            "Edit interactions in the report and set all interactions to Filter.",
+            "Pin each chart as a tile.",
+            "Edit the dashboard theme and pin each chart as a tile.",
+            "Pin the report page as a live tile."
+        ],
+        "correct": 3
+    },
+
+    {
+        "id": "q013",
+        "text": "You need to create a data model that includes multiple tables. Which tool should you use?",
+        "images": [],
+        "choices": ["Power BI", "Power Automate", "Power Apps", "Power Query"],
+        "correct": 0
+    },
+    {
+        "id": "q014",
+        "text": "You want to show the relationship between two variables in a dataset. Which chart type would be best to use?",
+        "images": [],
+        "choices": ["Bild", "Bild", "Bild", "Bild"],
+        "correct": 0
+    },
+    {
+        "id": "q015",
+        "text": "MULTI How can you manage permissions for a workspace in Power BI?",
+        "images": [],
+        "choices": [
+            "Add or remove members",
+            "Assign roles to members",
+            "Set permissions for specific reports",
+            "Delete a workspace"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q016",
+        "text": "What is the purpose of the Power BI Gateway?",
+        "images": [],
+        "choices": [
+            "To allow users to connect to on-premises data sources",
+            "To allow users to create custom visuals",
+            "To allow users to share reports with others",
+            "To allow users to create dashboards"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q017",
+        "text": "You have a project management app that is fully hosted in Microsoft Teams. The app was developed by using Microsoft Power Apps.You need to create a Power BI report that connects to the project management app.Which connector should you select?",
+        "images": [],
+        "choices": [
+            "Microsoft Teams Personal Analytics",
+            "SQL Server database",
+            "Dataverse",
+            "Dataflows"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q018",
+        "text": "You have four sales regions. Each region has multiple sales managers.You implement row-level security (RLS) in a data model. You assign the relevant mail-enabled security group to each role.You have sales reports that enable analysis by region. The sales managers can view the sales records of their region. The sales managers are prevented from viewing records from other regions.A sales manager changes to a different region.You need to ensure that the sales manager can see the correct sales data.What should you do?",
+        "images": [],
+        "choices": [
+            "Change the Microsoft Power BI license type of the sales manager.",
+            "From Microsoft Power BI Desktop, edit the Row-Level Security setting for the reports.",
+            "Manage the permissions of the underlying dataset.",
+            "Request that the sales manager be added to the correct Azure Active Directory group."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q019",
+        "text": "You have a Power BI report. The report contains a visual that shows gross sales by date. The visual has anomaly detection enabled. No anomalies are detected. You need to increase the likelihood that anomaly detection will identify anomalies in the report. What should you do?",
+        "images": [],
+        "choices": [
+            "Increase the Expected range transparency setting.",
+            "Add a data field to the Legend field well.",
+            "Increase the Sensitivity setting.",
+            "Add a data field to the Secondary values field well."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q020",
+        "text": "What is the best way to monitor the performance of your assets?",
+        "images": [],
+        "choices": [
+            "Use Azure Monitor",
+            "Use Azure Log Analytics",
+            "Use Azure Application Insights",
+            "Use Azure Network Watcher"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q021",
+        "text": "You are designing a data model for a financial institution. Which entity should you use to store information about customer accounts?",
+        "images": [],
+        "choices": ["Account", "Contact", "Opportunity", "Activity"],
+        "correct": 0
+    },
+    {
+        "id": "q022",
+        "text": "You want to create a data source that can be used by Power BI. Which type of data source should you use?",
+        "images": [],
+        "choices": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q023",
+        "text": "You want to show the correlation between two variables in a dataset. Which chart type would be best to use?",
+        "images": [],
+        "choices": ["Scatter chart", "Bar chart", "Line chart", "Pie chart"],
+        "correct": 0
+    },
+    {
+        "id": "q024",
+        "text": "What is the difference between a slicer and a filter in Power BI?",
+        "images": [],
+        "choices": [
+            "A slicer is a visual control that allows users to filter data, while a filter is a data manipulation tool that allows users to filter data",
+            " A slicer is a data manipulation tool that allows users to filter data, while a filter is a visual control that allows users to filter data",
+            "A slicer and a filter are the same thing",
+            "A slicer and a filter are not available in Power BI"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q025",
+        "text": "5. What is the purpose of the Power BI Q&A feature?",
+        "images": [],
+        "choices": [
+            "To allow users to ask natural language questions and receive visual answers",
+            "To provide a way to export data to Excel",
+            "To create custom visuals for reports and dashboards",
+            "To schedule data refreshes for reports and dashboards"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q026",
+        "text": "What is the purpose of data normalization?",
+        "images": [],
+        "choices": [
+            "To scale data to a common range",
+            "To remove outliers from the data",
+            "To replace missing data with estimated values",
+            "To transform data into a different format"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q027",
+        "text": "You want to create a data source that can be used by multiple Power Apps. Which type of data source should you use?",
+        "images": [],
+        "choices": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q028",
+        "text": "You are designing a data model for a healthcare organization. Which entity should you use to store information about patient diagnoses?",
+        "images": [],
+        "choices": ["Appointment", "Encounter", "Diagnosis Code", "Procedure"],
+        "correct": 2
+    },
+    {
+        "id": "q029",
+        "text": "You are creating a data model for a retail company. Which entity should you use to store information about customer orders?",
+        "images": [],
+        "choices": ["Order", "Product", "Customer", "Salesperson"],
+        "correct": 0
+    },
+    {
+        "id": "q030",
+        "text": "You are designing a data model for a customer relationship management system. Which entity should you use to store information about customer interactions?",
+        "images": [],
+        "choices": ["Account", "Contact", "Opportunity", "Activity"],
+        "correct": 3
+    },
+    {
+        "id": "q031",
+        "text": "You have a Power BI tenant.You have reports that use financial datasets and are exported as PDF files.You need to ensure that the reports are encrypted.What should you implement?",
+        "images": [],
+        "choices": [
+            "Microsoft Intune policies",
+            "row-level security (RLS)",
+            "sensitivity labels",
+            "dataset certifications"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q032",
+        "text": "MULTI 2,3 You have a dataset that is used infrequently and refreshes every hour.You receive a notification that the refresh was disabled due to inactivity.Which two actions will cause the scheduled refresh schedule to resume? Each correct answer presents a complete solution.NOTE: Each correct selection is worth one point.",
+        "images": [],
+        "choices": [
+            "Enable query caching for the dataset.",
+            "Import the dataset to Microsoft Excel.",
+            "From the Power BI service, open a dashboard that uses the dataset.",
+            "From the Power BI service, open a report that uses the dataset.",
+            "From PowerShell, run the get-powerbireport cmdlet."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q033",
+        "text": "You want to create a data source that can be used by Power Apps. Which type of data source should you use if you need to store unstructured data?",
+        "images": [],
+        "choices": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q034",
+        "text": "What is the most effective way to manage your assets‘ configuration and updates?",
+        "images": [],
+        "choices": [
+            "Use Azure Automation",
+            "Use Azure Configuration Management",
+            "Use Azure Policy",
+            "Use Azure Update Management"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q035",
+        "text": "You want to show the distribution of customer ages in a survey. Which chart type would be best to use?",
+        "images": [],
+        "choices": ["Histogram", "Line chart", "Pie chart", "Scatter chart"],
+        "correct": 0
+    },
+    {
+        "id": "q036",
+        "text": "You are creating a data model for a transportation company. Which entity should you use to store information about vehicles?",
+        "images": [],
+        "choices": ["Vehicle", "Driver", "Route", "Shipment"],
+        "correct": 0
+    },
+    {
+        "id": "q037",
+        "text": "You are creating a data model for a marketing agency. Which entity should you use to store information about campaigns?",
+        "images": [],
+        "choices": ["Campaign", "Lead", "Opportunity", "Contact"],
+        "correct": 0
+    },
+    {
+        "id": "q038",
+        "text": "You have a Power BI workspace named Workspace1 that contains a dataset named DS1 and a report named RPT1.A user wants to create a report by using the data in DS1 and publish the report to another workspace.You need to provide the user with the appropriate access. The solution must minimize the number of access permissions granted to the user.What should you do?",
+        "images": [],
+        "choices": [
+            "Add the user as a Viewer of Workspace1.",
+            "Grant the Build permission for DS1 to the user.",
+            "Share RPT1 with the user.",
+            "Add the user as a member of Workspace1."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q039",
+        "text": "How can you create a calculated table in Power BI?",
+        "images": [],
+        "choices": [
+            "Use the DAX formula language",
+            "Use the M formula language",
+            "Use the SQL formula language",
+            "Use the Python formula language"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q040",
+        "text": "You want to show the comparison of sales performance between different product categories. Which chart type would be best to use?",
+        "images": [],
+        "choices": [
+            "Stacked bar chart",
+            "Line chart",
+            "Scatter chart",
+            "Dual-axis chart"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["word", "word", "word", "word"],
+        "correct": 0
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["word", "word", "word", "word"],
+        "correct": 0
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["word", "word", "word", "word"],
+        "correct": 0
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["word", "word", "word", "word"],
+        "correct": 0
+    },
+
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["word", "word", "word", "word"],
         "correct": 0
     }
 ]
