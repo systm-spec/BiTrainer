@@ -1,0 +1,16 @@
+[
+    {
+        "id": "q001",
+        "text": "Was ist auf diesen Bildern zu sehen?",
+        "images": ["image1.png", "image2.png"],
+        "choices": ["Katze", "Hund", "Vogel", "Fisch"],
+        "correct": 1
+    },
+    {
+        "id": "q002",
+        "text": "Welches Bild zeigt einen Baum?",
+        "images": ["step1.jpg"],
+        "choices": ["Bild 1", "Bild 2", "Bild 3", "Bild 4"],
+        "correct": 0
+    }
+]
