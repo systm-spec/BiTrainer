@@ -19,7 +19,7 @@ const Quiz = () => {
     const question: Question = questions[current];
 
     const handleAnswer = (index: number) => {
-        if (selected !== null) return; // Prevent double answer
+        if (selected !== null) return;
         setSelected(index);
         const correct = index === question.correct;
         setAnswers([...answers, correct]);

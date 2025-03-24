@@ -1,0 +1,416 @@
+[
+    {
+        "id": "q001",
+        "text": "You have a time series chart for your sales and you need to display a line to show the direction the data has moved over your selected period.How would you add this black dotted line? See the exhibit below.",
+        "images": ["q001.png"],
+        "choices": [
+            "Add an Average line in the Analytics pane",
+            "Add a Trend line in the Analytics pane",
+            "Add a Forecast line in the Analytics pane",
+            "Add a Play Axis to the visual"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q002",
+        "text": "You work at a bike company and have two tables that use DirectQuery – Product and Category (see the below exhibit.) These two tables are joined with a relationship from Product to Category using the CategoryID column. To increase the efficiency in your join you decide to check Assume referential integrity‘ in the relationship.Will this help the join between your tables?",
+        "images": ["q002.png"],
+        "choices": ["Yes", "No"],
+        "correct": 1
+    },
+    {
+        "id": "q003",
+        "text": "You are a Power BI consultant and you are doing some remote work for a mining company in Western Australia. You need to build a date table that starts from November 2010 and ends in December 2025. You decide you will use DAX to create a table.How should you create the DAX expression?",
+        "images": [],
+        "choices": [
+            "DATE ( 2010/11/1, 2025/12/31)",
+            "CALCULATE( CALENDAR('2010/11/1', '2025/12/31') )",
+            "CALENDAR( DATE(2010,11,1), DATE(2025,12,31) )",
+            "CALENDAR( 2010/11/1, 2025/12/31)"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q004",
+        "text": "You import a TXT file that contains package delivery times. The format in the DeliveryDate column is in datetime format. For example, the first row is 2022-03-20 0831 EST. You want to analyze the dates, but you are not interested in the time stamp.How could you easily extract the date into a new column?",
+        "images": [],
+        "choices": [
+            "Use the TRIM function in a new column, then set the data type to Date",
+            "Use the VALUE function in a new column, then set the data type to Date",
+            "Add a Column by example and type 2022-03-20, then set the data type to Date",
+            "Use the CONCATENATE function in a new column, then set the data type to Date"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q005",
+        "text": "You work for an established mobile App game company, and you have a large dataset for in-app purchases. The dataset contains over 300k rows.What visual should you use to identify outliers in the data?",
+        "images": [],
+        "choices": ["Key influencers", "Decomposition tree", "Scatter", "Area"],
+        "correct": 2
+    },
+    {
+        "id": "q006",
+        "text": "One of your queries in Power Query Editor seems to be taking a lot longer to refresh than you expect. You need to understand what Power Query is doing at authoring and at refresh time.How would you go about this?",
+        "images": [],
+        "choices": [
+            "Run Performance Analyzer",
+            "Run Q&A",
+            "Run Query Diagnostics",
+            "Run the ALM toolkit"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q007",
+        "text": "You have created a supplier quality report and are asked to add row-level security to your data model. You decide to add dynamic row-level security that uses a users email address. You have a column for a users email address called UserEmail.What DAX function would you use to create a new role using the UserEmail field?",
+        "images": [],
+        "choices": ["USEROBJECTID", "USERPRINCIPALNAME", "PATH", "USERDOMAIN"],
+        "correct": 1
+    },
+    {
+        "id": "q008",
+        "text": "You work for a bank and have a large dataset for credit card transactions for a city. The data is in a Microsoft SQL Server database and has over 15 million rows. Before you use the dataset, you want to import a sample of the credit card data.How could you achieve this goal?",
+        "images": [],
+        "choices": [
+            "Import all the data and then add a filter to the data",
+            "Add a WHERE clause to SQL statement in the advanced options",
+            "Change the data connectivity option to TOPN",
+            "Check HEAD to sample data from the advanced options"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q009",
+        "text": "CASE 1 You have built a report with many pages for a manufacturing company. Your clients feedback is that it is hard to navigate to the important pages of the report. You suggest creating a homepage with links to help guide users to important pages on the report.How would you go about building the homepage? Solution:· Add pictures that describe the report page · Set the image action type to 'Q&A.' an this technique be used for the homepage?",
+        "images": [],
+        "choices": ["Yes", "No"],
+        "correct": 1
+    },
+    {
+        "id": "q010",
+        "text": "CASE 1 You have built a report with many pages for a manufacturing company. Your clients feedback is that it is hard to navigate to the important pages of the report. You suggest creating a homepage with links to help guide users to important pages on the report. How would you go about building the homepage? Solution:· Create a bookmark for each page · On the homepage, create buttons to link to those pages · On the button, change the action type to bookmark for the corresponding page Can this technique be used for the homepage?",
+        "images": [],
+        "choices": ["Yes", "No"],
+        "correct": 0
+    },
+    {
+        "id": "q011",
+        "text": "CASE 2 You have a dataset for a market basket analysis as per the below exhibit. Each row represents a transaction, and each column contains an item purchased. For instance, in TransactionID 8 there are 3 products: Product1 = ‘peanut butter‘, Product2 = frozen pizza‘ and Product3 =‘ ice cream‘. [IMAGE HERE] You need to transform your data into the below exhibit. The first column is TransactionID, the second is Attribute and the third column is Value. How would you transform the data into these 3 columns?",
+        "images": ["q011.png", "q011_2.png"],
+        "choices": [
+            "Select all columns -> Pivot columns",
+            "Select TransactionID -> Select Pivot columns",
+            "Select all columns -> Select Unpivot columns",
+            "Select TransactionID -> Select Unpivot other columns"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q012",
+        "text": "CASE 2 For your Market Basket Analysis, you now need to create a new table with all possible combinations of products as per the below exhibit. What DAX function would you use in the [VALUE] position in the expression? Basket Analysis = FILTER([VALUE] (VALUES(‘MarketBasket‘[Value]),SELECTCOLUMNS(VALUES(MarketBasket[Value]),“Value2“, [Value])),[Value]>[Value2] )",
+        "images": ["q012.png"],
+        "choices": ["INTERSECT", "EXCEPT", "SUMMARIZE", "CROSSJOIN"],
+        "correct": 3
+    },
+    {
+        "id": "q013",
+        "text": "CASE 2 You want to use a custom network chart to display your market basket analysis called Network and add the Advanced Network Visual. However, your company policy is to not allow custom visuals as a default.How could you enable this specific custom visual?",
+        "images": [],
+        "choices": [
+            "Temporarily allow all visuals",
+            "Add to organizational visuals",
+            "Reproduce the visual in R or Python",
+            "Place a request to Microsoft to add the custom visual to the standard charts"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q014",
+        "text": "You have a dashboard that is an important part of collaborative planning in your organization. Since the team is remote, you have been asked to allow users to provide feedback on the dashboard that will be visible to other team members. How would you achieve this goal?",
+        "images": [],
+        "choices": [
+            "Add sticky notes",
+            "Add comments",
+            "Add to group email",
+            "Add to alerts"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q015",
+        "text": "You have an HR dataset divided into regions. You use row-level security to ensure each manager can only see their regions data. After you publish your report to Power BI Service, an HR manager calls and complains they cannot see all their data in the APAC region. How would you verify what the HR manager is seeing in Power BI Desktop?",
+        "images": [],
+        "choices": [
+            "Validate the HR managers role using View as and select the region",
+            "Use Track user activities",
+            "Remove the HR manager from the role and re-assign",
+            "Send the user your Power BI Desktop file"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q016",
+        "text": "Your company has a Microsoft SharePoint site with all your manufacturing Bill of Materials (BOM) files in a subfolder. These files are all stores as Excel documents and have the same schema. As part of your analysis for the procurement team, you need to load all the Bill of Materials files together into a table in Power BI for analysis. You also need to edit some of the columns after the data has been loaded. How would you achieve this goal?",
+        "images": [],
+        "choices": [
+            "From Get data, select SharePoint folder, enter the URL and click import",
+            "From Get data, select SharePoint folder, enter the URL, navigate to the specific folder and Combine & Transform Data",
+            "From Get data, enter the URL, select SharePoint folder and navigate to the specific folder",
+            "From Get data, select SharePoint folder, navigate to the specific folder, select import or DirectQuery and specify any custom SQL code"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q017",
+        "text": "You have a Date table with a date field called Date. You want to create a new column with the full month name and the year e.g. 03 October 2022. How would you create this DAX expression?",
+        "images": [],
+        "choices": [
+            "FORMAT(Date[Date], “D M Y“)",
+            "FORMAT(Date[Date], “D MM YYYY“)",
+            "FORMAT(Date[Date], “DD MMM YYYY“)",
+            "FORMAT(Date[Date], “DD MMMM YYYY“)"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q018",
+        "text": "You have sales data for a bike company and you calculate a measure of the sales percentage within each category. You need to format the visualization to match the one shown in the exhibit. How should you configure the visual?",
+        "images": ["q018.png"],
+        "choices": [
+            "In conditional formatting select 'Sales % Category' and turn on background color",
+            "In conditional formatting select 'Sales Total' and turn on data bars",
+            "In conditional formatting select 'Sales % Category' and turn on data bars",
+            "In conditional formatting select 'Sales Total' and turn on background color"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q019",
+        "text": "You work for an airline company and have a dataset with a DirectQuery storage mode. You have built a report with several visuals on the page. Users complain of performance issues when using the visuals in the Power BI report. How would you optimize the report?",
+        "images": [],
+        "choices": [
+            "Under relationships, turn off security filters in both directions",
+            "Switch off single select under slicers",
+            "Switch off interactions between visuals",
+            "Remove any background images"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q020",
+        "text": "What data preview type would give you the below exhibit when you click on the Standard cost column?",
+        "images": ["q020.png"],
+        "choices": [
+            "Column quality",
+            "Monospaced",
+            "Column distribution",
+            "Column profile"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q021",
+        "text": "Your company is looking to expand your Power BI resources. Some of the feedback from your team is that it is hard to test Power BI Service dashboards fully prior to release. Is there a better way to handle the lifecycle of your Power BI report and dashboard creation? What is the best solution to achieve this goal?",
+        "images": [],
+        "choices": [
+            "Install Power BI Report server to test reports",
+            "Create a deployment pipeline across development, test and production stages",
+            "Create separate workspaces for your team across the reporting lifecycle",
+            "Change to paginated reports for your reporting lifecycle"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q022",
+        "text": "You lead a Power BI team for a turbine manufacturer. Your boss has asked your team to develop a custom pbiviz visual in Power BI that shades the turbine areas according to the number of defects. Before you put together a team to develop the custom visual, you look into the steps to develop a custom visual to understand the skills required. When setting up an environment for developing a Power BI visual, what software do you first need to install?",
+        "images": [],
+        "choices": ["C++", "Node.js", "Python", "R"],
+        "correct": 1
+    },
+    {
+        "id": "q023",
+        "text": "You have recently set up Power BI Service at your company. One of the senior managers expresses concern about publishing reports to the web with sensitive data. What can you do to prevent users from publishing content on the web?",
+        "images": [],
+        "choices": [
+            "In the Admin portal, go to tenant settings and disable 'Allow content sharing with external users'",
+            "In the Admin portal, go to tenant settings and disable 'Publish to web'",
+            "In the Admin portal, disable 'Allow URL links'",
+            "In the Admin portal, enable 'Block embedded links'"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q024",
+        "text": "Using the bookmarking features in the report designer in Power BI Desktop, there is a limitation of creating only one bookmark per page in a report. Is this statement correct?",
+        "images": [],
+        "choices": ["True", "False"],
+        "correct": 1
+    },
+    {
+        "id": "q025",
+        "text": "What is the file format used to define a theme for a Power BI report?",
+        "images": [],
+        "choices": [
+            "Cascading Style Sheets (CCS)",
+            "JavaScript Object Notation (JSON)",
+            "Extensible Markup Language (XML)",
+            "Power BI Markup Language (PBIML)"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q026",
+        "text": "MULTI 0,1,2 In Power BI Desktop Report view, which three options will create a measure in the Sales table?",
+        "images": [],
+        "choices": [
+            "Create the measure from any table, and then set the Home Table properties to Sales.",
+            "Select the Sales table in the Fields list, and then click New Measure in the Modeling ribbon.",
+            "On the Fields list, click the ellipsis next to the Sales table or right-click any field in the Sales table, and then click New Measure.",
+            "Click New Measure, and then type in the formula Home Table = Sales"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q027",
+        "text": "MULTI 1,2,3 Which three fields are available when creating a Pie chart visualization?",
+        "images": [],
+        "choices": ["Group", "Legend", "Details", "Value"],
+        "correct": 1
+    },
+    {
+        "id": "q028",
+        "text": "By default, which filter level behaves the same as a slicer in a report in Power BI Desktop?",
+        "images": [],
+        "choices": [
+            "Visual level filter",
+            "Report level filter",
+            "Page level filter",
+            "Query level filter"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q029",
+        "text": "What is true about using variables in DAX?",
+        "images": [],
+        "choices": [
+            "Variables are created only one time in the current context",
+            "Maximum of 5 variables can be created per formula.",
+            "Variables must be defined inside return"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q030",
+        "text": "You’re creating a fancy little dashboard using Power BI Service. The dashboard shows the accumulative increase in the global population over the last several decades. The dashboard will contain an introductory YouTube video that you have uploaded to the YouTube website. After uploading the video you copy the embedded HTML code and paste it into your dashboard. Unfortunately the video is fixed to 560 pixels wide and you would like it to expand to fit the tile size. What should you do?",
+        "images": [],
+        "choices": [
+            "Change the iFrame width and height attribute values to 100%",
+            "Remove the allowfullscreen parameter from the code",
+            "Add an extra outer DIV with a style width:auto and height:auto value",
+            "Videos are fixed size and can't expand to fit tiles"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q031",
+        "text": "In order to use the Power BI web part in SharePoint Online, the report author as well as all the report consumers require a Power BI Pro license. Is this statement true ?",
+        "images": [],
+        "choices": ["True", "False"],
+        "correct": 0
+    },
+    {
+        "id": "q032",
+        "text": "MULTI 0,1,3 Which of the following are advantages that Power BI reports have over Power BI dashboards?",
+        "images": [],
+        "choices": [
+            "Reports provide a better interactive filtering and drilldown experience",
+            "Reports provide story telling capabilities using bookmarks.",
+            "Reports provide a better real-time experience when displaying data from a streaming dataset.",
+            "Report definitions can be saved using an external file format (PBIX) and checked into source control."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q033",
+        "text": "MUTLTI 0,1,2 Which three properties of a tile can be edited in the Power BI dashboard from the Tile details window?",
+        "images": [],
+        "choices": ["Title", "Subtitle", " Destination link", "Color scheme"],
+        "correct": 0
+    },
+    {
+        "id": "q034",
+        "text": "Which feature is used to create alternative name for fields in tables. It will make it much easier for users to ask questions on dashboards?",
+        "images": [],
+        "choices": ["Duplicate Name", "Alternative", "Synonyms"],
+        "correct": 2
+    },
+    {
+        "id": "q035",
+        "text": "What is the primary purpose of the on-premises data gateway?",
+        "images": [],
+        "choices": [
+            "To allow refreshing on-premises data sources from the Power BI Service",
+            "To store SSAS tabular models locally",
+            "To allow refreshing on-premises data sources from the Power BI Report Server",
+            "To allow the rendering of mobile reports outside of the corporate network"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q036",
+        "text": "Which feature allows different users to view the same report but access different subsets of data?",
+        "images": [],
+        "choices": [
+            "Office 365 Groups",
+            "Two factor authentication",
+            "Row-level security",
+            "Query folding"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q037",
+        "text": "You possess a Power BI Report with 5 tables arranged in a star schema. The data set is approximately 50 megabytes in size. Your report currently connects to the SQL Server backend using DirectQuery. What would you do to enable Quick Insights?",
+        "images": [],
+        "choices": [
+            "Set up an Azure Machine Learning account in your Azure tenant",
+            "Convert the report from DirectQuery mode to Import mode",
+            "Migrate the data from SQL Server to the Azure SQL database",
+            "Denormalize the data so it is one flat table"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q038",
+        "text": "You encounter the 1 GB size limitation when uploading and refreshing your PBIX files. What is one way to work around this limitation?",
+        "images": [],
+        "choices": [
+            "Use the SUMMARIZE function in your DAX measures",
+            "Convert to DirectQuery for your data connections",
+            "Migrate your source database to Azure SQL database",
+            "Turn on run-length encoding and compression in the DAX storage engine"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q039",
+        "text": "Which option describes when you categorize a numerical identifier into specific ranges?",
+        "images": [],
+        "choices": ["List Grouping", "Aggregating", "Summing", "Binning"],
+        "correct": 3
+    },
+    {
+        "id": "q040",
+        "text": "What does the Manage Relationships button accomplish?",
+        "images": [],
+        "choices": [
+            "Allows you to edit relationships in the Data Analysis Expressions (DAX) data model",
+            "Allows you to edit relationships between tables in your data model.",
+            "Automatically normalises your data model",
+            "Allows you to define relationships for SQL tables to improve query performance"
+        ],
+        "correct": 1
+    }
+]
