@@ -1,0 +1,409 @@
+[
+    {
+        "id": "q000",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 4
+    },
+    {
+        "id": "q001",
+        "text": "Your Power BI Desktop project contains a report named Sales_1. Sales_1 connects to a Microsoft SQL Server database by using DirectQuery connection. After you have published the Sales_1 report to the Power BI service, the visualizations don’t work. How can you solve the issue?",
+        "images": [],
+        "choices": [
+            "Install the on-premises data gateway (personal mode) and republish the report.",
+            "Install the on-premises data gateway and configure a data source.",
+            "Configure the Microsoft SQL Server database credentials on Power BI Service.",
+            "Refresh the Microsoft SQL Server database connection from Power BI Desktop and then republish the report."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q002",
+        "text": "You have got a YouTube channel where you weekly post Power BI tutorials. You want to add one of your videos to a tile in the Subscritions&Views dashboard. Which type of tile should you add?",
+        "images": [],
+        "choices": [
+            "Image Attachement",
+            "Video",
+            "Custom Streaming Data",
+            "Text Box"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q003",
+        "text": "After you have created a report in Power BI Desktop, you want to embed it into the Microsoft SharePoint site of your organization. Select the three actions you should perform in sequence.",
+        "images": [],
+        "choices": [
+            "Publish the report to the Power BI service - Obtain an embed link for SharePoint - Pin a live page.",
+            "Publish the report to the Power BI service - Obtain an embed link for SharePoint - Add a webpart to a page.",
+            "Save the report into a .pbix file - Import the .pbix file into Power BI Service - Publish the report into Microsoft OneDrive.",
+            "Publish the report to Power BI Service - Pin a live page - Add a webpart to a page."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q004",
+        "text": "You manage a Power BI dashboard named Restaurants_SalesData which contains some tiles that display the last week’s sales performance for each restaurant. When the dashboard refreshes data it takes too much time to be ready, because the refresh involves the last five years’ sales data. How can you optimize the data refresh performance?",
+        "images": [],
+        "choices": [
+            "Enable the Incremental Refresh in Power BI Service.",
+            "Configure the Incremental Refresh in Power BI Desktop and enable it in Power BI Service.",
+            "Schedule the refresh daily at 00:00AM.",
+            "Configure the Gateway with DirectQuery Connection."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q005",
+        "text": "You plan to create a dashboard that will be shared with all the members of your organization. You want to embed a company video hosted on the Company YouTube channel into the dashboard. What should you do?",
+        "images": [],
+        "choices": [
+            "Edit the report in Power BI Desktop and add a Video visualization.",
+            "Download the video and Upload it on Microsoft OneDrive for Business, then paste the URL video in the dashboard from PowerBI Service.",
+            "To the dashboard, add a tile that uses a video content source.",
+            "To the dashboard, add a tile that uses a Web content source."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q006",
+        "text": "Your Company uses Power BI to manage sales reports. Often, these reports are exported as PDF files. The Company’s policy requires that the exported reports are encrypted. What can you use to meet this requirement?",
+        "images": [],
+        "choices": [
+            "Edit export permissions options in the Company Tenant.",
+            "Edit datasets security options.",
+            "Use sensitivity labels.",
+            "Use Row Level Security."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q007",
+        "text": "You have an Enrollments report that contains a set of visualization and a slicer to filter the data by year. After you publish the report in Power BI Service you want to create a dashboard that contains all the visualizations, slicer included. What should you do?",
+        "images": [],
+        "choices": [
+            "Pin each visualization to the dashboard and then add a calendar tile.",
+            "Pin the report as a live page.",
+            "Create an app workspace.",
+            "Filter the report by year and then pin each visualization to the dashboard."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q008",
+        "text": "You have a dashboard named Sales_01 hosted on your Company Workspace. You need to share the dashboard with external guest users giving them editing and manage content permissions. How guest users can be integrated into the Organization users Tenant?",
+        "images": [],
+        "choices": [
+            "Enable Power BI Premium Capacity.",
+            "It is a tricky question: External users can have only view access.",
+            "Add guest users to Azure Active Directory.",
+            "Enable the Share content with 'external users' feature from the Power BI admin portal."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q009",
+        "text": "You created a dashboard that contains a card visual that shows total enrollments in the current year. Your customer accesses to the dashboard from a workspace with the viewer role. The customer wants to receive a notification about the daily total enrollments shown on the card. How can you meet the goal?",
+        "images": [],
+        "choices": [
+            "Create a data alert.",
+            "Add the customer to a security group.",
+            "Share the dashboard with the user.",
+            "Create a subscription."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q010",
+        "text": "Your team plans to use Power BI for BI reporting activities. Which activities are allowed with a Power BI free license?",
+        "images": [],
+        "choices": [
+            "Access a published Power BI app.",
+            "None of them.",
+            "None of them.",
+            "Modify reports in an app workspace."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q011",
+        "text": "You have created an app workplace in your PowerBI Service that contains several reports. You need to provide a user@01datapower.com with the ability to edit and publish reports. Select the right solution",
+        "images": [],
+        "choices": [
+            "Modify the members of the app workspace.",
+            "Set the (RLS) Row LEvel Security from PowerBI Desktop.",
+            "From the app workplace, click Update app, and then configure the Access settings.",
+            "Configure security group from Azure AD."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q012",
+        "text": "Consider the previous question scenario. You have a Power BI Workspace named SalesTeamBI Workspace. Michael is a Power BI user who has access to SalesTeamBI Workspace. He is also a member of a Security Group named Sales_Team. You must prevent Michael from exporting data from SalesTeamBI Workspace. Solution: From the Microsoft Office 365 Admin center, you modify the properties of the Sales_Team Security Group. Does this solution resolve the issue?",
+        "images": [],
+        "choices": ["No", "Yes"],
+        "correct": 0
+    },
+    {
+        "id": "q013",
+        "text": "Your company asks you to create a Machine Learning Model in order to estimate next season sales. You plan to use Power BI to achieve this task, thanks to its straightforward Auto ML tool. Select the sequence of the right steps to enable and use the Auto ML tool.",
+        "images": [],
+        "choices": [
+            "Get Power BI Premium - Create a Dataflow for the historical data - Add a Machine Learning Model.",
+            "Install the Auto ML addon in Power BI Desktop - Import a training dataset in Power BI Desktop - Launch the Auto ML tool.",
+            "Get Power BI PRO - Create a Dataflow for the historical data - Add a Machine Learning Model.",
+            "Create a Dataflow for the historical data - select the ML model to apply - Start the training of Auto ML."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q014",
+        "text": "Your organization has subscribed a Microsoft Office 365 license. However, users who try to access the Power BI Service receive the error message shown in the picture. [IMAGE HERE] In order to ensure that all users can have access to the PowerBI Service, what should you do first?",
+        "images": ["q014.png"],
+        "choices": [
+            "Refresh 'all users' security group from Azure AD.",
+            "From the properties of each app workspace, modify the member settings.",
+            "From Microsoft Azure PowerShell, run the Set-MsolCompanySettings cmdlet.",
+            "From Power BI Admin portal, modify the Tenant settings."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q015",
+        "text": "You need to create a Power BI app workspace that will be accessible by 10,000 users. The dashboard contains sensitive data and you want that it will be updated every 1 hour. What should you do?",
+        "images": [],
+        "choices": [
+            "Assign each user a Power BI Pro license.",
+            "Configure the app workspace for Premium capacity.",
+            "Create the app workspace by using an account with a Power BI Pro license.",
+            "Publish the dashboard on the Web."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q016",
+        "text": "You need to use Power BI Embedded to distribute reports into a Web application. You want that reports display live data. Select the right data source to use",
+        "images": [],
+        "choices": [
+            "Microsoft SQL Server Analysis Services (SSAS) database.",
+            "Microsoft Azure Data Warehouse.",
+            "Microsoft Azure SQL Database.",
+            "Microsoft Azure LiveInsight."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q017",
+        "text": "Your customer owns a custom BI App based on PowerBI Embedded technology. He requests to scale up the capacity available for his custom BI App. What do you need to change?",
+        "images": [],
+        "choices": [
+            "The licensing plan from Office 365 admin center.",
+            "Tenant settings from the PowerBI admin portal.",
+            "The Workspace settings from PowerBI Service.",
+            "Pricing tier from Azure Portal."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q018",
+        "text": "MULTI 0,1,3 You are using Power BI Desktop optimized for Power BI Report Server to create a report. Select three types of visualizations that will work correctly when you will publish the report to the PowerBI Report Server.",
+        "images": [],
+        "choices": [
+            "Funnel charts",
+            "Bubble maps",
+            "Breadcrumbs",
+            "Custom visuals",
+            "R Visuals"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q019",
+        "text": "Your organization has a Microsoft SharePoint Online site named Enrollments accessed by 1,000 users. After you have created a report in an app workspace on Power BI Service, you embed the report into a page on the Enrollments site by using the Power BI web part. You must ensure that all of the 1,000 users can view the report from the Enrollments Sharepoint site. Which option should you do first?",
+        "images": [],
+        "choices": [
+            "Disable the Embed content in apps setting from the Tenant settings in Power BI.",
+            "Configure the app workspace for Premium capacity.",
+            "Enable anonymous access for the Enrollments site.",
+            "Configure Sharepoint Online for public reports."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q020",
+        "text": "You are a Power BI admin and plan to add a specific user named User_01 as a member to a workspace named SalesData_01. You choose to use Powershell to achieve the task. Complete the following cmdlet: [IMAGE HERE]",
+        "images": ["q020.png"],
+        "choices": [
+            "-Id 3244f1c1-01cf-457f-9383-6035e4950fdc",
+            "report id 3244f1c1-01cf-457f-9383-6035e4950fdc",
+            "SalesData_01",
+            "DataGroup"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q021",
+        "text": "You have shared a Power BI app named OrgApp with your Organization by the AppSource. The privacy for the OrgApp is set to Private. A user reports that OrgApp does not appear in the My organization AppSource. What should you do to fix the problem?",
+        "images": [],
+        "choices": [
+            "From the app workspace settings, add all the organization's users as a member.",
+            "From the app workspace, share the datasets.",
+            "From the app workspace, click Update app, configure the Access setting, and then click Update app.",
+            "From the tenant settings in the PowerBI admin portal enable the privacy settings for the App."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q022",
+        "text": "You are the admin of an app workspace where you collaborate with the other 5 members. Select the action that the members of the app workspace can’t perform.",
+        "images": [],
+        "choices": [
+            "Delete a report shared in the app workspace.",
+            "Delete dashboard shared in the app workspace.",
+            "Remove other member users.",
+            "Create a new dashboard."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q023",
+        "text": "You have set a parameter named ExcelDataSet which contains the location-path of a Microsoft Excel data source. Now, you want to update the query to get dynamic use of the parameter instead of copying the location-path in each query. Solution: Modify the source step of the queries and use ExcelDataSet as the file path. Does this solution meet the goal?",
+        "images": [],
+        "choices": ["Yes", "No"],
+        "correct": 0
+    },
+    {
+        "id": "q024",
+        "text": "Consider a Power BI model with the following tables: Course (Columns: CourseID, CourseName), Enrollments (Columns: EnrollmentsID, EnrollmentsDate, CourseID, TeacherID, TotalPaid), Teacher (Columns: TeacherID, TeacherName) You want to create the following measure: SoldCourse = DISTINCTCOUNT(Enrollments[CourseID]) You must create the following relationships: Enrollments to Course, Enrollments to Teacher N.B. The measures must display the number of courses sold and the teacher who is responsible for it. Select the right configuration of relationships.",
+        "images": [],
+        "choices": [
+            "Relationship: Many-to-One and Cross Filter Direction: Both",
+            "Relationship: One-to-Many and Cross Filter Direction: Both",
+            "Relationship: One-to-One and Cross Filter Direction: Single",
+            "Relationship: Many-to-One and Cross Filter Direction: Single"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q025",
+        "text": "Your colleague passes you a Power BI report named “DeltaCompanySales” requesting support to optimize the report loading performances. DeltaCompanySales retrieves data from an imported dataset that contains one table with 15 million rows. The report is a single page with 12 PowerBI default visuals. The customer complains about the report performances when loading data and interacting with visuals. What do you suggest to increase report performances?",
+        "images": [],
+        "choices": [
+            "Remove unused columns from tables in the data model.",
+            "Change the data connectivity to DirectQuery.",
+            "Convert all DAX Calculated Measures into Calculated Columns.",
+            "Change the data connectivity to Live."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q026",
+        "text": "You have a CSV file that contains employees’ badging. This file contains a column named “Starting Time”. The data in “Starting Time” is in the following format: 2021-01-10 at 09:00. You want to analyze the Badging trend by the Starting Time column and use a built-in date hierarchy. What should you do?",
+        "images": [],
+        "choices": [
+            "Create a column by example that starts with 2021-01-10.",
+            "Create a column by example that starts with 2021-01-10, then set the data type of the new column to Date.",
+            "Create a new Date table using the CALENDAR function.",
+            "Duplicate the Starting Time column and use the TRIM function."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q027",
+        "text": "Consider a Power BI model with two tables named Enrollments and Date. Enrollments contains five columns named StudentID, TotalPaid, EnrollmentDate, AttendanceDate, and StartingDate. The Date table contains only one column named Date. The tables have the following relationships: Enrollments[EnrollmentDate] and Date[Date], Enrollments[AttendanceDate] and Date[Date], Enrollments[StartingDate] and Date[Date]. The active relationship is on Enrollments[EnrollmentDate]. You plan to create measures to count both the number of Enrollments by [AttendanceDate] and the Enrollments by [StartingDate]. You plan to create measures to count both the number of Enrollments by [AttendanceDate] and the Enrollments by [StartingDate]. NOTE: You can’t meet the goal by duplicating data or loading additional data. Solution: You should create two copies of the Date table named AttendanceDate and StartingDate, then you create a measure that uses the new tables. Does this solution resolve the issue?",
+        "images": [],
+        "choices": ["Yes", "No"],
+        "correct": 1
+    },
+    {
+        "id": "q028",
+        "text": "Consider a Power BI model with two tables named Enrollments and Date. Enrollments table contains five columns named StudentID, TotalPaid, EnrollmentDate, AttendanceDate, and StartingDate. The Date Table contains only one column named Date. The tables have the following relationships: Enrollments [EnrollmentDate] to Date[Date] Enrollments [AttendanceDate] to Date[Date] Enrollments [StartingDate] to Date[Date] The active relationship is on Enrollments[EnrollmentDate]. You plan to create measures to count both the number of Enrollments by [AttendanceDate] and the Enrollments by [StartingDate]. N.B. You can’t meet the goal by duplicating data or loading additional data. Solution: You create measures that use the CALCULATE, COUNT, and USERELATIONSHIP DAX functions. Does this solution resolve the issue?",
+        "images": [],
+        "choices": ["No", "Yes"],
+        "correct": 1
+    },
+    {
+        "id": "q029",
+        "text": "Your company has a Microsoft Sharepoint Online portal that contains different document libraries. One of these libraries holds a list of sales reports saved as Microsoft Excel files which have all the same structure. You need to use Power BI Desktop to only download the sales reports library from Sharepoint. How can you meet the goal?",
+        "images": [],
+        "choices": [
+            "Get data from a SharePoint Online folder, enter the site URL, and then select Extract & Load.",
+            "Get data from a SharePoint Online folder and enter the site URL. Edit the query and filter by the path to the sales reports library.",
+            "Get data from a SharePoint Online list, enter the site URL, and then select Combine & Load.",
+            "Get data from a SharePoint Online library and enter the site URL. Filter by the path to the sales reports library."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q030",
+        "text": "Consider a Power BI model with two tables named Enrollments and Date. Enrollments contains five columns named StudentID, TotalPaid, EnrollmentDate, AttendanceDate, and StartingDate. The Date table contains only one column named Date. The tables have the following relationships: Enrollments[EnrollmentDate] and Date[Date], Enrollments[AttendanceDate] and Date[Date], Enrollments[StartingDate] and Date[Date] The active relationship is on Enrollments[EnrollmentDate]. You plan to create measures to count both the number of Enrollments by [AttendanceDate] and the Enrollments by [StartingDate]. You plan to create measures to count both the number of Enrollments by [AttendanceDate] and the Enrollments by [StartingDate]. N.B. You can’t meet the goal by duplicating data or loading additional data. Solution: You create measures that use the following functions: CALCULATE, COUNT, and FILTER DAX function. Does this solution resolve the issue?",
+        "images": [],
+        "choices": ["No", "Yes"],
+        "correct": 1
+    },
+    {
+        "id": "q031",
+        "text": "Consider the Power BI model shown in the picture. [IMAGE HERE] The Product Table has a relationship to the Product Category Table on the SKU column. Here, you can check a sample of data inside the tables: Product Table: SKU: HD-001, Product: GymSmartwatch, Color: Blue SKU: HD-002, Product: XSound Headphones, Color: Black SKU: HD-003, Product: Laptop Pro 2000, Color: Green Product Category Table: SKU: HD-001, Category: Smartwatch SKU: HD-002, Category: Headphone SKU: HD-003, Category: Computer You need to use in your Power BI report a Hierarchy that shows two levels: product and category. Solution: From Power Query, merge the tables and then create the hierarchy. Does this solution meet the goal?",
+        "images": ["q031.png"],
+        "choices": ["No", "Yes"],
+        "correct": 1
+    },
+    {
+        "id": "q032",
+        "text": "Consider two tables named Document and Users. You can check the structure of the tables in the following picture: [IMAGE HERE] The columns Checked_by, Approved_by and Not_Approved_by present a Many-to-One relationship on the column User_ID in the Users table. N.B. Only the relationship between Checked_by and User_ID is marked as Active Relationship. You need to count the number of documents edited by each User, filtered by ‘Checked_by’, ‘Approved_by’ and ‘Not_Approved_by’. Solution: Create a table visualization in Power BI Report tab and add User_ID, Checked_by, Approved_by and Not_Approved_by to the Values field. Does this solution meet the goal?",
+        "images": ["q032.png"],
+        "choices": ["Yes", "No"],
+        "correct": 1
+    },
+    {
+        "id": "q033",
+        "text": "You are modeling data in Microsoft Power BI. Your data model is made of a Microsoft SQL Server table named Enrollments that has 20 million records. You need to import a sample of the data from the Enrollments table. Solution: Add a WHERE clause to the SQL statement. Does this meet the goal?",
+        "images": [],
+        "choices": ["Yes", "No"],
+        "correct": 0
+    },
+    {
+        "id": "q034",
+        "text": "Consider a Power BI model with two tables named Enrollments and Date. Enrollments contains five columns named StudentID, TotalPaid, EnrollmentDate, AttendanceDate, and StartingDate. The Date table contains only one column named Date. The tables have the following relationships: Enrollments[EnrollmentDate] and Date[Date], Enrollments[AttendanceDate] and Date[Date], Enrollments[StartingDate] and Date[Date] The active relationship is on Enrollments[EnrollmentDate]. You plan to create measures to count both the number of Enrollments by [AttendanceDate] and the Enrollments by [StartingDate]. N.B. You can’t meet the goal by duplicating data or loading additional data. Solution: You should create a calculated table, then you create a measure that uses the new table. Does this solution resolve the issue?",
+        "images": [],
+        "choices": ["No", "Yes"],
+        "correct": 0
+    },
+    {
+        "id": "q035",
+        "text": "Consider two tables named Courses and Teachers. Check a sample of data tables in the following picture: [IMAGE HERE] You want to set a many-to-one cardinality between tables, but it appears as not available in the relationship settings as shown in the picture. [IMAGE HERE] What should you do before creating the Many-to-One relationship?",
+        "images": ["q035.png", "q035_2.png"],
+        "choices": [
+            "From Query Editor, click Remove Duplicates from Teachers Table.",
+            "Add a new index column to the Courses Table named Teacher Name.",
+            "From Query Editor, filter out Blank Values from Teacher Table.",
+            "From Query Editor, click Remove Errors from Courses Table."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q036",
+        "text": "You have a Power BI report that retrieves data from an SQL database named CompanyBI_01. Your company wants to build a second SQL database that works as a development database. The data structure available in the new development database is the same as the CompanyBI_01 one. Now, you need to easily switch the data source in your Power BI Desktop environment between the development database and the CompanyBI_01 one. Which is the simplest action that ensures you do that?",
+        "images": [],
+        "choices": [
+            "Use the REPLACE function in DAX.",
+            "Create a XML file with both the database names, then import it to the dataset.",
+            "In the Power Query Editor, create a new parameter based on the data source and set it as the report source.",
+            "Enable the DirectQuery connection mode."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q037",
+        "text": "Consider the table shown in the picture: [IMAGE HERE] All cells in the date column must contain a date. You want to replace null values with the date from the previous row. Which command should you run in Power Query?",
+        "images": ["q037.png"],
+        "choices": [
+            "Fill, and then Down.",
+            "Replace Errors.",
+            "Remove errors.",
+            "Date, and then Earliest."
+        ],
+        "correct": 0
+    }
+]
