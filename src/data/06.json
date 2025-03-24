@@ -1,0 +1,434 @@
+[
+    {
+        "id": "q001",
+        "text": "Your colleague has shared with you a file containing a dataset about global market sales. After importing it inside your Power BI Desktop, you want to get a quality profile of the dataset. How can you achieve this task?",
+        "images": [],
+        "choices": [
+            "From Power Query, check the data profiling functionalities.",
+            "Create a table visual which contains all the dataset columns, then order columns by errors and blank values.",
+            "Create a DAX calculated column that uses the FILTER function.",
+            "From Power BI Desktop, set a Page Filter that includes only errors and blank rows."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q002",
+        "text": "Consider two tables named Tab1 and Tab2 that retrieve data from an Oracle database. Both tables have the same data structure. You plan to combine the data from Tab1 and Tab2. Select the right command to use.",
+        "images": [],
+        "choices": [
+            "Append Queries",
+            "Combine Files",
+            "Merge Queries",
+            "Merge Rows"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q003",
+        "text": "MULTI 1,2 Consider the tables shown in the picture: [IMAGE HERE] The tables come from a Microsoft SQL Server database.The Enrollments table contains more than two million rows. You plan to import a sample of data from the Enrollments table in Power BI Desktop. There are two ways to achieve the goal from the following options, select them.",
+        "images": ["q003.png"],
+        "choices": [
+            "From Query Editor, create a column by using Custom Column command",
+            "From Query Editor, filter the table by Enrollment_date.",
+            "From Query Editor, add a SELECT statement that uses a WHERE clause.",
+            "In the Power BI Service, create a calculated table.",
+            "From Query Editor, create a custom column that SAMPLE Function."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q004",
+        "text": "You have imported a data source in Power BI Desktop, now you plan to use Power Query to add some data transformations.You notice that the data model presents a huge list of queries that make it difficult to organize the transformation steps.Which best practice can you adopt in Power Query to solve this issue?",
+        "images": [],
+        "choices": [
+            "Append queries when it is possible.",
+            "Reduce the list of queries by importing small parts of the original dataset.",
+            "Create a group of queries to classify the data-transformations.",
+            "Re-name all the queries with a classification syntax."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q005",
+        "text": "Consider a Power BI Model containing the tables shown in the picture. [IMAGE HERE] Course[CourseName] contains NULL values. You plan to add a new column to the Course table that uses the following formula: =if [CourseName]=null then “NA” else [CourseName] Select the option available in the Query Editor to meet the goal.",
+        "images": ["q005.png"],
+        "choices": [
+            "Index Column.",
+            "Column From Examples.",
+            "Conditional Column.",
+            "Pivot Column."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q006",
+        "text": "You are working on the Contoso Sales report in Power BI. It relies on a large dataset. The Sales[DateKey] column is in the Date/time format as shown: [IMAGE HERE] What can you do to improve performance when you are getting data in Power BI?",
+        "images": ["q006.png"],
+        "choices": [
+            "Compress the databes into a zip file.",
+            "Use the CALENDARAUTO function in DAX.",
+            "Separate date and time into two distinct columns before importing them into Power BI.",
+            "Delete the Sales[DateKey] column."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q007",
+        "text": "You want to import 50 Microsoft Excel files to Power BI Desktop. All the files share the same structure and are they stored in a unique desktop local folder. You plan to import all Excel files into one table. How can you achieve the goal?",
+        "images": [],
+        "choices": [
+            "Add a Microsoft Excel data source and select all the files in the folder",
+            "Add every single file to the model and then use the Merge Queries command.",
+            "Add a folder data source and use the Combine Files command.",
+            "Add a folder data source and use the Append Queries command."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q008",
+        "text": "Consider the table shown in the picture: [IMAGES HERE] You want to create a custom column that hides the first seven digits of the NationalCode. The values in the new column should be displayed in the following format: xxx-xx-0000 Select the proper order of targets to complete the formula: [IMAGE2 HERE] ",
+        "images": ["q008.png", "q008_2.png"],
+        "choices": [
+            "Text.Insert - Text.Start",
+            "Text.Insert - Text.Replace",
+            "Text.Replace -Text.Start",
+            "Text.Insert - Text.end"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q009",
+        "text": "You have connected a Microsoft SQL Server Analysis Services (SSAS) cube to Power BI Desktop, generating the following query: [IMAGE HERE] The query retrieves 10,200 records. After checking the data source, you discover that there are 21,300 records. How can you ensure that the query retrieves all 21,300 records?",
+        "images": ["q009.png"],
+        "choices": [
+            "Delete the Remove Duplicates steps.",
+            "Change the query to use Direct Query mode.",
+            "Change the query to use Import connection mode.",
+            "From Power Query, select Unpivot Columns command."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q010",
+        "text": "Consider the following tables: [IMAGE HERE] You plan to create a relationship between the Enrollments table and the Courses table on the Course_ID column. What task do you need to perform before creating the relationship?",
+        "images": ["q010.png"],
+        "choices": [
+            "In the Courses table query, use the Table.TrasformColumnTypes function.",
+            "In the Course table query, use the Table.TrasformRows function.",
+            "In the Enrollments table query, use the Tables.GetRelationships function.",
+            "In the Enrollments table query, use the Table.TrasformRows function."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q011",
+        "text": "You have imported a dataset in Power BI Desktop from an Excel File. During the tables profiling, you discover two columns that need to be fixed: – ColumnA presents several values starting with space; – ColumnB contains several non-printable characters. Which couple of commands should you use to fix the above column errors?",
+        "images": [],
+        "choices": [
+            "ColumnA: TRIM - ColumnB: CLEAN",
+            "ColumnA: LENGHT - ColumnB: TRIM",
+            "ColumnA: CLEAN WHITE SPACES - ColumnB: TRIM",
+            "ColumnA: CAPITALIZE EACH WORD - ColumnB: CLEAN"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q012",
+        "text": "Consider the table named Courses shown in the picture: [IMAGES HERE] You plan to create a relationship between the Courses table and another table called Enrollments. Which function let you optimize the query for Courses before creating the relationship?",
+        "images": ["q012.png"],
+        "choices": [
+            "Table.IsDistinct",
+            "Table.Join",
+            "Table.Group",
+            "Table.Distinct"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q013",
+        "text": "Consider a column named Product_SKU. The values in the column have the following format: • 7271-1123×998 • 7271-1123×945 • 7271-1123×924 The values after x in the Product_SKU column indicate the SKU extension. You plan to create a custom column in Query Editor that contains only the SKU extensions. Select the right order of functions to complete the following formula:",
+        "images": ["q013.png"],
+        "choices": [
+            "AFTERDELIMITER - REMOVERANGE",
+            "POSITIONOF - REMOVERANGE",
+            "POSITIONOF - TRIMEND",
+            "AFTERDELIMITER - RELATIVEPOSITION"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q014",
+        "text": "Consider a Power BI report that contains a Pie chart and a Line chart on the same page. The Line chart displays the total Enrollments by Year, while the Pie chart displays the total Enrollments by course. You want to ensure that when you select a year on the Line chart, the Pie chart remains unchanged. How can you perform this task?",
+        "images": [],
+        "choices": [
+            "Edit the interactions from the Format menu.",
+            "Delete the relationship between the Enrollments table and the Date table.",
+            "Set a visual level filter on the report page.",
+            "Set a visual level filter on the Pie chart."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q015",
+        "text": "You are configuring a Gauge Chart. Where do you set the Goal?",
+        "images": [],
+        "choices": [
+            "Power Query.",
+            "Calculated column.",
+            "Format settings.",
+            "DAX Formula."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q016",
+        "text": "Consider a table that contains the last two years of sales data. You want to identify the outliers. Which type of visual best fits your needs?",
+        "images": [],
+        "choices": [
+            "Key Influencers",
+            "Bar chart",
+            "Scatter plot",
+            "Area chart"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q017",
+        "text": "Consider a report in Power BI Desktop that contains several donut charts and a date slicer. You plan to create a slide show that displays the donut charts filtered by different years. You want that the slide show can be used from Power BI Service. What should you do before publishing the report?",
+        "images": [],
+        "choices": [
+            "Filter the donut charts by using the slicer, then create bookmarks.",
+            "Configure page level filters, and then create groups that use the Bin group type.",
+            "Configure drillthrough filters for each bar chart, and then select Selection Pane.",
+            "Configure report level filters, and then create groups that use the List group type."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q018",
+        "text": "You want to use Python Scripting in Power BI Desktop in order to create several visualizations. After you have installed and configured Python for Power BI Desktop, you try to run the following code: from matplotlib import pyplot; ax = pyplot.gca(); dataset.plot.line(x = ‘Courses’, y = ‘Total Enrollments’, color = ‘green’, ax = ax) Power BI Desktop returns the following error message: [IMAGE HERE] How can you fix the issue?",
+        "images": ["q018.png"],
+        "choices": [
+            "You should add the following command to the script: pyplot.show();",
+            "You must enable the Pyhton Visuals before running code.",
+            "You need to refresh the IDE settings.",
+            "You must refresh the dataset origin connection."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q019",
+        "text": "You have a table named Enrollments with the following columns: StudentID; CourseID; Date; CourseName; FeePaid. You create a report that contains a Stacked Column Chart that shows the count of Students by CourseName, then you want to customize the information placed in the visualization tooltip for the chart. What should you do first?",
+        "images": [],
+        "choices": [
+            "Create a new report page and set it as Tooltip.",
+            "Disable the tooltip option from the Format pane of the Stacked Column Chart.",
+            "Set the CourseName column as Tooltip field.",
+            "Set the StudentID column as Tooltip Field."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q020",
+        "text": "Your Power BI report contains a clustered bar chart that has Sales[ReturnAmount] as the value and Product[ProductKey] as the axis. You want to improve the visual by adding a horizontal line that shows which products have a return amount above the median amount. How could you reach the goal?",
+        "images": [],
+        "choices": [
+            "In the Analitycs pane for the clustered bar chart, add a Percentile line set to 50%.",
+            "In the Format pane for the clustered bar chart, add a Constant line and set it to 0.5.",
+            "In the Analitycs pane for the clustered bar chart, add a Constant line and set it to 0.5.",
+            "In the Analitycs pane for the clustered bar chart, add a Trend line."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q021",
+        "text": "You have a dashboard named Sales_01. Q&A is enabled on the dashboard. When users try to get the count of clients, the query fails. Instead, when users ask for the count of subscribers, they receive the expected results. You want to ensure that both queries will return the same results. Which action should you perform?",
+        "images": [],
+        "choices": [
+            "Edit Synonyms from Power BI Desktop.",
+            "Edit tables from Power Query in Power BI Desktop.",
+            "Edit Relationships from Power BI Desktop.",
+            "Edit Synonyms from Power BI Service."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q022",
+        "text": "Consider a table named Students with the following columns: StudentID; StudentName; City; ProvState; Country. You are creating a Power BI report that includes a bar chart to display the number of students by location. You want that the report will show the number of students by Country, and drill down to ProvState, and in the end to City. Select the right configuration of the drill down in the bar chart.",
+        "images": [],
+        "choices": [
+            "In the Legend field, add ProvState. In the Axis field, add Country and City.",
+            "In the Value field add all the columns in the following order: Country, ProvState, City.",
+            "In the Value field, add Country. In the Axis field, add ProvState and City.",
+            "In the Axis field, add all the columns in the following order: Country at the top, followed by ProvState and City."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q023",
+        "text": "You are building a complex report in Power BI, full of visuals. You want to be sure that the user will read it in a logical way when he/she uses the keyboard. On what should you have to work on?",
+        "images": [],
+        "choices": [
+            "Filters hierarchy.",
+            "Tab order.",
+            "Page order.",
+            "Layer order."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q024",
+        "text": "Consider a table named Enrollments that contains enrollments data for Europe. Check the sample dataset in the picture: [IMAGE HERE] You try to create a map to show Enrollments by Area, but you find out that the map doesn’t work. What can you do to fix the map visualization?",
+        "images": ["q024.png"],
+        "choices": [
+            "Add a column that contains latitude and longitude.",
+            "Create a table named Country and create a relationship with the Enrollments table.",
+            "Select the Area field. From the Modeling tab, change the Data Category.",
+            "Select the Area field. From the Modeling tab, change the Data Type."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q025",
+        "text": "You have a Microsoft Excel file named Enrollments.csv that contains data about Student Enrollments by Region. After you have imported the Excel file to Power BI Desktop, you create a bar chart showing the Enrollments amount by region. Unfortunately, the Enrollments amount value appears as the count of Enrollments amount instead of the sum of Enrollments amount for each region. You need to modify the query to ensure that the data appears correctly. How can you fix the issue?",
+        "images": [],
+        "choices": [
+            "Change the Data Type of Enrollments amount column to Whole Number.",
+            "Create a calculated column that use the SUM function.",
+            "Delete the query, import the data into Microsoft One Drive for Business, and then from Power BI Service connect to the Enrollments.csv by clicking import.",
+            "Create a calculated measure that uses the SUMX function."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q026",
+        "text": "An area chart shows the discount quantity over years. Therefore, when you hover the mouse over a data point, you will see the discount quantity at a certain year: [IMAGE HERE] How could you provide additional information about the discount amount, on the black label? The result should be as the following picture: [IMAGE HERE]",
+        "images": ["q026.png", "q026_2.png"],
+        "choices": [
+            "Add the DiscountAmount column on the secondary values.",
+            "Add the DiscountAmount column on the tooltip.",
+            "Set a drillthrough option for the visual.",
+            "By right-clicking on the visual, select Analyze."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q027",
+        "text": "Your principal asks you to print some Power BI reports in order to physically share them with the other colleagues during the next meeting. When you start to print the reports, you notice that some tables show less rows than they really have. How can you solve this issue?",
+        "images": [],
+        "choices": [
+            "Change the table visual to a matrix visual.",
+            "Group the rows of the table to reduce its size.",
+            "Extend table visual to the whole page.",
+            "Create a Paginated Report."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q028",
+        "text": "You plan to create a custom visualization for Power BI. What do you install first?",
+        "images": [],
+        "choices": [
+            "Microsoft Azure PowerShell",
+            "Node.js",
+            "Power BI Service",
+            "JavaScript"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q029",
+        "text": "MULTI 0,3 You are analyzing the Customer Sales monthly report and you notice that the Churn Rate metric is strangely increased. You want to understand which variables may affect this result. Which solutions can help you to explore the possible causes in Power BI Desktop?",
+        "images": [],
+        "choices": [
+            "Decomposition tree visual.",
+            "Enable the Auto ML.",
+            "Use the Gauge visual.",
+            "Use the Key Influencer visual."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q030",
+        "text": "MULTI 0,1 You have a report named Sales in an app workspace named Sales_BI. User_01 is a member of the Sales_BI. You have enabled the option ”Allow users to build new content using the underlying dataset” from the report settings. What will happen to the underlying dataset? Select the true statements.",
+        "images": [],
+        "choices": [
+            "Row-level security restrictions on the dataset are in effect.",
+            "You haven't made a copy of the dataset. The dataset still resides in its original location.",
+            "You have made a copy of the dataset. The dataset is duplicated in your workspace."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q031",
+        "text": "You have a Power BI app workspace that contains 30 reports shared with 55 users of your organization. You plan to start a reports maintenance program. You need to know which reports present a critical usage. How can you achieve this task?",
+        "images": [],
+        "choices": [
+            "Check the activity log by using the Power BI Management cmdlets for PowerShell.",
+            "Request to the Power BI admin enabling usage metrics for content creators.",
+            "Go to the Health tab in the Capacity settings area in the Admin portal.",
+            "You can use the Power BI Premium Capacity Metrics App."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q032",
+        "text": "A Power BI user in your organization has published a report to the Web. The report contained sensitive data. What can you do to prevent the reports from being published on the Web?",
+        "images": [],
+        "choices": [
+            "From Azure AD remove the PowerBI Pro license from the user.",
+            "From the app workspace settings remove the user as a member.",
+            "From the Power BI Admin portal, disable the Publish to web setting.",
+            "From the Power BI Pro, delete the embedded codes."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q033",
+        "text": "Your organization owns a consistent number of dashboards on Power BI. Your goal is to ensure that when users browse the list of the available dashboard, they can see the ones that contain Personal Identifiable Information. Which function best fit your needs?",
+        "images": [],
+        "choices": [
+            "Row Level Security",
+            "Tiles",
+            "KPIs",
+            "Microsoft Information Protection sensitivity labels"
+        ],
+        "correct": 4
+    },
+    {
+        "id": "q0",
+        "text": "foo",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 3
+    },
+    {
+        "id": "q034",
+        "text": "Your organization plan to use the Power BI Service to get several visualizations from data stored in a custom application. The developers ask for pushing data into the Power BI Service from the custom app. How can you ensure this task?",
+        "images": [],
+        "choices": [
+            "Go to Office 365 Admin portal and register a web app.",
+            "Go to Tenant Setting from PowerBI admin portal and set the API permissions.",
+            "Go to app.powerbi.com and create an empty report.",
+            "Go to dev.powerbi.com/apps and register an application."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q035",
+        "text": "You have a report named Sales_01. You plan to publish Sales_01 to a Blog, but you need to be sure that the report will preserve its size as a set on the report page. Which View Mode should you set for the Sales_01 report?",
+        "images": [],
+        "choices": ["Fit to Width", "Custom size", "16:09", "Actual Size"],
+        "correct": 3
+    },
+    {
+        "id": "q036",
+        "text": "How do you connect to Excel files that contain target figures? The solution should involve minimum manual work when new Excel files are created.",
+        "images": [],
+        "choices": [
+            "Connect to the files with Folder connector and use the Combine Binaries functionality",
+            "Connect to a new file each month, perform transformations, and use Append function in Power Query Editor to combine all targets in the same table"
+        ],
+        "correct": 0
+    }
+]
