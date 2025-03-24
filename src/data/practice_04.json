@@ -1,0 +1,690 @@
+[
+  {
+  "id": "q001",
+  "text":["Multi = 0 & 2 ", "You use an R script to build a custom visual. However, you find that you cannot see data marked \u0091N/A\u0092 and you are getting an error when importing your data as a list.What could be TWO reasons for these issues?"],
+  "images": [],
+  "choices": [
+    " \u0091NA\u0092 is transformed into \u0091NULL\u0092 by Power BI",
+    "You have not used the correct R version",
+    "Power BI only supports R dataframes",
+    "You need to first install the library \u0091tidyr\u0092"],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 0
+  },
+  {
+  "id": "q002",
+  "text": "You have an inactive relationship between your date table and your shipping table. How would you use an inactive relationship in a measure?",
+  "images": [],
+  "choices": [
+    "Use the LOOKUPVALUE() function",
+    "Delete the active relationship and make the new relationship active",
+    "Use the USERELATIONSHIP() function",
+    "Change the crossfilter direction to both in the modelling tab"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 2
+  },
+  {
+  "id": "q003",
+  "text": ["Multi = 0 & 4", "Your client has asked you whether you can creat data alerts for all of the key visuals on your dashboard.Which two visuals can you NOT create a data alert."],
+  "images": [],
+  "choices": [
+    "Funnel chart",
+    "KPI chart",
+    "Stacked column chart",
+    "Gauge chart",
+    "Card chart"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 0
+  },
+  {
+  "id": "q004",
+  "text": "You work for a large multinational company that has 23 departments. You have been tasked with creating a report with all the first aid trained staff . You need to create the same report for each department.How can you create the same report for each department in the most efficient manner?",
+  "images": [],
+  "choices": [
+    "Create separate Power BI Desktop report for each department and email the PBIX file",
+    "Add a parameter to the report to filter department",
+    "Create a separate workspace for each department and create a report in each",
+    "Create a separate dataset for each department and add a separate report"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q005",
+  "text": ["Multi = 1 & 4", "You work for an electric scooter manufacturer. You have a report with five pages, and you have been asked to filter all five pages when you select a particular scooter category on the first page. What are the two ways you could do this?"],
+  "images": [],
+  "choices": [
+    "Add a page level filter on all five pages",
+    "Create a report level filter using category in the \u0091Filter all pages\u0092 well",
+    "Use a single button and set the action type to bookmark",
+    "Select paginated report and configure the settings",
+    "Create a slicer for category on each page and then Sync slicers on all pages"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q006",
+  "text": "A colleague built a Power BI desktop report. Your colleague imported a flat file into Power BI from his local machine. You have inherited the Power BI report and you need to update the source for the file. How would you go about this?",
+  "images": [],
+  "choices": [
+    "On the home ribbon, click on properties and change the file path",
+    "Click on the Applied step \u0091source\u0092 and click on the cog to change the file path",
+    "On the home ribbon, click on manage -> then file, then change the file path",
+    "Click on the Applied step \u0091changed type\u0092 and click on the cog in the corner to change the file location"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q007",
+  "text": "You are a BI analyst for a digital marketing company. You have built a complex report that requires many custom DAX measures and tables. After releasing your report, senior management complains that it takes too long to load some key visuals. How would you identify the cause of the poorly performing report elements?",
+  "images": [],
+  "choices": [
+    "Use the Dataverse button to drill into likely performance issues",
+    "Use the Performance Analyzer to examine report element performance",
+    "Use the cross report drillthrough feature to examine performance across the report",
+    "Run an R script to determine the performance issues in report elements"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q008",
+  "text": "A medical devices company has contracted you to investigate their transportation provider\u0092s performance. The company has a series of metrics they use to monitor the transporation provider\u0092s performance, including on-time pickup, on-time delivery, billing accuracy etc. You are asked to find potential factors that contribute to the transportation provider\u0092s performance. What sort of visualization can help?",
+  "images": [],
+  "choices": [
+    "Scatter chart",
+    "Q&A chart",
+    "Key influencers chart",
+    "Decomposition tree chart"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 2
+  },
+  {
+  "id": "q009",
+  "text": "The board of your company would like to see a report on their mobiles. So you go ahead and optimize the report for mobile. For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "images": ["q009.png"],
+  "choices": [
+    "Yes / No / No",
+    "No / No / Yes",
+    "Yes / Yes / No",
+    "Yes / No / Yes"
+  ],
+  "ger_choices": [
+    "Ja / Nein / Nein",
+    "Nein / Nein / Ja",
+    "Ja / Ja / Nein",
+    "Ja / Nein / Ja"
+  ],
+  "correct": 3
+  },
+  {
+  "id": "q010",
+  "text": "Your company buys out a transportation company. You find that the company has several tables for customer records, all with the same structure and headings. You need to combine these tables to form a new single table for a customer segmentation analysis prior to merging the data into the parent company\u0092s system. What transformation should you use?",
+  "images": [],
+  "choices": [
+    "Merge queries",
+    "Append queries as new",
+    "Append queries",
+    "Merge queries as new"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q011",
+  "text": "You are asked by management to allow a consultant\u0092s custom Power BI visual. However, by default, management wants no custom visuals. How would you enable the consultant\u0092s visual while maintaining the default requirement in the most efficient manner?",
+  "images": [],
+  "choices": [
+    "Temporarily disable the tenant setting for custom visualization",
+    "Use Power BI Desktop .pbiviz files with the custom visual",
+    "Add the custom visuals to the organizational store",
+    "Build a separate Power BI service instance for the custom visual"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 2
+  },
+  {
+  "id": "q012",
+  "text": "What Text Analytics AI Insights are NOT available in Power BI.",
+  "images": [],
+  "choices": [
+    "Language Detection",
+    "Sentiment Analysis",
+    "Key Phrase Extraction",
+    "Word Sense Disambiguation"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 3
+  },
+  {
+  "id": "q013",
+  "text": "You create a Power BI report for a software company that uses AI for transportation companies. The company has a sales team across several countries and you create row-level security (RLS) in the model. Sales managers are restricted to access the data from their own country. In Power BI Desktop you create roles for each country e.g. USA, Canada, UK, France etc. You add a DAX expression for each role in the region table to filter country. You then add an Azure Active Directory security group for the country to each role. A new user starts in France. What do you need to do for the new user such that they can only see the sales data for France?",
+  "images": [],
+  "choices": [
+    "In Power BI Desktop, edit the DAX expression on the role for France",
+    "In Power BI Service, change the Power BI workspace security and change the user\u0092s email address to \u0091contributor",
+    "Add the user to the Azure Active Directory for France",
+    "In Power BI Service, use \u0091test as role\u0092 and use the email address of the new employee"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 2
+  },
+  {
+  "id": "q014",
+  "text": "What is NOT part of the Power BI Service dashboard theme?",
+  "images": [],
+  "choices": [
+    "Dark",
+    "Light",
+    "Color-blind friendly",
+    "Custom",
+    "Tab-order friendly"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 4
+  },
+  {
+  "id": "q015",
+  "text": "You decide to add a KPI visual for your company\u0092s dashboard. You need to show total units this year, show the historic values at a monthly level and for the comparison use total units last year. What fields should be used from the exhibit below in the KPI wells: Indicator, Trend Axis and Target Goals?",
+  "images": ["q015.png"],
+  "choices": [
+    "Indicator: Sales Units This Year , Trend axis: Fiscal Month , Target Goals: Sales Units This year",
+    "Indicator: Sales Units This Year , Trend axis:  Fiscal Month , Target Goals: Sales Units Last year",
+    "Indicator: Sales Units Last Year , Trend axis:  Fiscal Month , Target Goals: Sales Units This year",
+    "Indicator: Sales Units This Year , Trend axis:  Fiscal Year , Target Goals: Sales Units Last year"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q016",
+  "text": "You create a report for a hospital and use row-level security (RLS) for doctors to view their metrics and salary using a \u0091doctors\u0092 role. You also create a \u0091hospital manager\u0092 role that can see all the data. The employee table you use for RLS has id, name, role and email address. For each of the following statements, select Yes if the statement is true, otherwise select No.",
+  "images": ["q016.png"],
+  "choices": [
+    "Yes / Yes / No",
+    "Yes / Yes / Yes",
+    "Yes / No / No",
+    "No / Yes / No"
+  ],
+  "ger_choices": [
+    "Ja / Ja / Nein",
+    "Ja / Ja / Ja",
+    "Ja / Nein / Nein",
+    "Nein / Ja / Nein"
+  ],
+  "correct": 0
+  },
+  {
+  "id": "q017",
+  "text": "Your manager at a construction materials company wants to know how category sales have changed over time with an animation. You decide that a chart with an animation to show changes across months would help visualize the data. How would you go about achieving this objective?",
+  "images": [],
+  "choices": [
+    "Create a line chart and add month to the axis well",
+    "Create a waterfall chart and add month to the breakdown well",
+    "Create a scatter chart and add month to the play axis well",
+    "Create a tree map and add month to the details well"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 2
+  },
+  {
+  "id": "q018",
+  "text": "At your company, you are the Power BI administrator. Your company policy states that only DA-100 certified people are allowed to create new workspaces. The people who are DA-100 certified are grouped into a security group called DA100Workspace. You hire several new people who have recently completed their DA-100 certification and assign them to the DA100Workspace security group. The new users compain that they cannot create new workspaces. What three actions do you need to take in sequence in the admin portal to fix this issue? Possible actions: i. Navigate to Power BI admin portal and select Tenant settings ii. Navigate to office 365 admin security and select settings iii. Choose specific security groups to apply to and add DA100Workspace\niv. Click on Workspace settings and then click on create workspaces v. Click refresh",
+  "images": [],
+  "choices": [
+    "i / iv / iii",
+    "ii / iii / v",
+    "ii / iv / v",
+    "i / ii / iii"
+  ],
+  "ger_choices": [
+    "i / iv / iii",
+    "ii / iii / v",
+    "ii / iv / v",
+    "i / ii / iii"
+  ],
+  "correct": 0
+  },
+  {
+  "id": "q019",
+  "text": "You have built a dashboard for the board of a soft drink company. One of the board members has some ideas he wants to test with several visuals from a report page. However, he he wants to be able to immediatelty see the updates in the dashboard after you make changes. How would you go about doing this in the most efficient manner?",
+  "images": [],
+  "choices": [
+    "Create a new dashboard for every new request and pin the new tiles",
+    "Pin the report page as live to the dashboard",
+    "On the report page, select embed in dashboard",
+    "Create a hyperlink for the tiles and select embed in dashboard"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q020",
+  "text": "You work for a rapid fashion company and are tasked with calculating the percentage change in sales from last month. You are given a measure Sales Total that aggregates sales and you have date table you built in DAX. How would you calculate last month\u0092s sales percentage change?",
+  "images": [],
+  "choices": [
+    "VAR SalesLastMonth = CALCULATE([Sales Total],DATEADD(‘Date‘[Date],-1,MONTH)) VAR SalesPercentageChange = DIVIDE([Sales Total]-SalesLastMonth,SalesLastMonth) Return SalesPercentageChange",
+    "VAR SalesLastMonth = CALCULATE([Sales Total], PARALLELPERIOD (‘Date‘[Date],-1,QUARTER)) VAR SalesPercentageChange = DIVIDE([Sales Total]-SalesLastMonth,SalesLastMonth) Return SalesPercentageChange",
+    "VAR SalesLastMonth = CALCULATE([Sales Total], SAMEPERIODLASTYEAR (‘Date‘[Date]) ) VAR SalesPercentageChange = DIVIDE([Sales Total]-SalesLastMonth,SalesLastMonth) Return SalesPercentageChange",
+    "VAR SalesLastMonth = CALCULATE([Sales Total],DATEADD(‘Date‘[Date],-1,MONTH)) VAR SalesPercentageChange = Sales Total-SalesLastMonth Return SalesPercentageChange"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 0
+  },
+  {
+  "id": "q021",
+  "text": ["Multi = 2 & 4", "You work for a cryptocurrency exchange as a BI analyst. You are tasked with creating a report for weekly trends across the asset ranges. Your source dataset has over 150 million rows. What two things can you do to optimize the report performance?"],
+  "images": [],
+  "choices": [
+    "Use the Direct Query storage mode for the dataset",
+    "Only use line charts for visuals",
+    "Use the Import storage mode for the dataset",
+    "Do not use tab or layer order",
+    "Create a summary table in the source data grouped by weekly volumes"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 2
+  },
+  {
+  "id": "q022",
+  "text": ["Multi = 0 & 2", "You work for a bicycle manufacturer and you have created a bar chart with sales by category. Your boss wants to know the median sales, the 50th percentile of values in a column, rather than the total sales for each category. What are the two ways to achieve this goal?"],
+  "images": [],
+  "choices": [
+    "Create a new measure using the MEDIAN DAX function on the sales column",
+    "In the analytics pane, add a trendline",
+    "In the chart values well, right click on sales and change the summarization to Median",
+    "Create a new measure using the Count (distinct)  DAX function on the sales column",
+    "In the chart values well, right click on sales and change the show value as to a percent of grand total"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 0
+  },
+  {
+  "id": "q023",
+  "text": "You find that your visuals on a report page are taking a long time to load and you need to find the cause. You remember there is a way to get how each of your report elements, such as visuals and DAX formulas, are performing. What five actions should you take in sequence from the below set of potential steps. · Open performance analyzer and press start recording · Ineract with the visuals · Restart Power BI · Press stop and review results · Open query diagnostics and press start recording · Click on SQL Server diagnostics · Check enable diagnostics logging · Create a blank report page",
+  "images": [],
+  "choices": [
+    "Restart Power BI -> Open performance analyzer and press start recording -> Check enable diagnostics logging -> Press stop and review results",
+    "Create a blank report page -> Restart Power BI -> Click on SQL Server diagnostics -> Ineract with the visuals -> Press stop and review results",
+    "Create a blank report page -> Restart Power BI -> Open performance analyzer and press start recording -> Ineract with the visuals -> Press stop and review results",
+    "Restart Power BI -> Open query diagnostics and press start recording ->  Ineract with the visuals -> Press stop and review results"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 2
+  },
+  {
+  "id": "q024",
+  "text": ["Multi = 1, 2 & 4", "You have a dataset in Power BI Service, and you want to use Quick Insights to get some ideas for a dashboard. However, you notice that Quick Insights are not working. What are the three possible reasons why Quick Insights is not working?"],
+  "images": [],
+  "choices": [
+    "You have uploaded data to Power BI",
+    " Your dataset uses Direct Query",
+    "Your dataset uses streaming",
+    "You have measures in your dataset",
+    "Your dataset is not statistically significant"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q025",
+  "text": "You have created a dashboard you want to share with your suppliers to help with the data communications between your organizations. Your supplier has a Power BI Pro license and uses Power BI within their own organization as well. Prior to sharing your dashboard with your supplier, what do you first need to do?",
+  "images": [],
+  "choices": [
+    "Make sure your supplier has upgraded to Power BI Premium",
+    " In the tenant settings, enable email notification service for outages or incidents",
+    "In the tenant settings, enable share content with external users",
+    "Publish your dashboard to the web"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 2
+  },
+  {
+  "id": "q026",
+  "text": "You work for a software company that enables cryptocurrency payments for retailers. The key tables you have for your company\u0092s reporting requirements are: 1. Date is a date table created in DAX 2. Countries is a geographic table that is rarely updated 3. Sales has the software sales to retailers and has many new records added every day Which storage model should you use for each of the three requirements from top to bottom?",
+  "images": [],
+  "choices": [
+    "Import / Import / Live Connection",
+    "Dual / Import / Live Connection",
+    "Dual / Import / DirectQuery",
+    "Import / Import / DirectQuery"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 3
+  },
+  {
+  "id": "q027",
+  "text": "For your annual report, your company has produced a YouTube video. Your manager asks to add this YouTube video to your financial dashboard so the board members can see the video in the dashboard. How would you go about adding the YouTube video to your dashboard?",
+  "images": [],
+  "choices": [
+    "Add an image tile",
+    " Add a video tile",
+    "Add a text box tile",
+    "Add a custom streaming data tile"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q028",
+  "text": "Your country has created a register for confirmed cases of COVID-19. The data is recorded in a large Azure SQL Database and is updated continuously. You have been contracted as a consultant to assist your government in creating a dashboard to visualize the data in Power BI. How would you configure your connection to the COVID-19 database?",
+  "images": [],
+  "choices": [
+    "Create a script to continuously import the data",
+    "Connect to the data with Live Connection",
+    "Connect to the data with DirectQuery",
+    "Connect to the data with AI Insights"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 2
+  },
+  {
+  "id": "q029",
+  "text": "You are checking your data for errors and want to see the average and standard deviation for a column. What data quality option should you use?",
+  "images": [],
+  "choices": [
+    "Column quality",
+    "Column distribution",
+    "Column profile",
+    "Monospaced"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 2
+  },
+  {
+  "id": "q030",
+  "text": "You work in a warehouse for a large eCommerce company. You have a Power BI Premium dashboard of the key logistics metrics called daily shipments. You would like to receive a daily snapshot by email of the daily shipments dashboard. How can you achieve this goal?",
+  "images": [],
+  "choices": [
+    "Integrate the dashboard to Power BI Desktop",
+    "Ask the admin to add you as a contributor to the workspace",
+    "Subscribe to the dashboard",
+    "Turn on notifications on your instance of Power BI Service"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 2
+  },
+  {
+  "id": "q031",
+  "text": ["Multi = 1 & 2", "You have two tables named Invoice and Geo that are connected through an active relationship using the GeoID field. You need to be able to filter the data from both the Geo table and from the Invoice table. I.e. you need the Invoice table filtered by Geo and the Geo table filtered by Invoice type. You have configured row-level security (RLS) so that Geographic leaders can only see the invoices from their region. You are having difficulty getting RLS working for the relationship between the Geo and Invoices. Which TWO actions should you perform to resolve this issue?"],
+  "images": [],
+  "choices": [
+    "In the relationship view, set the cross filter direction to Single",
+    "In the relationship view, check apply security filter in both directions",
+    "In the relationship view, set the cross filter direction to Both",
+    "In the relationship view, uncheck make this relationship active"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q032",
+  "text": "Your company plans to use dataflows to process the data stored in the Common Data Service to prepare for Power BI reports and Dashboards. Where should you store the dataflows?",
+  "images": [],
+  "choices": [
+    "Common Data Model folder",
+    "Azure Data Lake Gen2",
+    "Sharepoint",
+    "Azure SQL Server"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q033",
+  "text": "You want to share a dashboard with external guest users from another business. How would you share content with external users?",
+  "images": [],
+  "choices": [
+    "Invite external guests through the Azure Active Directory B2B",
+    "Click share directly from the dashboard",
+    "Go to the Power BI admin tenant setting and add the emails for the external users",
+    "Modify the workspace permissions to allow for the external users"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 0
+  },
+  {
+  "id": "q034",
+  "text": ["Multi = 0 & 2", "You think that a decomposition tree may be useful for your analysis. What TWO things does a decomposition tree do?"],
+  "images": [],
+  "choices": [
+    "Conduct root cause analysis",
+    "Segments that contribute to the selected metric value",
+    "Visualize data across multiple dimensions",
+    "Contrast the relative importance of factors"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 0
+  },
+  {
+  "id": "q035",
+  "text": "How can you create a calculated table in Power BI?",
+  "images": [],
+  "choices": [
+    "By using the New Table feature and writing a DAX formula",
+    "By using the Group By feature",
+    "By creating a new column with a table formula",
+    "By using the Pivot Table feature"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 0
+  },
+  {
+  "id": "q036",
+  "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You are modeling data by using Microsoft Power BI. Part of the data model is a large Microsoft SQL Server table named Order that has more than 100 million records.During the development process, you need to import a sample of the data from the Order table.Solution: You write a DAX expression that uses the FILTER function.Does this meet the goal?",
+  "images": [],
+  "choices": [
+    "A. Yes",
+    "B. No"
+  ],
+  "ger_choices": [
+    "A. Ja",
+    "B. Nein"
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q037",
+  "text": "You have a custom connector that returns ID, From, To, Subject, Body, and Has Attachments for every email sent during the past year. More than 10 million records are returned. You build a report analyzing the internal networks of employees based on whom they send emails to. You need to prevent report recipients from reading the analyzed emails. The solution must minimize the model size. What should you do?",
+  "images": [],
+  "choices": [
+    "A. From Model view, set the Subject and Body columns to Hidden.",
+    "B. Remove the Subject and Body columns during the import.",
+    "C. Implement row-level security (RLS) so that the report recipients can only see results based on the emails they sent."
+  ],
+  "ger_choices": [
+    "A. ",
+    "B. ",
+    "C. "
+  ],
+  "correct": 1
+  },
+  {
+  "id": "q038",
+  "text": "In Power Query, how does referencing a query differ from duplicating a query?",
+  "images": [],
+  "choices": [
+    "Referencing uses the original query as a lookup table.",
+    "Referencing works on external data sources, while duplicating does not.",
+    "When you reference a query, any changes to the original query fail to reflect in the new query.",
+    "Referencing uses the original query as the source and it can be used in other queries for the further processing"
+  ],
+  "ger_choices": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "correct": 3
+  }
+]
