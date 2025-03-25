@@ -1,12 +1,5 @@
 [
     {
-        "id": "q000",
-        "text": "word",
-        "images": [],
-        "choices": ["foo", "foo", "foo", "foo"],
-        "correct": 4
-    },
-    {
         "id": "q001",
         "text": "Your Power BI Desktop project contains a report named Sales_1. Sales_1 connects to a Microsoft SQL Server database by using DirectQuery connection. After you have published the Sales_1 report to the Power BI service, the visualizations don’t work. How can you solve the issue?",
         "images": [],
