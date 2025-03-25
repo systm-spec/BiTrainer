@@ -1,0 +1,556 @@
+[
+    {
+        "id": "q001",
+        "text": "You have multiple dashboards. You need to ensure that when users browse the available dashboards from powerbi.com. they can see which dashboards contain Personally Identifiable Information (Pll). The solution must minimize configuration effort and impact on the dashboard design.",
+        "images": [],
+        "choices": [
+            "data classifications",
+            "Active Directory groups",
+            "Tiles",
+            "Comments"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q002",
+        "text": "You create a dashboard by using the Microsoft Power Bl Service. The dashboard contains a card visual that shows total sales from the current year. You grant users access to the dashboard by using the viewer role in the workspace. A user wants to receive daily notifications of the number shown on the card visual. What should the user can do?",
+        "images": [],
+        "choices": [
+            "Create a data alert.",
+            "Share the dashboard to the user.",
+            "Create a subscription."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q003",
+        "text": "You build a report to help the sales team understand its performance and the drivers of sales. The team needs to have a single visualization to identify which factors affect success. Which type of visualization should you use?",
+        "images": [],
+        "choices": [
+            "Line and clustered column chart",
+            "Key influencer",
+            "Funnel chart"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q004",
+        "text": "You have four sales regions. Each region has multiple sales managers. You implement row-level security (RLS) in a data model. You assign the relevant distribution lists to each role. You have sales reports that enable analysis by region. The sales managers can view the sales records of their region. The sales managers are prevented from viewing records from other regions. A sales manager changes to a different region. You need to ensure that the sales manager can see the correct sales data What should you do?",
+        "images": [],
+        "choices": [
+            "Change the Microsoft Power BI license type of the sales manager.",
+            "From Microsoft Power BI Desktop, edit the Row-Level Security setting for the reports.",
+            "Request that the sales manager be added to the correct Azure Active Directory group.",
+            "Manage the permissions of the underlying dataset."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q005",
+        "text": "You are configuring a Microsoft Power BI data model to enable users to ask natural language questions by using Q&A.  ou have a table named Customer that has the following measure. Customer Count = DISTINCTCOUNT(Customer[CustomerID]) Users frequently refer to customers as subscribers. You need to ensure that the users can get a useful result for “subscriber count” by using Q&A. The solution must minimize the size of the model. What should you do?",
+        "images": [],
+        "choices": [
+            "Add a synonym of 'subscriber' to the Customer table.",
+            "Add a synonym of 'subscriberID' to the CustomerID column.",
+            "Add a description of 'subscriber count' to the Customer Count measure.",
+            "Set Summarize By to None for the CustomerID column."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q006",
+        "text": "You use an R visual to produce a map of 500,000 customers. You include the values of [CustomerID], Latitude, and Longitude in the fields sent to the visual. Each customer ID is unique. In powerbi.com, when users load the visual, they only see some of the customers. What is the cause of the issue?",
+        "images": [],
+        "choices": [
+            "The visual was built by using a different version of R",
+            "Too many records were sent to the visual.",
+            "The data comes from a Microsoft SQL Server source.",
+            "The data is deduplicated."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q007",
+        "text": "You have a Microsoft Power Bl dashboard. You need to ensure that consumers of the dashboard can give you feedback that will be visible to the other consumers of the dashboard. What should you use?",
+        "images": [],
+        "choices": ["Subscribe", "Comments", "Mark as favorite"],
+        "correct": 1
+    },
+    {
+        "id": "q008",
+        "text": "You have a Microsoft SharePoint Online site that contains several document libraries. One of the document libraries contains manufacturing reports saved as Microsoft Excel files. All the manufacturing reports have the same data structure. You need to load only the manufacturing reports to a table for analysis. What should you do on Microsoft Power Bl Desktop?",
+        "images": [],
+        "choices": [
+            "Get data from a SharePoint Online list, enter the site URL and then select Combine & Load",
+            "Get data from a SharePoint Online folder and enter the site URL. Edit the query and filter by folder path.",
+            "Get data from a SharePoint Online folder, enter the site URL, and then select Combine & Load",
+            "Get data from a SharePoint Online list and enter the site URL. Edit the query and filter by folder"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q009",
+        "text": "You have several reports and dashboards in a workspace. You need to grant all organizational users to read access to a dashboard and several reports. Solution: You publish an app to the entire organization. Does this meet the goal?",
+        "images": [],
+        "choices": ["Yes", "No"],
+        "correct": 0
+    },
+    {
+        "id": "q010",
+        "text": "You have several reports and dashboards in a workspace. You need to grant all organizational users to read access to a dashboard and several reports. Solution: You assign all the users the Viewer role to the workspace. Does this meet the goal?",
+        "images": [],
+        "choices": ["Yes", "No"],
+        "correct": 0
+    },
+    {
+        "id": "q011",
+        "text": "MULTI 1,3 You publish a Microsoft Power BI dataset to powerbi.com. The dataset appends data from an on-premises Oracle database and an Azure SQL database by using one query. You have admin access to the workspace and permission to use an existing On-premises data gateway for which the Oracle data source is already configured. You need to ensure that the data is updated every morning. The solution must minimize configuration effort. Which two actions should you perform when you configure scheduled refresh? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.",
+        "images": [],
+        "choices": [
+            "Deploy an On-premises data gateway in personal mode.",
+            "Set the refresh frequency to Daily.",
+            "Configure the dataset to use the personal gateway.",
+            "Configure the dataset to use the existing On-premises data gateway."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q012",
+        "text": "MULTI 1,4 You have a report that contains three pages. One of the pages contains a KPI visualization. You need to filter all the visualizations in the report except for the KPI visualization. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point",
+        "images": [],
+        "choices": [
+            "Add the same slicer to each page and configure Sync slicers.",
+            "Edit the interactions of the KPI visualization.",
+            "Configure a page-level filter",
+            "Edit the interactions of the slicer that is on the same page as the KPI visualization.",
+            "Configure a report-level filter."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q013",
+        "text": "MUYLTI 2,3 You have the tables shown in the following table. [image here] The Impressions table contains approximately 30 million records per month. You need to create an ad analytics system to meet the following requirements: * Present ad impression counts for the day, campaign, and [Site_name]. The analytics for the last year is required. * Minimize the data model size. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.",
+        "images": ["q013.png"],
+        "choices": [
+            "Create a calculated measure that aggregates by using the COUNTROWS function.",
+            "Create a calculated table that contains Ad_id, Site_name, and Impression_date.",
+            "Group the impressions by Ad_id, Site_name, and Impression_date. Aggregate by using the CountRows function.",
+            "Create one-to-many relationships between the tables."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q014",
+        "text": "You have a dataset named Pens that contains the following columns: *Unit Price *Quantity Ordered You need to create a visualization that shows the relationship between Unit Price and Quantity Ordered. The solution must highlight orders that have a similar unit price and ordered quantity. Which type of visualization and which feature should you use? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.[images here]",
+        "images": ["q014.png"],
+        "choices": [
+            "Box 1: A line chart of Quantity Ordered and Unit Price by item Box 2: Find where the distribution is different",
+            "Box 1: A scatter plot of Quantity Ordered and Unit price by item Box 2: Automatically find clusters",
+            "Box 1: A column chart of Quantity Ordered and Unit Price by year Box 2: Automatically find clusters"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q015",
+        "text": "DRAG and DROP You are modeling data in a table named SalesDetail by using Microsoft Power Bl. You need to provide end-users with access to the summary statistics about the SalesDetail data. The users require insights on the completeness of the data and the value distributions. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order [image here] ",
+        "images": ["q015.png"],
+        "choices": [
+            "Box 1: Create a blank query as a data source Box 2: Specify the following query. =Table.Distinct(#”SaleDetail”) Box 3: Create a visual for the query table",
+            "Box 1: Create a blank query as a data source Service Box 2: Specify the following query. =Table.Profile(#”SaleDetail”) Box 3: Create a visual for the query table",
+            "Box 1: Create a parameter that uses Common Data Service as a data source Box 2: Specify the following query. =Table.Profile(#”SaleDetail”) Box 3: Create a visual for the query table"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q016",
+        "text": "What type of expression supported by Power BI while extracting data?",
+        "images": [],
+        "choices": ["SQL, MDX, DAX", "SQL, Python, R", "SQL, DAX, M"],
+        "correct": 2
+    },
+    {
+        "id": "q017",
+        "text": "You have the visual shown below: [image here] What is the name of the visual?",
+        "images": ["q017.png"],
+        "choices": [
+            "Decomposition tree visual",
+            "Key Influencer",
+            "Breaking down custom visual",
+            "Horizonal bar chart"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q018",
+        "text": "How do you use an inactive relationship in a single measure?",
+        "images": [],
+        "choices": [
+            "Change the active relationship in the Modeling tab.",
+            "Delete one relationship.",
+            "Use the USERELATIONSHIP function."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q019",
+        "text": "You are creating a Microsoft Power Bl imported data model to perform basket analysis. The goal of the analysis is to identify which products are usually bought together in the same transaction across and within sales territories. You import a fact table named Sales as shown: [image here] The related dimension tables are imported into the model. The SalesRowID and AuditID can be removed from the model without impeding the analysis goals?",
+        "images": ["q019.png"],
+        "choices": ["Yes", "No"],
+        "correct": 0
+    },
+    {
+        "id": "q020",
+        "text": "Litware, Inc. Case Study This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. -Overview Litware, Inc. is an online retailer that uses Microsoft Power Bl dashboards and reports. The company plans to leverage data from Microsoft SQL Server databases, Microsoft Excel files, text files, and several other data sources. Litware uses Azure Active Directory (Azure AD) to authenticate users. – Existing Environment Sales Data Litware has online sales data that has the SQL schema shown in the following table. [image here] In the Date table, the date column has a format of yyyymmdd and the month column has a format of yyyymm. The week column in the Date table and the week_id column in the Weekly_Returns table have a format of yyyyww. The region_id column can be managed by only one sales manager. Data Concerns You are concerned with the quality and completeness of the sales data. You plan to verify the sales data for negative sales amounts. Reporting Requirements Litware identifies the following technical requirements: * Executives require a visual that shows sales by region. * Regional managers require a visual to analyze weekly sales and returns. * Sales managers must be able to see the sales data of their respective regions only. * The sales managers require a visual to analyze sales performance versus sales targets. * The sales department requires reports that contain the number of sales transactions. *Users must be able to see the month in reports as shown in the following example: Oct 2020. *The customer service department requires a visual that can be filtered by both sales month and ship month independently. Question: You need to create the required relationship for the executive’s visual. What should you do before you can create the relationship?",
+        "images": ["q020.png"],
+        "choices": [
+            "Change the data type of sales[sales_id] to Text.",
+            "Change the data type of sales [region_id] to Decimal Number",
+            "Change the data type of Sales[region_id] to Whole Number.",
+            "In the Sales table, add a measure for sum(sales_amount)."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q021",
+        "text": "Litware, Inc. Case Study This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. -Overview Litware, Inc. is an online retailer that uses Microsoft Power Bl dashboards and reports. The company plans to leverage data from Microsoft SQL Server databases, Microsoft Excel files, text files, and several other data sources. Litware uses Azure Active Directory (Azure AD) to authenticate users. – Existing Environment Sales Data Litware has online sales data that has the SQL schema shown in the following table. [image here] In the Date table, the date column has a format of yyyymmdd and the month column has a format of yyyymm. The week column in the Date table and the week_id column in the Weekly_Returns table have a format of yyyyww. The region_id column can be managed by only one sales manager. Data Concerns  You are concerned with the quality and completeness of the sales data. You plan to verify the sales data for negative sales amounts. Reporting Requirements Litware identifies the following technical requirements: * Executives require a visual that shows sales by region. * Regional managers require a visual to analyze weekly sales and returns. * Sales managers must be able to see the sales data of their respective regions only. * The sales managers require a visual to analyze sales performance versus sales targets. * The sales department requires reports that contain the number of sales transactions. *Users must be able to see the month in reports as shown in the following example: Oct 2020. *The customer service department requires a visual that can be filtered by both sales month and ship month independently. Question- You need to create a calculated column to display the month based on the reporting requirements. Which DAX expression should you use?",
+        "images": ["q021.png"],
+        "choices": [
+            "FORMAT('Date'[date], 'MMM YYYY')",
+            "FORMAT('Date' [date], 'M YY')",
+            "FORMAT('Date'[date_id], 'MMM') & '' & FORMAT('Date'[year], '#'')",
+            "FORMAT('Date' [date_id], 'MMM YYYY')"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q022",
+        "text": "Contoso, Ltd. is a manufacturing company that produces outdoor equipment. Contoso has quarterly board meetings for which financial analysts manually prepare Microsoft Excel reports, including profit and loss statements for each of the company’s four business units, a company balance sheet, and net income projections for the next quarter. Data and Sources Data for the reports come from three sources. Detailed revenue, cost, and expense data come from an Azure SQL database. Summary balance sheet data comes from Microsoft Dynamics 365 Business Central. The balance sheet data is not related to the profit and loss results, other than they both relate dates. Monthly revenue and expense projections for the next quarter come from a Microsoft SharePoint Online list. Quarterly projections relate to the profit and loss results by using the following shared dimensions: date, business unit, department, and product category. Net Income Projection Data Net income projection data is stored in a SharePoint Online list named Projections in the format shown in the following table.[image here] Revenue projections are set at the monthly level and summed to show projections for the quarter. Balance Sheet Data The balance sheet data is imported with final balances for each account per month in the format shown in the following table. [image here] There is always a row for each account for each month in the balance sheet data. Dynamics 365 Business Central Data Business Central contains a product catalog that shows how products roll up to product categories, which roll up to business units. Revenue data is provided at the date and product level. Expense data is provided at the date and department level. Business Issues Historically, it has taken two analysts a week to prepare the reports for the quarterly board meetings. Also, there is usually at least one issue each quarter where a value in a report is wrong because of a bad cell reference in an Excel formula. On occasion, there are conflicting results in the reports because the products and departments that roll up to each business unit are not defined consistently. Requirements:- 1. Planned Changes -Contoso plans to automate and standardize the quarterly reporting process by using Microsoft Power BI. The company wants to how long it takes to populate reports to less than two days. The company wants to create common logic for business units, products, and departments to be used across all reports, including, but not limited, to the quarterly reporting for the board. 2. Technical Requirements -Contoso wants the reports and datasets refreshed with minimal manual effort. The company wants to provide a single package of reports to the board that contains custom navigation and links to supplementary information. Maintenance, including manually updating data and access, must be minimized as much as possible. 3. Security Requirements – The reports must be made available to the board from powerbi.com. A mail-enabled security group will be used to share information with the board. The analysts responsible for each business unit must see all the data the board sees, except the profit and loss data, which must be restricted to only their business unit’s data. The analysts must be able to build new reports from the dataset that contains the profit and loss data, but any reports that the analysts build must not be included in the quarterly reports for the board. The analysts must not be able to share the quarterly reports with anyone. 4.Report Requirements – You plan to relate the balance sheet to a standard date table in Power BI in a many-to-one relationship based on the last day of the month. At least one of the balance sheet reports in the quarterly reporting package must show the ending balances for the quarter, as well as for the previous quarter. Projections must contain a column named RevenueProjection that contains the revenue projection amounts. [images here] The relationships between products and departments to business units must be consistent across all reports. The board must be able to get the following information from the quarterly reports: – Revenue trends over time – Ending balances for each account – A comparison of expenses versus projections by a quarter – Changes in long-term liabilities from the previous quarter – A comparison of quarterly revenue versus the same quarter during the prior year Question:- Users want a column like Apr-20 for reporting purposes. How you will create this?",
+        "images": ["q022.png", "q022_2.png", "q022_3.png"],
+        "choices": [
+            "FORMAT (Date[Date], 'MMM- YYYY')",
+            "FORMAT (Date[Date], 'MM -YYYY')",
+            "FORMAT (Date[Date], 'MMM -YY')",
+            "FORMAT (Date[Date], 'M- YYYY')"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q023",
+        "text": "MULTI 1,2 You use Power BI Desktop to prepare data. You examine data quality in Power Query. You need to discover the number of errors in a column. Which two Data preview options should you use? Each correct answer presents a complete solution.",
+        "images": [],
+        "choices": [
+            "Show whitespace",
+            "Column profile",
+            "Column quality",
+            "Column distribution"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q024",
+        "text": "What is the use of “Select Related Table” option while importing data from SQL Server?",
+        "images": [],
+        "choices": [
+            "It will also import views related to selected tables",
+            "It won't import any extra table or view.",
+            "It will import tables that have a physical relationship with the selected table.",
+            "It will import the tables that have similar schema"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q025",
+        "text": "'Live Connection is used when connecting to multidimensional data sources, such as Analysis Services' Select whether the above statement is True or False.",
+        "images": [],
+        "choices": ["True", "False"],
+        "correct": 0
+    },
+    {
+        "id": "q026",
+        "text": "You plan to use dataflows to perform extract, transform, and load processing on data stored in the Common Data Service to prepare it for Power Bl reports. You need to set up the dataflows to process and store data. Which components should you use for the following process? “Store data in dataflows using….”",
+        "images": [],
+        "choices": [
+            "JSON files",
+            "Common Data Model folders",
+            "OneDrive for Business"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q027",
+        "text": "Multi 1,3 You import an HR dataset into Power Bl Desktop. You need to see how many empty and error rows are in a dataset, as shown below.[image here] Which two data quality options can you use to meet your goal? Each correct answer presents a complete solution.",
+        "images": ["q027.png"],
+        "choices": [
+            "Column distribution",
+            "Column profile",
+            "Custom column",
+            "Column quality"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q028",
+        "text": "You create a Power Bl report using an Excel workbook stored on OneDrive for Business as the data source in Power Bl Desktop. You need to replace the Excel workbook with a new version that contains updated data. For the following statement(s), select Yes if the statement is true. Otherwise, select No. “The Excel workbook must have the same structure as the original workbook.”",
+        "images": [],
+        "choices": ["Yes", "No"],
+        "correct": 0
+    },
+    {
+        "id": "q029",
+        "text": "You have Employee and Salary tables in a data model. You need to include employee salaries in the Employee table, as shown in the below images. Before transformation: [image here] After transformation: [image here] Which transformation should you use? Choose the correct answer",
+        "images": ["q029.png", "q029_2.png"],
+        "choices": [
+            "Append queries",
+            "Merge queries",
+            "Merge queries as new",
+            "Append queries as new"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q030",
+        "text": "Your company moved from a self-service approach to an increasingly centralized approach. The IT team created a SQL Server Analysis Server (SSAS) for you to use. When using live connections for SSAS, why might the Relationships view disappear in Power BI?",
+        "images": [],
+        "choices": [
+            "The Relationship view is hidden by default because changes are pushed back to the underlying SSAS data model.",
+            "The relationship view is only available for data from SQL Server.",
+            "The model's relationships are managed in SSAS, not in Power Bl Desktop.",
+            "Live connections automatically determine the relationships between tables.",
+            "Live connections do not support cross-table formulas."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q031",
+        "text": "Select the feature that allows you to navigate through HTML tags to get the data from a website?",
+        "images": [],
+        "choices": ["Scaffolding", "Get JSON Data", "Web Scraping"],
+        "correct": 2
+    },
+    {
+        "id": "q032",
+        "text": "You are a data analyst using Power Bl with Power Query to connect and get the data. You use the Common Data Service as a data source. You need to investigate query performance issues, but the View Native Query option is disabled. What is a possible cause for the View Native Query option being disabled?",
+        "images": [],
+        "choices": [
+            "The Common Data Service does not support Query folding.",
+            "There is a conditional column transformation step.",
+            "There is a measure on the dataset.",
+            "The storage mode is set as Import."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q033",
+        "text": "You are creating a dataset and modeling the data for a Power Bl report. The report should contain up-to-date information. The tables in the data model are shown in the exhibit and are described below: [image here] • Sales has the details of sales made to customers and has a large number of records. Many new records are added daily. • Customer is the list of customers. Customers have a few thousand records and there are additions and updates regularly. • Territory is the geographical area for the sales teams. Territories are rarely updated. • Date is a date table created with DAX. You need to select the correct storage mode to meet your company’s requirements. Which storage mode should you use for the following requirement? “Use Customer and Territory as slicers”",
+        "images": ["q033.png"],
+        "choices": ["Dual", "DirectQuery", "Import", "Live Connection"],
+        "correct": 0
+    },
+    {
+        "id": "q034",
+        "text": "You should create a report that shows the company‘s sales performance. The sales team asked you to add a single visualization that could help identify the factors that affect sales and influence success. Which of the following visualization would you use?",
+        "images": [],
+        "choices": [
+            "None of these",
+            "Key influencers",
+            "Funnel chart",
+            "Q&A visualization"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q035",
+        "text": "You have two tables as shown in the exhibit. There are no unique values in either table. The tables are related by the product name. You need to create relationships in the data model to enable visuals to be created that contain data from both tables. [images here] How should you model these tables?",
+        "images": ["q035.png"],
+        "choices": [
+            "Create a table that contains unique IDs and create two one-to-many relationships.",
+            "Set the relationship cardinality to one-to-one between the two tables.",
+            "Set the relationship cardinality to one-to-many between the two tables.",
+            "Set the relationship cardinality to many-to-many between the two tables."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q036",
+        "text": "You have a very large dataset, and you want to reduce its size. A table called Telemetry contains multiple records per day with the datetime, deviceid, devicetype, readingtype, and readingvalue. You need to produce reports showing average values for devicetype and readingtype. The Telemetry table is set to DirectQuery storage mode. You need to create aggregations for date, devicetype, readingtype, and readingvalue. Which of the following five actions should you perform in sequence?",
+        "images": [],
+        "choices": [
+            "1. Create a new table named Telemetry_Aggregate containing the columns to hold aggregate data. 2. Select the Telemetry table and select Manage aggregations. 3. Select the Telemetry_Aggregate table as the aggregation table. 4. Select the Summarization type. 5. Select the table and column from the Telemetry table.",
+            "1. Select the Telemetry table and select Manage aggregations. 2. Select the Telemetry table as the aggregation table. 3. Select the Telemetry_Aggregate table and select Manage aggregations. 4. Set the storage mode for the Telemetry table to Import. 5. Select the Summarization type.",
+            "1. Select the Telemetry table as the aggregation table. 2. Select the Telemetry table and select Manage aggregations. 3. Create a new table named Telemetry_Aggregate containing the columns to hold aggregate data. 4. Set the storage mode for the Telemetry table to Import. 5. Select the Summarization type.",
+            "1. Create a new table named Telemetry_Aggregate containing the columns to hold aggregate data. 2. Select the Telemetry table as the aggregation table. 3. Select the Telemetry_Aggregate table as the aggregation table. 4. Select the table and column from the Telemetry table. 5. Select the Summarization type."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q037",
+        "text": "MULTI 2,3 You are modeling sales data as shown in the below exhibit. [image here] You need to show the variance of sales for the different product types. You decide to use a Quick measure. How should you configure the Quick measure? Select the correct column names for the Quick Measure setup.[image here] ",
+        "images": ["q037.png", "q037_2.png"],
+        "choices": [
+            "Base Value = Order Number",
+            "Category = Amount",
+            "Base Value = Amount",
+            "Category = TypeName",
+            "Category = Order Number",
+            "Base Value = TypeName"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q038",
+        "text": "How can you automate the deployment and maintenance of your assets?",
+        "images": [],
+        "choices": [
+            "Use Azure DevOps",
+            "Use GitHub Actions",
+            "Use Jenkins",
+            "Use Travis CI"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q039",
+        "text": "You have a Power BI dashboard that monitors the quality of manufacturing processes. The dashboard contains the following elements:✑ A line chart that shows the number of defective products manufactured by day -> A KPI visual that shows the current daily percentage of defective products manufacturedYou need to be notified when the daily percentage of defective products manufactured exceeds 3%.What should you create?",
+        "images": [],
+        "choices": [
+            "a subscription",
+            "an alert",
+            "a smart narrative visual",
+            "a Q&A visual"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q040",
+        "text": "You want to create a data source that can be accessed by external users. Which type of data source should you use?",
+        "images": [],
+        "choices": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q041",
+        "text": "What is the difference between a measure and a calculated column in Power BI?",
+        "images": [],
+        "choices": [
+            "A measure is an aggregation of data, while a calculated column is a new column created from existing data",
+            "A calculated column is an aggregation of data, while a measure is a new column created from existing data",
+            "A measure is a calculation based on a single column, while a calculated column is a calculation based on multiple columns",
+            "A calculated column is a calculation based on a single column, while a measure is a calculation based on multiple columns"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q042",
+        "text": "MULTI 0,1 A user creates a Power BI report named ReportA that uses a custom theme.You create a dashboard named DashboardA.You need to ensure that DashboardA uses the custom theme. The solution must minimize development effort.Which two actions should you perform? Each correct answer presents part of the solution.NOTE: Each correct selection is worth one point.",
+        "images": [],
+        "choices": [
+            "Publish ReportA to Power BI.",
+            "From ReportA save the current theme.",
+            "Publish ReportA to the Microsoft Power BI Community theme gallery.",
+            "From DashboardA, create a custom theme.",
+            "From DashboardA, upload a JSON theme."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q043",
+        "text": "What is the purpose of a dataflow in Power BI?",
+        "images": [],
+        "choices": [
+            "To transform and clean data",
+            "To create visualizations",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 7
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 7
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 7
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 7
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 7
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 7
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 7
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 7
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 7
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 7
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 7
+    },
+    {
+        "id": "q0",
+        "text": "word",
+        "images": [],
+        "choices": ["foo", "foo", "foo", "foo"],
+        "correct": 7
+    }
+]
