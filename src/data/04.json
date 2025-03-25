@@ -1,18 +1,13 @@
 [
   {
   "id": "q001",
-  "text":["Multi = 0 & 2 ", "You use an R script to build a custom visual. However, you find that you cannot see data marked \u0091N/A\u0092 and you are getting an error when importing your data as a list.What could be TWO reasons for these issues?"],
+  "text": "Multi = 0 & 2 / You use an R script to build a custom visual. However, you find that you cannot see data marked \u0091N/A\u0092 and you are getting an error when importing your data as a list.What could be TWO reasons for these issues?",
   "images": [],
   "choices": [
     " \u0091NA\u0092 is transformed into \u0091NULL\u0092 by Power BI",
     "You have not used the correct R version",
     "Power BI only supports R dataframes",
-    "You need to first install the library \u0091tidyr\u0092"],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
+    "You need to first install the library \u0091tidyr\u0092"
   ],
   "correct": 0
   },
@@ -26,17 +21,11 @@
     "Use the USERELATIONSHIP() function",
     "Change the crossfilter direction to both in the modelling tab"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 2
   },
   {
   "id": "q003",
-  "text": ["Multi = 0 & 4", "Your client has asked you whether you can creat data alerts for all of the key visuals on your dashboard.Which two visuals can you NOT create a data alert."],
+  "text": "Multi = 0 & 4 / Your client has asked you whether you can creat data alerts for all of the key visuals on your dashboard.Which two visuals can you NOT create a data alert.",
   "images": [],
   "choices": [
     "Funnel chart",
@@ -44,13 +33,6 @@
     "Stacked column chart",
     "Gauge chart",
     "Card chart"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 0
   },
@@ -64,17 +46,11 @@
     "Create a separate workspace for each department and create a report in each",
     "Create a separate dataset for each department and add a separate report"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 1
   },
   {
   "id": "q005",
-  "text": ["Multi = 1 & 4", "You work for an electric scooter manufacturer. You have a report with five pages, and you have been asked to filter all five pages when you select a particular scooter category on the first page. What are the two ways you could do this?"],
+  "text": "Multi = 1 & 4 / You work for an electric scooter manufacturer. You have a report with five pages, and you have been asked to filter all five pages when you select a particular scooter category on the first page. What are the two ways you could do this?",
   "images": [],
   "choices": [
     "Add a page level filter on all five pages",
@@ -82,13 +58,6 @@
     "Use a single button and set the action type to bookmark",
     "Select paginated report and configure the settings",
     "Create a slicer for category on each page and then Sync slicers on all pages"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 1
   },
@@ -102,12 +71,6 @@
     "On the home ribbon, click on manage -> then file, then change the file path",
     "Click on the Applied step \u0091changed type\u0092 and click on the cog in the corner to change the file location"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 1
   },
   {
@@ -120,12 +83,6 @@
     "Use the cross report drillthrough feature to examine performance across the report",
     "Run an R script to determine the performance issues in report elements"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 1
   },
   {
@@ -137,12 +94,6 @@
     "Q&A chart",
     "Key influencers chart",
     "Decomposition tree chart"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 2
   },
@@ -174,12 +125,6 @@
     "Append queries",
     "Merge queries as new"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 1
   },
   {
@@ -192,12 +137,6 @@
     "Add the custom visuals to the organizational store",
     "Build a separate Power BI service instance for the custom visual"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 2
   },
   {
@@ -209,12 +148,6 @@
     "Sentiment Analysis",
     "Key Phrase Extraction",
     "Word Sense Disambiguation"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 3
   },
@@ -247,13 +180,6 @@
     "Custom",
     "Tab-order friendly"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 4
   },
   {
@@ -265,12 +191,6 @@
     "Indicator: Sales Units This Year , Trend axis:  Fiscal Month , Target Goals: Sales Units Last year",
     "Indicator: Sales Units Last Year , Trend axis:  Fiscal Month , Target Goals: Sales Units This year",
     "Indicator: Sales Units This Year , Trend axis:  Fiscal Year , Target Goals: Sales Units Last year"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 1
   },
@@ -302,12 +222,6 @@
     "Create a scatter chart and add month to the play axis well",
     "Create a tree map and add month to the details well"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 2
   },
   {
@@ -338,12 +252,6 @@
     "On the report page, select embed in dashboard",
     "Create a hyperlink for the tiles and select embed in dashboard"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 1
   },
   {
@@ -355,12 +263,6 @@
     "VAR SalesLastMonth = CALCULATE([Sales Total], PARALLELPERIOD (‘Date‘[Date],-1,QUARTER)) VAR SalesPercentageChange = DIVIDE([Sales Total]-SalesLastMonth,SalesLastMonth) Return SalesPercentageChange",
     "VAR SalesLastMonth = CALCULATE([Sales Total], SAMEPERIODLASTYEAR (‘Date‘[Date]) ) VAR SalesPercentageChange = DIVIDE([Sales Total]-SalesLastMonth,SalesLastMonth) Return SalesPercentageChange",
     "VAR SalesLastMonth = CALCULATE([Sales Total],DATEADD(‘Date‘[Date],-1,MONTH)) VAR SalesPercentageChange = Sales Total-SalesLastMonth Return SalesPercentageChange"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 0
   },
@@ -375,13 +277,6 @@
     "Do not use tab or layer order",
     "Create a summary table in the source data grouped by weekly volumes"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 2
   },
   {
@@ -395,13 +290,6 @@
     "Create a new measure using the Count (distinct)  DAX function on the sales column",
     "In the chart values well, right click on sales and change the show value as to a percent of grand total"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 0
   },
   {
@@ -413,12 +301,6 @@
     "Create a blank report page -> Restart Power BI -> Click on SQL Server diagnostics -> Ineract with the visuals -> Press stop and review results",
     "Create a blank report page -> Restart Power BI -> Open performance analyzer and press start recording -> Ineract with the visuals -> Press stop and review results",
     "Restart Power BI -> Open query diagnostics and press start recording ->  Ineract with the visuals -> Press stop and review results"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 2
   },
@@ -433,12 +315,6 @@
     "You have measures in your dataset",
     "Your dataset is not statistically significant"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 1
   },
   {
@@ -450,12 +326,6 @@
     " In the tenant settings, enable email notification service for outages or incidents",
     "In the tenant settings, enable share content with external users",
     "Publish your dashboard to the web"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 2
   },
@@ -469,12 +339,6 @@
     "Dual / Import / DirectQuery",
     "Import / Import / DirectQuery"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 3
   },
   {
@@ -486,12 +350,6 @@
     " Add a video tile",
     "Add a text box tile",
     "Add a custom streaming data tile"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 1
   },
@@ -505,12 +363,6 @@
     "Connect to the data with DirectQuery",
     "Connect to the data with AI Insights"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 2
   },
   {
@@ -522,12 +374,6 @@
     "Column distribution",
     "Column profile",
     "Monospaced"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 2
   },
@@ -541,29 +387,17 @@
     "Subscribe to the dashboard",
     "Turn on notifications on your instance of Power BI Service"
   ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
-  ],
   "correct": 2
   },
   {
   "id": "q031",
-  "text": ["Multi = 1 & 2", "You have two tables named Invoice and Geo that are connected through an active relationship using the GeoID field. You need to be able to filter the data from both the Geo table and from the Invoice table. I.e. you need the Invoice table filtered by Geo and the Geo table filtered by Invoice type. You have configured row-level security (RLS) so that Geographic leaders can only see the invoices from their region. You are having difficulty getting RLS working for the relationship between the Geo and Invoices. Which TWO actions should you perform to resolve this issue?"],
+  "text": "Multi = 1 & 2 / You have two tables named Invoice and Geo that are connected through an active relationship using the GeoID field. You need to be able to filter the data from both the Geo table and from the Invoice table. I.e. you need the Invoice table filtered by Geo and the Geo table filtered by Invoice type. You have configured row-level security (RLS) so that Geographic leaders can only see the invoices from their region. You are having difficulty getting RLS working for the relationship between the Geo and Invoices. Which TWO actions should you perform to resolve this issue?",
   "images": [],
   "choices": [
     "In the relationship view, set the cross filter direction to Single",
     "In the relationship view, check apply security filter in both directions",
     "In the relationship view, set the cross filter direction to Both",
     "In the relationship view, uncheck make this relationship active"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 1
   },
@@ -576,12 +410,6 @@
     "Azure Data Lake Gen2",
     "Sharepoint",
     "Azure SQL Server"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 1
   },
@@ -605,19 +433,13 @@
   },
   {
   "id": "q034",
-  "text": ["Multi = 0 & 2", "You think that a decomposition tree may be useful for your analysis. What TWO things does a decomposition tree do?"],
+  "text": "Multi = 0 & 2 / You think that a decomposition tree may be useful for your analysis. What TWO things does a decomposition tree do?",
   "images": [],
   "choices": [
     "Conduct root cause analysis",
     "Segments that contribute to the selected metric value",
     "Visualize data across multiple dimensions",
     "Contrast the relative importance of factors"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 0
   },
@@ -630,12 +452,6 @@
     "By using the Group By feature",
     "By creating a new column with a table formula",
     "By using the Pivot Table feature"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 0
   },
@@ -662,11 +478,6 @@
     "B. Remove the Subject and Body columns during the import.",
     "C. Implement row-level security (RLS) so that the report recipients can only see results based on the emails they sent."
   ],
-  "ger_choices": [
-    "A. ",
-    "B. ",
-    "C. "
-  ],
   "correct": 1
   },
   {
@@ -678,12 +489,6 @@
     "Referencing works on external data sources, while duplicating does not.",
     "When you reference a query, any changes to the original query fail to reflect in the new query.",
     "Referencing uses the original query as the source and it can be used in other queries for the further processing"
-  ],
-  "ger_choices": [
-    "",
-    "",
-    "",
-    ""
   ],
   "correct": 3
   }
