@@ -366,7 +366,7 @@
   },
   {
   "id": "q021",
-  "text": ["Multi = 2 & 4", "You work for a cryptocurrency exchange as a BI analyst. You are tasked with creating a report for weekly trends across the asset ranges. Your source dataset has over 150 million rows. What two things can you do to optimize the report performance?"],
+  "text": "Multi = 2 & 4 / You work for a cryptocurrency exchange as a BI analyst. You are tasked with creating a report for weekly trends across the asset ranges. Your source dataset has over 150 million rows. What two things can you do to optimize the report performance?",
   "images": [],
   "choices": [
     "Use the Direct Query storage mode for the dataset",
@@ -386,7 +386,7 @@
   },
   {
   "id": "q022",
-  "text": ["Multi = 0 & 2", "You work for a bicycle manufacturer and you have created a bar chart with sales by category. Your boss wants to know the median sales, the 50th percentile of values in a column, rather than the total sales for each category. What are the two ways to achieve this goal?"],
+  "text": "Multi = 0 & 2 / You work for a bicycle manufacturer and you have created a bar chart with sales by category. Your boss wants to know the median sales, the 50th percentile of values in a column, rather than the total sales for each category. What are the two ways to achieve this goal?",
   "images": [],
   "choices": [
     "Create a new measure using the MEDIAN DAX function on the sales column",
@@ -424,7 +424,7 @@
   },
   {
   "id": "q024",
-  "text": ["Multi = 1, 2 & 4", "You have a dataset in Power BI Service, and you want to use Quick Insights to get some ideas for a dashboard. However, you notice that Quick Insights are not working. What are the three possible reasons why Quick Insights is not working?"],
+  "text": "Multi = 1, 2 & 4 / You have a dataset in Power BI Service, and you want to use Quick Insights to get some ideas for a dashboard. However, you notice that Quick Insights are not working. What are the three possible reasons why Quick Insights is not working?",
   "images": [],
   "choices": [
     "You have uploaded data to Power BI",
