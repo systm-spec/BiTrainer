@@ -1,0 +1,495 @@
+[
+    {
+        "id": "q001",
+        "text": "You have a Power BI report that contains multiple visuals, including a table and a bar chart. You want to apply the same visual style (e.g., font, color scheme) to all visuals in the report. What should you do?",
+        "images": [],
+        "choices": [
+            "Manually adjust the formatting settings for each visual individually.",
+            "Use a report template to apply the desired visual style to all visuals in the report.",
+            "Copy and paste the formatting from one visual to other visuals in the report.",
+            "Apply a theme to the report to automatically style all visuals based on predefined settings."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q002",
+        "text": "You have a SharePoint document library that contains Excel workbooks. The workbooks are updated daily with new data. You want to automate the process of importing the data from the Excel workbooks into Power BI. What should you do to achieve this?",
+        "images": [],
+        "choices": [
+            "Use Power Query to connect to the SharePoint document library and set up scheduled data refresh in Power BI.",
+            "Convert the Excel workbooks into Power BI datasets and set up scheduled refresh in the Power BI service.",
+            "Use Power Automate to trigger a refresh of the data in Power BI whenever a new file is added to the SharePoint document library.",
+            "Manually import the data from the Excel workbooks into Power BI whenever updates are made to the files."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q003",
+        "text": "You are building a Power BI report that requires data from a web-based API. However, you notice that there is no specific connector available for the API in the Get Data connector list. What should you do to retrieve data from the API into Power BI?",
+        "images": [],
+        "choices": [
+            "Use the Web connector to connect to the API and retrieve the data",
+            "Export the data from the API to a supported file format (e.g., JSON or CSV), and then use the corresponding connector to import the data into Power BI.",
+            "Create a custom connector using Power Query M language to connect to the API and retrieve the data.",
+            "Utilize Power Automate to fetch the data from the API and push it to a supported data source that can be connected to Power BI."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q004",
+        "text": "Your company has implemented a custom connector that retrieves employee attendance data, including check-in and check-out timestamps. You need to create a Power BI report that presents attendance trends without disclosing the specific timestamps to the report recipients. How can you accomplish this while maintaining data privacy?",
+        "images": [],
+        "choices": [
+            "Calculate and display average check-in and check-out times without revealing the individual timestamps.",
+            "Apply data aggregation techniques to summarize attendance data at different time intervals (e.g., daily, weekly) and present the aggregated trends in the report.",
+            "Implement dynamic data masking on the check-in and check-out timestamps to conceal the specific values while still showing attendance patterns.",
+            "Exclude the check-in and check-out timestamps from the report dataset and focus on visualizing attendance trends based on other relevant metrics, such as daily attendance count or absenteeism rate."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q005",
+        "text": "You are working on a Power BI project that requires connecting to an Oracle database. However, when you try to establish the connection, you notice that there is no specific Oracle connector available in the Get Data connector list. What should you do to connect Power BI to the Oracle database?",
+        "images": [],
+        "choices": [
+            "Use the ODBC connector to establish a connection to the Oracle database.",
+            "Install the Oracle client software on your machine and then select the Oracle connector from the Get Data connector list.",
+            "Export the data from the Oracle database to a supported file format (e.g., CSV or Excel), and then use the corresponding connector to import the data into Power BI.",
+            "Create a custom connector using Power Query M language to connect to the Oracle database."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q006",
+        "text": "You have a Microsoft Power BI report stored in an App workspace with shared capacity. The report utilizes an imported dataset that includes a large fact table with 12 million rows. Users have experienced sluggish performance when interacting with the report‘s visuals. What action should you suggest to enhance the report‘s performance?",
+        "images": [],
+        "choices": [
+            "Enable visual interactions to optimize the response time.",
+            "Refactor the DAX measures to utilize iterator functions for faster calculations.",
+            "Apply row-level security (RLS) to limit data access for improved performance.",
+            "Remove any unnecessary columns from the tables in the data model to reduce the file size."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q007",
+        "text": "You are building a Power BI report that includes data from multiple sources, including an on-premises SQL Server database and a cloud-based CRM system. The on-premises SQL Server database is behind a firewall and can only be accessed through a VPN connection. What should you do to ensure that the Power BI report can retrieve data from both sources?",
+        "images": [],
+        "choices": [
+            "Install and configure an on-premises data gateway to establish a secure connection between the Power BI service and the on-premises SQL Server database.",
+            "Export the data from the on-premises SQL Server database and import it into the cloud-based CRM system. Connect Power BI directly to the cloud-based CRM system to retrieve the combined data.",
+            "Use Power Automate to extract data from the on-premises SQL Server database and push it to a cloud-based data storage solution. Connect Power BI to the cloud-based data storage solution to retrieve the combined data.",
+            "Create a VPN connection from the Power BI service to the on-premises SQL Server database. Configure the Power BI report to use the VPN connection for data retrieval."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q008",
+        "text": "You have a Power BI report that includes a table visual displaying sales data. The sales data is grouped by region and includes the columns: Region, Salesperson, and SalesAmount. You want to add a calculated column to the table that calculates the percentage of each salesperson‘s sales amount out of the total sales amount for the region. Which DAX formula should you use?",
+        "images": [],
+        "choices": [
+            "Salesperson Sales Percentage = DIVIDE([SalesAmount], CALCULATE(SUM([SalesAmount]), ALLEXCEPT(Table1, [Region])))",
+            "Salesperson Sales Percentage = DIVIDE([SalesAmount], SUMX(FILTER(Table1, Table1[Region] = EARLIER(Table1[Region])), [SalesAmount]))",
+            "Salesperson Sales Percentage = DIVIDE([SalesAmount], SUMX(FILTER(ALL(Table1), Table1[Region] = EARLIER(Table1[Region])), [SalesAmount]))",
+            "Salesperson Sales Percentage = DIVIDE([SalesAmount], CALCULATE(SUM([SalesAmount]), Table1[Region] = EARLIER(Table1[Region])))"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q009",
+        "text": "You have a Power BI report that is experiencing slow performance when loading visuals. The report uses an imported dataset with a large fact table. What should you recommend to improve the performance of the report?",
+        "images": [],
+        "choices": [
+            "Implement query folding to optimize the data retrieval from the source.",
+            "Apply filters to reduce the amount of data loaded into the visuals.",
+            "Create summary tables or aggregates to pre-calculate and optimize the data.",
+            "Utilize Power BI performance analyzer to identify and optimize slow-performing visuals."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q010",
+        "text": "You have a Microsoft Power BI report that contains a large amount of data and multiple visuals. The report is taking a long time to load and users are experiencing performance issues. What should you do to improve the performance of the report?",
+        "images": [],
+        "choices": [
+            "Increase the shared capacity of the Power BI workspace.",
+            "Optimize the DAX calculations and formulas used in the report.",
+            "Reduce the number of visuals displayed on the report page.",
+            "Use direct query mode instead of importing the data."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q011",
+        "text": "MULTI 0,1,2 You have a Power BI report that includes a large dataset with multiple tables. The report is accessed by a large number of users concurrently, and they are experiencing slow performance when interacting with the visuals. What can you do to improve the performance of the report?",
+        "images": [],
+        "choices": [
+            "Implement query folding in Power Query Editor to optimize data retrieval from the dataset.",
+            "Enable query caching in the Power BI service to store and reuse query results for faster data access.",
+            "Optimize the data model by removing unnecessary relationships and calculations to reduce the complexity of the dataset.",
+            "Enable incremental refresh on the dataset to only load and update the data that has changed since the last refresh."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q012",
+        "text": "You are designing a Power BI report that displays sales data for different regions. The report includes a slicer that allows users to select a specific region. You want to display a visual that shows the sales trend over time for the selected region. Which visualization should you use?",
+        "images": [],
+        "choices": [
+            "Stacked area chart",
+            "Scatter plot",
+            "Line chart",
+            "Waterfall chart"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q013",
+        "text": "You have a Power BI report hosted on powerbi.com that displays expenses by department for department managers.The report contains a line chart that shows expenses by month.You need to enable users to choose between viewing the report as a line chart or a column chart. The solution must minimize development and maintenance effort.What should you do?",
+        "images": [],
+        "choices": [
+            "Enable report readers to personalize visuals.",
+            "Create a separate report page for users to view the column chart.",
+            "Add a column chart, a bookmark, and a button for users to choose a visual.",
+            "Create a mobile report that contains a column chart."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q014",
+        "text": "You have a report that contains a bar chart and a column chart. The bar chart shows customer count by customer segment. The column chart shows sales by month. You need to ensure that when a segment is selected in the bar chart, you see which portion of the total sales for the month belongs to the customer segment. How should the visual interactions be set on the column chart when the bar chart is selected?",
+        "images": [],
+        "choices": ["highlight", "filter", "no impact"],
+        "correct": 0
+    },
+    {
+        "id": "q015",
+        "text": "What is the best way to manage workspaces in Power BI?",
+        "images": [],
+        "choices": [
+            "Create a new workspace for each department",
+            "Use a single workspace for all departments",
+            "Use a single workspace for each report",
+            "Use a single workspace for each user"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q016",
+        "text": "How can you create a hierarchy in Power BI?",
+        "images": [],
+        "choices": [
+            "By dragging and dropping columns onto the hierarchy pane",
+            "By using the drill-down feature",
+            "By creating a new column with a hierarchy formula",
+            "By using the grouping feature"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q017",
+        "text": "MULTI 0,2 What is the difference between structured and unstructured data?",
+        "images": [],
+        "choices": [
+            "Structured data has a defined format",
+            "Unstructured data has a defined format",
+            "Structured data is easy to analyze",
+            "Unstructured data is easy to analyze"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q018",
+        "text": "You have a Power BI workspace that contains a dataset, a report, and a dashboard. The following groups have access:✑ External users can access the dashboard.✑ Managers can access the dashboard and a manager-specific report.✑ Employees can access the dashboard and a row-level security (RLS) constrained report.You need all users, including the external users, to be able to tag workspace administrators if they identify an issue with the dashboard. The solution must ensure that other users see the issues that were raised.What should you use?",
+        "images": [],
+        "choices": [
+            "comments",
+            "chat in Microsoft Teams",
+            "alerts",
+            "subscriptions"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q019",
+        "text": "You create a dashboard by using the Microsoft Power BI Service. The dashboard contains a card visual that shows total sales from the current year.You grant users access to the dashboard by using the Viewer role on the workspace.A user wants to receive daily notifications of the number shown on the card visual.You need to automate the notifications.What should you do?",
+        "images": [],
+        "choices": [
+            "Create a subscription.",
+            "Create a data alert.",
+            "Share the dashboard to the user.",
+            "Tag the user in a comment."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q020",
+        "text": "What is the purpose of a gateway in Power BI?",
+        "images": [],
+        "choices": [
+            "To connect on-premises data sources to Power BI",
+            "To create visualizations",
+            "To share data with other users",
+            "To manage data sources"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q021",
+        "text": "What is the purpose of a data model in Power BI?",
+        "images": [],
+        "choices": [
+            "To organize and structure data for analysis",
+            "To visualize data in a report",
+            "To create dashboards for end users",
+            "To import data from external sources"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q022",
+        "text": "In Power BI Desktop, you are building a sales report that contains two tables. Both tables have row-level security (RLS) configured. You need to create a relationship between the tables. The solution must ensure that bidirectional cross-filtering honors the RLS settings. What should you do?",
+        "images": [],
+        "choices": [
+            "Create an inactive relationship between the tables and select Apply security filter in both directions.",
+            "Create an active relationship between the tables and select Apply security filter in both directions.",
+            "Create an inactive relationship between the tables and select Assume referential integrity.",
+            "Create an active relationship between the tables and select Assume referential integrity."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q023",
+        "text": "Your company has employees in 10 states.The company recently decided to associate each state to one of the following three regions: East, West, and North.You have a data model that contains employee information by state. The model does NOT include region information.You have a report that shows the employees by state.You need to view the employees by region as quickly as possible.What should you do?",
+        "images": [],
+        "choices": [
+            "Create a new aggregation that summarizes by state.",
+            "Create a new aggregation that summarizes by employee.",
+            "Create a new group on the state column and set the Group type to List.",
+            "Create a new group on the state column and set the Group type to Bin."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q024",
+        "text": "MULTI 0,1 How can you create a measure in Power BI?",
+        "images": [],
+        "choices": [
+            "Use the Power BI Desktop",
+            "Use the Power BI Service",
+            "Use the Power BI Mobile App",
+            "Use Excel"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q025",
+        "text": "You want to show the distribution of customer ratings for a product. Which chart type would be best to use?",
+        "images": [],
+        "choices": ["Box plot", "Line chart", "Pie chart", "Scatter chart"],
+        "correct": 0
+    },
+    {
+        "id": "q026",
+        "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have a clustered bar chart that contains a measure named Salary as the value and a field named Employee as the axis. Salary is present in the data as a numerical amount representing US dollars.You need to create a reference line to show which employees are above the median salary.Solution: You create a constant line and set the value to .5.Does this meet the goal?",
+        "images": [],
+        "choices": ["Yes", "No"],
+        "correct": 1
+    },
+    {
+        "id": "q027",
+        "text": "You have a Power BI report that uses row-level security (RLS).You need to transfer RLS membership maintenance to an Azure network security team. The solution must NOT provide the Azure network security team with the ability to manage reports, datasets, or dashboards.What should you do?",
+        "images": [],
+        "choices": [
+            "Grant the Read and Build permissions for the Power BI datasets to the Azure network security team",
+            "Configure custom instructions for the Request access feature that instructs users to contact the Azure network security team.",
+            "Instruct the Azure network security team to create security groups. Configure RLS to use the groups.",
+            "Add the Azure network security team as members of the RLS role."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q028",
+        "text": "You have a Microsoft Excel file on a file server.You create a Power BI report and import a table from the Excel file.You publish the report.You need to ensure that the data refreshes every four hours.What should you do first?",
+        "images": [],
+        "choices": [
+            "Upload the Excel file to a Power BI workspace.",
+            "Create a subscription to the report.",
+            "Deploy an on-premises data gateway.",
+            "Edit the data source credentials."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q029",
+        "text": "In a project, you need to create a data model that can handle multiple languages. Which data type should you use for the language field?",
+        "images": [],
+        "choices": ["Text", "Choice", "Lookup", "Managed Metadata"],
+        "correct": 3
+    },
+    {
+        "id": "q030",
+        "text": "You import two Microsoft Excel tables named Customer and Address into Power Query. Customer contains the following columns:✑ Customer ID✑ Customer Name✑ Phone✑ Email Address✑ Address IDAddress contains the following columns:✑ Address ID✑ Address Line 1✑ Address Line 2✑ City✑ State/Region✑ Country✑ Postal CodeEach Customer ID represents a unique customer in the Customer table. Each Address ID represents a unique address in the Address table.You need to create a query that has one row per customer. Each row must contain City, State/Region, and Country for each customer.What should you do?",
+        "images": [],
+        "choices": [
+            "Merge the Customer and Address tables.",
+            "Group the Customer and Address tables by the Address ID column.",
+            "Transpose the Customer and Address tables.",
+            "Append the Customer and Address tables."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q031",
+        "text": "You are creating a Power BI report to analyze consumer purchasing patterns from a table named Transactions. The Transactions table contains a numeric field named Spend.You need to include a visual that identifies which fields have the greatest impact on Spend.Which type of visual should you use?",
+        "images": [],
+        "choices": [
+            "Q&A",
+            "smart narrative",
+            "decomposition tree",
+            "key influencers"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q032",
+        "text": "MULTI 0,1,2,3 How can you manage data sources in Power BI?",
+        "images": [],
+        "choices": [
+            "Add or remove data sources",
+            "Edit data source credentials",
+            "Refresh data sources",
+            "Share data sources with other users"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q033",
+        "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have five reports and two dashboards in a workspace.You need to grant all organizational users read access to one dashboard and three reports.Solution: You assign all the users the Viewer role to the workspace.Does this meet the goal?",
+        "images": [],
+        "choices": ["Yes", "No"],
+        "correct": 1
+    },
+    {
+        "id": "q034",
+        "text": "What is the purpose of the Power BI Mobile App?",
+        "images": [],
+        "choices": [
+            "To allow users to view and interact with Power BI reports on mobile devices",
+            "To allow users to create custom visuals",
+            "To allow users to share reports with others",
+            "To allow users to create dashboards"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q035",
+        "text": "How can you ensure data privacy and security during analysis?",
+        "images": [],
+        "choices": [
+            "Use encryption and access controls",
+            "Use data profiling tools",
+            "Use data visualization tools",
+            "Use data transformation tools"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q036",
+        "text": "What is the best way to handle large datasets for analysis?",
+        "images": [],
+        "choices": [
+            "Use distributed computing systems",
+            "Use data profiling tools",
+            "Use data visualization tools",
+            "Use data transformation tools"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q037",
+        "text": "You have a report that includes a card visualization.You need to apply the following conditional formatting to the card while minimizing design effort:✑ For values that are greater than or equal to 100, the font of the data label must be dark red.✑ For values that are less than 100, the font of the data label must be dark gray.Which type of format should you use?",
+        "images": [],
+        "choices": ["Color scale", "Rules", "Field value"],
+        "correct": 1
+    },
+    {
+        "id": "q038",
+        "text": "You need to create a data source that can be used by Power Apps. Which type of data source should you use if you need to store large amounts of data?",
+        "images": [],
+        "choices": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q039",
+        "text": "You want to show the comparison of sales performance between different sales representatives. Which chart type would be best to use?",
+        "images": [],
+        "choices": [
+            "Bar chart",
+            "Line chart",
+            "Scatter chart",
+            "Dual-axis chart"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q040",
+        "text": "MULTI 0,1,2 How can you create a dataflow in Power BI?",
+        "images": [],
+        "choices": [
+            "Connect to a data source",
+            "Import data from a file",
+            "Use Power Query to transform data",
+            "Delete a dataflow"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q041",
+        "text": "How can you create a relationship between two tables in Power BI?",
+        "images": [],
+        "choices": [
+            "Use the Manage Relationships dialog box",
+            "Use the Query Editor",
+            "Use the Data Model view",
+            "Use the Visualizations pane"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q042",
+        "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have a Power BI report that imports a date table and a sales table from an Azure SQL database data source. The sales table has the following date foreign keys: ✑ Due Date ✑ Order Date ✑ Delivery Date You need to support the analysis of sales over time based on all the date foreign keys. Solution: You create measures that use the USERELATIONSHIP DAX function to filter sales on the active relationship between the sales table and the date table. Does this meet the goal?",
+        "images": [],
+        "choices": ["Yes", "No"],
+        "correct": 0
+    },
+    {
+        "id": "q043",
+        "text": "MULTI 0,1,2 How can you identify outliers in a dataset?",
+        "images": [],
+        "choices": [
+            "Use box plots",
+            "Use scatter plots",
+            "Use histograms",
+            "Use bar charts"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q044",
+        "text": "You create a report by using Microsoft Power BI Desktop.The report uses data from a Microsoft SQL Server Analysis Services (SSAS) cube located on your company‘s internal network.You plan to publish the report to the Power BI Service.What should you implement to ensure that users who consume the report from the Power BI Service have the most up-to-date data from the cube?",
+        "images": [],
+        "choices": [
+            "an OData feed",
+            "an On-premises data gateway",
+            "a subscription",
+            "a scheduled refresh of the dataset"
+        ],
+        "correct": 3
+    }
+]
