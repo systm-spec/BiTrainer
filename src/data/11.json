@@ -1,0 +1,489 @@
+[
+    {
+        "id": "q001",
+        "text": "You create a Power Bl report for regional sales data. You write a measure to calculate the Percentage of Sales. The measure is calculating the percentages incorrectly as shown in the exhibit named Incorrect below. /Table1/ Incorrect You need to re-write the measure so that the percentage is correct for each country and region and the total percentage is 100 percent. The measure should calculate the percentages as shown in the below exhibit named Correct. /Table2/ Correct How should you re-write the measure? To answer, select the appropriate option from the drop-down menu.",
+        "images": ["q001_1.png", "q001_2.png"],
+        "choices": [
+            "Percentage of Sales = DIVIDE(SUM(RegionalSales[Sales]), CALCULATE(SUM(RegionaISaIes[Sales]), REMOVEFILTERS() ))",
+            "Percentage of Sales = DIVIDE(SUM(RegionalSales[Sales]), CALCULATE(SUM(RegionaISaIes[Sales]), ALL(RegionalSales[Country]) ))",
+            "Percentage of Sales = DIVIDE(SUM(RegionalSales[Sales]), CALCULATE(SUM(RegionaISaIes[Sales]), ALLSELECTED('RegionalSales'[Region]) ))"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q002",
+        "text": "Overview: Company1 Pharmaceuticals develops, manufactures, and supplies healthcare products. Company1 has annual reporting requirements including a balance sheet, income statement, and a profit and loss report for the previous year with projections tor the current year. The reporting within the financial system is limited and does not meet the Company’s requirements. Historically, producing these statements and reports has taken significant manual effort that was error-prone, and it has not been possible to perform useful analysis on financial data. Planned Changes: Power BI service and Power BI Desktop will be used to generate financial reports, statements, and analysis tor financial data. Data Sources: The finance system holds all financial data including sales and expenses. The finance system holds the chart of accounts. The finance system stores its data in an on-premises SQL Server. Sales prediction and budget plans are stored in Excel workbooks in SharePoint Online. Reporting Requirements: The following information should be produced: > Income trend > Expenditure trend > Comparison of income and expenditure for the current year with the previous year > Comparison of planned income and expenditure for next year with the current year. Users should also be able to: > Drill down on data by country and territory. > Drill down using the chart of accounts structure. > Use the Q&A feature of Power BI. Security Requirements: C level executives should have access to all analysis. Country and Territory managers should only have access to data for their country/territory. /4Tables/ Question: You have a visualization that shows the Budget amount by Account Number. You need to enable the drill down on the chart of account structure on the visualization. Are the four actions mentioned below should be performed in sequence to achieve the goal? Select Yes if true, otherwise select No. 1. Click on the Parent Account Number column and select New hierarchy. 2. Click on the Account Number column and select Add to hierarchy. 3. In the visualization, replace the Account Number with the new hierarchy 4. Enable drill down on the visualization.",
+        "images": ["q002_1.png", "q002_2.png", "q002_3.png", "q002_4.png"],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q003",
+        "text": "You work for a retail organization that uses Power Bl. The schema for the tables is shown in the below exhibits. /2Tables/ The Customer table contains the names and IDs of the customers. The Product table contains the ids and names of the products. When a customer purchases from the retail establishment, a record in the Basket table is created to link the Customer to that purchase. The Products added to their Basket are stored in the Basket Items table. You need to find the number of customers who purchased the same set of products. You add a slicer for Product Name to your report to choose the set of products. How should you create the measure to count the number of customers who purchased the products selected? To answer, select the appropriate option.",
+        "images": ["q003_1.png", "q003_2.png"],
+        "choices": [
+            "ProductsSelected = COUNT('Product'[ProductID]) PurchasedSelected = IF(COUNT('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = SUM(VALUES(Customer[CustomerID]), [PurchasedSelected])",
+            "ProductsSelected = COUNTX('Product'[ProductID]) PurchasedSelected = SUM(COUNTX('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = SUM(VALUES(Customer[CustomerID]), [PurchasedSelected])",
+            "ProductsSelected = DISTINCTCOUNT('Product'[ProductID]) PurchasedSelected = IF(DISTINCTCOUNT('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = SUMX(VALUES(Customer[CustomerID]), [PurchasedSelected])",
+            "ProductsSelected = COUNTX('Product'[ProductID]) PurchasedSelected = SUMX(COUNTX('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = IF(VALUES(Customer[CustomerID]), [PurchasedSelected])"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q004",
+        "text": "You import a table into Power BI. The schema is shown in the below exhibit. /Table1/ You need to configure the columns in the table.Which Summarize option should you recommend for aggregating the columns for use in visualizations? /Table2/",
+        "images": ["q004_1.png", "q004_2.png"],
+        "choices": [
+            "Amount: Sum Order Number: Average DateKey: Count",
+            "Amount: Sum Order Number: Count DateKey: None",
+            "Amount: Sum Order Number: Sum DateKey: Average",
+            "Amount: None Order Number: Count DateKey: Average"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q005",
+        "text": "You create a data model and report in Power Bl desktop. The data model contains multiple tables, many relationships, and a set of measures. Users report poor performance when using your report. How can you identify the source of the performance issues?",
+        "images": [],
+        "choices": [
+            "use the Performance analyzer.",
+            "use the ALM Toolkit.",
+            "use the Tabular Editor.",
+            "use the DAX Studio tool."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q006",
+        "text": "You create reports using the data model shown in the below exhibit. /Table/ You have the following measure that is performing poorly The measure calculates the change in sales each year. SalesChangeYoY = IF(SUM(Sales[Amount]), DIVIDE([SumofSales] – CALCULATE([SumofSales], SAMEPERIODLASTYEAR(Sales[Date])), CALCULATE([SumofSales], SAMEPERIODLASTYEAR(Sales[Date])))) You need to improve the performance of the measure. What should you do?",
+        "images": ["q006.png"],
+        "choices": [
+            "Change the cardinality of both relationships to many-to-many",
+            "Create a calculated column containing the sales amount for the previous year",
+            "Change the cross filter directions on both relationships to Both",
+            "Rewrite the measures using DAX variables"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q007",
+        "text": "Multi = 1 & 3 / You have a table named Sales. You need to create a measure that calculates sales from the previous year based on a dynamic period, as shown in the below exhibit. /Table/ Which two DAX expressions can you use to achieve your goal? Each correct answer presents a complete solution.",
+        "images": ["q007.png"],
+        "choices": [
+            "_PY Sales = CALCULATE(SUM(Sales[Sales]), DATEADD('Calendar'[Date].[Date], -1, MONTH))",
+            "_PY Sales = CALCULATE(SUM(Sales[Sales]), DATEADD('Calendar'[Date].[Date], -1, YEAR))",
+            "_PY Sales = CALCULATE(SUM(Sales[Sales]), PARALLELPERIOD('Calendar'[Date], -1, YEAR))",
+            "_PY Sales = CALCULATE(SUM(Sales[Sales]), SAMEPERIODLASTYEAR('Calendar'[Date]))"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q008",
+        "text": "Multi = 1 & 3 / You have a Product table and a Sales table that are connected through a one-to-many relationship using the ProductName column, as shown in the exhibit. /Table/ You need to optimize model performance. Which two actions should you perform? Each correct answer presents part of the solution.",
+        "images": ["q008.png"],
+        "choices": [
+            "Create a new one-to-many relationship between the Sales and Product tables using the ProductlD column.",
+            "Create a new one-to-many relationship between the Product and Sales tables using the ProductlD column.",
+            "Change the data type of the ProductName column from text to whole number in the Product table.",
+            "Remove the existing relationship based on the ProductName column between the Product and Sales tables."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q009",
+        "text": "You load sales data into Power BI. Your organization uses many different terms for sales data such as revenue, net sales, and total sales. You need to configure the Sales table and its columns for users to successfully use the Q&A feature in Dashboards. Solution: Mark the Sales table as the date table. Does this solution meet the goal?",
+        "images": [],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q010",
+        "text": "You create a report to help sales users understand their data. You need to use the appropriate type of visualization for each of the requirements of the sales team. Which visualizations should you use for each requirement stated below: Identify outliers in customers with sales opportunities.",
+        "images": [],
+        "choices": [
+            "Scatter",
+            "Waterfall",
+            "Treemap",
+            "Card",
+            "Key influencers",
+            "KPI"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q011",
+        "text": "You create multiple Power Bl dashboards. You define the data classifications and tags. You need to show users how the data in the dashboards is classified. For each of the following statements, select Yes if the statement is true. Otherwise, select No. 1. Data classifications are defined at the tenant level. 2. Access to dashboards with data classification configured is controlled by Azure Active Directory (AD) security groups. 3. The data classification for a dashboard is always displayed.",
+        "images": [],
+        "choices": [
+            "1. Yes 2. No 3. No",
+            "1. Yes 2. Yes 3. Yes",
+            "1. No 2. No 3. Yes",
+            "1. Yes 2. No 3. Yes",
+            "1. No 2. Yes 3. Yes",
+            "1. No 2. No 3. No"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q012",
+        "text": "Multi = 3 & 4 / You create the stacked column chart shown in the below exhibit. /Table/ When you hover over a data point in the visual you need to also show the value of goods sold, Total sales. What are two possible ways to achieve this goal? Each correct answer presents a complete solution.",
+        "images": ["q012.png"],
+        "choices": [
+            "Enable Total labels on the visual",
+            "Add Total sales to Drill through on the visual",
+            "Enable Data labels on the visual",
+            "Add Total sales to Tooltips on the visual",
+            "Create a report tooltip page with a card visual for Total sales"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q013",
+        "text": "You have Power Bl Premium with assigned capacity. You have a dataset containing employee key performance indicators (KPls). You create a Power Bl report with a visual that shows employees with low scoring KPls. You pin the visual to a dashboard and share the dashboard with users in Human Resources (HR). HR users need to be able to generate a list of employees to investigate for poor performance and import that list into their HR system. What should you do?",
+        "images": [],
+        "choices": [
+            "Configure Cloud App Security.",
+            "Grant HR users the Reshare permission on the dataset.",
+            "Grant HR users Build permission on the dataset.",
+            "Apply a sensitivity label in the dashboard settings."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q014",
+        "text": "What happens when you click on Focus mode of a tile in Power Bl dashboard?",
+        "images": [],
+        "choices": [
+            "The tile you selected expands and takes the full space",
+            "The Power Bl desktop file opens.",
+            "The Power Bl desktop file gets downloaded",
+            "The report from which the tile was pinned opens."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q015",
+        "text": "You create a report to help sales users understand their data. You need to use the appropriate type of visualization for each of the requirements of the sales team. Which visualizations should you use for each requirement stated below: Show the factors that affect the outcome of sales opportunities.",
+        "images": [],
+        "choices": [
+            "Waterfall",
+            "Treemap",
+            "KPI",
+            "Key influencers",
+            "Scatter",
+            "Card"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q016",
+        "text": "You create a Power Bl report containing a corrplot R visual for a dataset that has 1 million rows of sales data. You publish the report to the Power Bl service. Users can only see some of the sales data and an error is displayed. You need to identify the root cause of this issue. What is preventing all the data from be displayed?",
+        "images": [],
+        "choices": [
+            "The visual has too many rows.",
+            "The data rows are unique.",
+            "The report has been published in an app.",
+            "Corrplot is not supported in Powerbi.com."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q017",
+        "text": "You create several Power Bl report pages. You need to make the report pages more interactive for users. To answer, drag the appropriate Power Bl feature for the stated requirement. “Create a view of a report page with the filters applied”",
+        "images": [],
+        "choices": [
+            "Bookmarks",
+            "Buttons",
+            "Comments",
+            "Selection pane"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q018",
+        "text": "Multi = 2 & 3 / You work for a multinational company as a data analyst. You create a Power Bl report for your company. The report has three pages containing visualizations of sales data. You need to filter the visuals for all three report pages whenever a country is selected. What are two possible ways to achieve this goal? Each correct answer presents a complete solution.",
+        "images": [],
+        "choices": [
+            "Create a bookmark for each page and for each country.",
+            "Add a page level filter to each of the three pages using Country as the data field.",
+            "Add a report level filter using Country as the data field.",
+            "Add a slicer to each of the three pages with Country as the field and configure Sync slicers.",
+            "Create a visual for Country and set the interaction behavior for each of the other visuals"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q019",
+        "text": "Multi = 0, 3, 4, 5 / You have a matrix visual that shows Sales % and Sales by Product Line as shown in the exhibit. /Table1/ The Sales % measure shows as a percentage the contribution of sales in that product line for overall sales. You need to add a background color to the Sales measure as follows: When the Sales % contribution is >= 15 and <=17 percent, highlight it in light yellow. What should you do to configure conditional formatting? To answer, select the appropriate options for each of the blank field. /Table2/ ",
+        "images": ["q019_1.png", "q019_2.png"],
+        "choices": [
+            "is greater than or equal to 0.15 Number",
+            "Based on field > Sales",
+            "Format by > Color Scale",
+            "Based on field > Sales %",
+            "Format by > Rules",
+            "is less than or equal to 0.17 Number"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q020",
+        "text": "You create a Power Bl report for your company. The report has four pages containing visualization of financial data. Page 1 contains visualizations that show income and expenditure. Page 2 contains visualizations that analyze Accounts Payable. Page 3 contains visualizations on Accounts Receivable. Page 4 contains visualizations on Fixed Assets. You add a fifth page, home page. How should you configure the home page to allow users to navigate to the report pages? Solution: • Create a bookmark for each report page. • Add four buttons to the home page and set action type to Bookmark. • On each button, select the bookmark for the page. Does this solution meet the goal?",
+        "images": [],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q021",
+        "text": "You create a report to help sales users understand their data. You need to use the appropriate type of visualization for each of the requirements of the sales team. Which visualizations should you use for each requirement stated below: Show progress of sales opportunities won against target.",
+        "images": [],
+        "choices": [
+            "Scatter",
+            "Key influencers",
+            "Card",
+            "KPI",
+            "Waterfall",
+            "Treemap"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q022",
+        "text": "Multi = 1 & 3 / You have a dashboard in Power Bl that has visuals created from data in the Common Data Service. The dashboard contains a KPI visual. You need to automate the notification of alerts when the KPI value exceeds a threshold. Which two options are available when configuring an alert in Power Bl service? Each correct answer presents a complete solution.",
+        "images": [],
+        "choices": [
+            "Push a notification to a mobile device",
+            "Send an email",
+            "Call a webhook",
+            "Run a Power Automate flow"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q023",
+        "text": "Multi = 1, 2, 3 / Which fields are available when creating a Pie chart visualization?",
+        "images": [],
+        "choices": [
+            "Group",
+            "Value",
+            "Details",
+            "Legend"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q024",
+        "text": "You create a Power Bl report for your company. The report has four pages containing visualization of financial data. Page 1 contains visualizations that show income and expenditure. Page 2 contains visualizations that analyze Accounts Payable. Page 3 contains visualizations on Accounts Receivable. Page 4 contains visualizations on Fixed Assets. You add a fifth page, home page. How should you configure the home page to allow users to navigate to the report pages? Solution: • Add four images to the home page and set action type to Page navigation. • Select the destination page for each image. Does this solution meet the goal?",
+        "images": [],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q025",
+        "text": "You create a report in Power Bl. You need to configure the page for use with screen reader software for partially sighted users. What should you configure on the report page so that the screen reader follows a logical sequence?",
+        "images": [],
+        "choices": [
+            "Tab order",
+            "Focus mode",
+            "Layer order",
+            "Bookmark groups"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q026",
+        "text": "Multi = 0, 2, 3 / Which properties of a tile can be edited in the Power Bl dashboard from the Tile details window? Choose the correct answers.",
+        "images": [],
+        "choices": [
+            "Subtitle",
+            "Color scheme",
+            "Title",
+            "Destination link"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q027",
+        "text": "By default, which filter level behaves the same as a slicer in a report in Power BI Desktop?",
+        "images": [],
+        "choices": [
+            "Report level filter",
+            "Visual level filter",
+            "Page level filter",
+            "Query level filter"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q028",
+        "text": "You create a Power Bl report. You need to improve report navigation. Which options should you use for the stated task? “Preserve visual selection of a specific report page”",
+        "images": [],
+        "choices": [
+            "Button",
+            "Bookmarks"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q029",
+        "text": "You create a dashboard in Power Bl with several visuals. You need to explain how the dashboard will appear on a mobile device using the Power Bl app. For each of the following statements, select Yes if the statement is true. Otherwise, select No. 1. By default, in the Power Bl mobile, all tiles on a dashboard appear with the same size in a vertical list. 2. Enabling Dashboard tile flow causes the tiles to be displayed on a mobile device as they are on a web browser. 3. Creating a Phone view of a dashboard, allows you to resize and rearrange the visuals for the Power Bl mobile app.",
+        "images": [],
+        "choices": [
+            "1. No 2. Yes 3. Yes",
+            "1. Yes 2. Yes 3. No",
+            "1. Yes 2. No 3. Yes",
+            "1. No 2. No 3. Yes",
+            "1. Yes 2. Yes 3. Yes",
+            "1. No 2. No 3. No"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q030",
+        "text": "Multi = 2, 3, 4, 5 / You have a report page named Sales which contains visual A, showing total sales for each city for the selected year, as shown in the below exhibit. /Table/ You need to configure an interaction for this visual. When clicking Drill through, it should redirect to a detail page that shows Sales for the selected city by Product Line and will preserve all the filters from the Sales page. Which four actions should you perform? Each correct answer presents part of the solution.",
+        "images": ["q030.png"],
+        "choices": [
+            "On the Sales page, under the drill through option, set Keep all filters to On.",
+            "On the Sales page, under the drill through option, add City column as the drill through field.",
+            "Create a new page named Detail.",
+            "On the Detail page, under the drill through option, set Keep all filters to On.",
+            "Create a table visual named Visual B to show total sales by city and product line.",
+            "On the Detail page, under the drill through option, add City column as the drill through field."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q031",
+        "text": "Multi = 0, 1, 3 / You need to configure data alerts for a dashboard. Which three visuals can be configured for data alerts? Each correct answer presents a complete solution.",
+        "images": [],
+        "choices": [
+            "Gauge visual",
+            "KPI visual",
+            "Matrix visual",
+            " Card visual",
+            "Line visual"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q032",
+        "text": "wordYou create a report page in Power BI. You need to create a dashboard that will be simultaneously updated whenever the report page is updated. What should you do?",
+        "images": [],
+        "choices": [
+            "Pin the report to a new dashboard as a live page.",
+            "Enable Persistent filters in report settings.",
+            "Create a new dashboard and pin each of the visuals from the report page as individual tiles.",
+            "Enable Dashboard tile flow in dashboard settings."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q033",
+        "text": "You create a Power Bl report to help users understand their data. You need to use the appropriate type of visualization for each of the requirements. Which visualizations should you use for the below-stated requirement? “Use scikit learn machine learning in visuals”",
+        "images": [],
+        "choices": [
+            "Python",
+            "R",
+            "Power Apps",
+            "D3"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q034",
+        "text": "What is the file format used to define a theme for a Power Bl report?",
+        "images": [],
+        "choices": [
+            "Power BI Markup Language (PBIML)",
+            "Cascading Style Sheets (CCS)",
+            "JavaScript Object Notation (JSON)",
+            "Extensible Markup Language (XML)"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q035",
+        "text": "You create a Power Bl report to help users understand their data. You need to use the appropriate type of visualization for each of the requirements. Which visualizations should you use for the below-stated requirement? “Use JavaScript to create visuals”",
+        "images": [],
+        "choices": [
+            "Power Apps",
+            "Python",
+            "D3",
+            "R"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q036",
+        "text": "You create a report in Power Bl Desktop containing many visualizations. You need to apply the fonts and colors to match your corporate standards. What should you do?",
+        "images": [],
+        "choices": [
+            "Customize the theme.",
+            "Set the Data colors on each visualization.",
+            "Set the font family on the page display settings.",
+            "Change the font on each visualization."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q037",
+        "text": "Multi = 0, 2, 3, 5 / You have a dashboard tile that shows the manufacturing effciency using a card visual. The manufacturing effciency measure is formatted as a percentage. Your company requires a notification to be sent when effciency drops below 70 percent. You need to configure email alerts to meet this requirement. Which four actions should you perform? Each correct answer presents part of the solution.",
+        "images": [],
+        "choices": [
+            "Check the Send me email too checkbox and click Save and close.",
+            "Click the Save and close button.",
+            "Click the + Add alert rule button.",
+            "Choose Below in the Condition field and set the Threshold value to 0.7.",
+            "Choose Below in the Condition field and set the Threshold value to 70.",
+            "Choose More options on the Manufacturing efficiency card visual and click on Manage alerts."
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q038",
+        "text": "wordYou work on the new filter pane experience for a Power Bl report. What can you achieve by using the new filter pane experience? For each of the following statements, select Yes if the statement is true. Otherwise, select No. 1. Hide specific filters from report consumers. 2. Lock specific filters so report consumers cannot edit them. 3. Disable the search for the Filters pane.",
+        "images": [],
+        "choices": [
+            "1. Yes 2. Yes 3. No",
+            "1. No 2. No 3. No",
+            "1. Yes 2. No 3. No",
+            "1. Yes 2. Yes 3. Yes",
+            "1. No 2. Yes 3. No",
+            "1. No 2. Yes 3. Yes"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q039",
+        "text": "Months are sorted alphabetically in Stacked bar chart. What can you do to sort it by month number?",
+        "images": [],
+        "choices": [
+            "Right Click on field in report view and select sort by, then select MonthNumber",
+            "Click on ellipses on Right Top Corner of visual > Sort by - MonthNumber",
+            "Modeling > Select Month Column > Sort By - MonthNumber"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q040",
+        "text": "Using the bookmarking features in the report designer in Power BI Desktop, there is a limitation of creating only one bookmark per page in a report. Is this statement correct?",
+        "images": [],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "correct": 0
+    }
+]
