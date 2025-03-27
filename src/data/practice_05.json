@@ -1,0 +1,223 @@
+[{
+"id": "q001",
+"text": "You have the below relationship between sales, product and employees. The employees table is joined to the product table by category, and the product table is joined to the sales table by ProductKey. Your boss asks you to build a visual for each Managers sales by Subcategory.\nWhat do you need to configure to solve that problem?",
+"images": ["Q001.webp"],
+"choices": ["Create a hierarchy in the product table for subcategory", "In the employees table, change EmployeeID to type text", "Set the cross-filter between product and employees to both", "In the Model view, change the product tables toggle is hidden to True"],
+"correct": 2
+}, {
+"id": "q002",
+"text": "You work as a Power BI professional within your company's HR group. The report you created for retention analysis worked fine in the development environment, but when deployed has performance issues.\nSolution: Hide columns and tables from the data model not used in reports\nDoes this solution meet the goal?",
+"images": ["Q002.webp"],
+"choices": ["Yes", "No"],
+"correct": 1
+}, {
+"id": "q003",
+"text": "MULTI 0, 2, 3 You find an interesting visualization using the Python programming language that you want to run in Power BI.\nWhat are the three steps required before you can use Python in Power BI?",
+"images": [""],
+"choices": ["Install Python on your local machine", "Enable R scripting", "Install the libraries matplotlib and pandas", "Enable Python scripting"," Install the libraries seaborn and keras"],
+"correct": 0
+}, {
+"id": "q004",
+"text": "Your boss has scrolled through the Theme Gallery on the website https://community.powerbi.com/.\nShe asks you to use a particular theme for your companys report in Power BI Service.\nHow do you incorporate the theme in your report?",
+"images": [""],
+"choices": [" Download the JSON file and in Custom Dashboard theme > Upload JSON theme", "Download the CSS file and in Custom Dashboard theme > Upload CSS theme", "Download the PNG file and right-click on a tile > Upload PNG theme", "Download the PDF file and right-click on the dashboard > Upload PDF theme"],
+"correct": 0
+}, {
+"id": "q005",
+"text": "You have a data set that shows employees and their bosses, as per the exhibit below. There is a field for each Employee called Employee_Name and a field for their boss Parent_Employee_Name.\nHow would you create the Employee_Hierarchy column with a delimited hierarchy list in DAX?",
+"images": ["Q005.webp"],
+"choices": ["PATHITEM(employees[Employee_Name], employees[Parent_Employee_Name])", "RELATED(employees[Parent_Employee_Name], employees[Employee_Name])", "CONCATENATE(employees[Parent_Employee_Name], employees[Employee_Name])", "PATH(employees[Employee_Name], employees[Parent_Employee_Name])"],
+"correct": 3
+}, {
+"id": "q006",
+"text": "You work for a consulting company that has a contract with a large government department. Part of the requirements for the report is to configure the page for use with a screen reader for sight-impaired users.\nWhat should you configure in your report such that the page follows a logical sequence?",
+"images": [""],
+"choices": ["Bookmarks", "Tab order", "Filters on all pages", "Layer order"],
+"correct": 1
+}, {
+"id": "q007",
+"text": "You work at a sports betting company and have a table with US soccer scores and a second table with betting odds. Both tables share a common key called GameID. Your boss asks you to create a new combined table.\nWhich transform should you use to create the dataset?",
+"images": [""],
+"choices": ["Append queries as new", "Append queries", "Merge queries as new", "Merge queries"],
+"correct": 2
+}, {
+"id": "q008",
+"text": "You work for a transportation company that uses Azure IoT devices to monitor the temperature within containers. The head of Supply Chain has asked you to create a dashboard for the streaming data from the IoT devices and you need to configure Power BI appropriately.\nFor each of the following statements, select  Yes is the statement is true. Otherwise, select No.",
+"images": ["Q008.webp"],
+"choices": ["No / Yes / No", "Yes / Yes / No", "No / No / Yes", "No / No / No"],
+"correct": 0
+}, {
+"id": "q009",
+"text": "You are part of a planning team and are investigating the forecast accuracy across multiple plants, various products and a series of demand types (e.g. stable, seasonal, growing etc.) You use Power BI and know that there is a visual that can help you with the root cause of low forecast accuracy.\nWhich visual should you choose?",
+"images": [""],
+"choices": ["Waterfall", "Treemap", "Key influencers", "Decomposition tree"],
+"correct": 3
+}, {
+"id": "q010",
+"text": "You work for a baseball hat retailer and you need to create a table of the top 3 team names by the total number of transactions. You have a table called Hat Sales and another for Team.\nSelect the proper DAX functions to correctly complete the formula by replacing the [VALUE] field:\nTop Hat Sales = [VALUE] ( 3,\n[VALUE] ( HatSales, HatTeams[Team Name], “Transactions“, COUNT(HatSales[TransactionID])\n), [Transactions],DESC)",
+"images": ["Q0010.webp"],
+"choices": ["RANKX - CALCULATE", "TOPN - CALCULATE", "FILTER - SUMMARIZE", "TOPN SUMMARIZE"],
+"correct": 3
+}, {
+"id": "q011",
+"text": "You work for a shoe distribution company and your firm uses Power BI for reporting. One of the reports you have created is exported as a PDF so the warehouse staff can check off items on a hard copy. Your company, however, has a policy that all exported reports need to be encrypted.\nHow can you meet this requirement?",
+"images": [""],
+"choices": ["Use Row Level Security (RLS)", "Set the PDF options in the tenant settings", "Configure the dataset build permission security options", "Use sensitivity labels"],
+"correct": 3
+}, {
+"id": "q012",
+"text": "You work for a share trading software company and have a dashboard for user trading times. The data set used for the analysis goes back seven years.\nWhen the data reloads, it takes excessive time as the full seven years are refreshed.\nHow can you improve the dataset performance?",
+"images": [""],
+"choices": ["Use an on-premises data gateway", "Configure incremental refresh in Power BI Desktop and enable it in Power BI service", "Enable incremental refresh directly in Power BI service", "Manually refresh the database when users are not active"],
+"correct": 1
+}, {
+"id": "q013",
+"text": "MULTI 1,4 You have one report page with multiple visuals that is running slow, leading to complaints from users.\nWhat TWO solutions will help optimize your visuals?",
+"images": [""],
+"choices": ["Don't use multiple colors on bar charts", "Apply filters to reduce the max number of items that a visual displays", "Replace the default visuals with custom visuals", "Limit the use of bar charts", "Limit the number of visuals on a particular report page to only what is necessary"],
+"correct": 1
+}, {
+"id": "q014",
+"text": "You are asked to create a category percentage measure that will reflect the values selected when using a slicer. In the output below, you will see that the Bikes category is not selected in the slicer and the category percentage reflects the current filter context. All category percentage values add to 100% of the filter context.\nYou are given a measure that sums the sales called Sales Total.\nHow would you create a category percentage measure in DAX?",
+"images": ["Q0014.webp"],
+"choices": ["VAR categoryTotal = CALCULATE([Sales Total],ALL(‘product‘[Category]))\nVAR categoryPercentage = DIVIDE([Sales Total],categoryTotal)\nRETURN categoryPercentage", "VAR categoryTotal = [Sales Total]\nVAR categoryPercentage = DIVIDE([Sales Total],categoryTotal)\nRETURN categoryPercentage", "VAR categoryTotal = CALCULATE([Sales Total],ALLSELECTED(‘product‘[Category]))\nVAR categoryPercentage = DIVIDE([Sales Total],categoryTotal)\nRETURN categoryPercentage", "VAR categoryTotal = CALCULATE([Sales Total],REMOVEFILTERS(‘product‘[Category]))\nVAR categoryPercentage = DIVIDE([Sales Total],categoryTotal)\nRETURN categoryPercentage"],
+"correct": 2
+}, {
+"id": "q015",
+"text": "You work in the spare parts department of an oil and gas company as a BI expert. The company has hundreds of parts, ten years of historic data, and hundreds of different order sizes from suppliers. You create a report in Power BI with aggregations for the following visuals:\n· A column chart of parts on the axis, but there are too many products showing\n· A stacked column chart of month number and order type, but too many months show\n· A histogram of supplier order sizes, but there are too many order sizes\nYou need to combine the data to make the visual more readable.\nHow should you combine the data? Select the GROUPING TYPE for each of the THREE solutions below from top to bottom.\n1. Combined the product into categories of product\n2. Combine the columns into 3 month number blocks\n3. Combine order sizes into 8 groups",
+"images": [""],
+"choices": ["LIST / BIN / LIST", "LIST / BIN / BIN", "BIN / LIST / LIST", "BIN / LIST / BIN"],
+"correct": 1
+}, {
+"id": "q016",
+"text": "MULTI 1,2 You want to use insights in Power BI Desktop to understand the increase from one quarter to the next in your sales column chart. Normally you would right-click the appropriate column and click on Analyze > Explain increase. However, this time insights does not appear to be available.\nWhat are TWO possible reasons insights is not working?",
+"images": [""],
+"choices": ["You use hierarchies", "You use TOPN filters", "You have filtered measures", "You use a stacked column chart"],
+"correct": 1
+}, {
+"id": "q017",
+"text": "You work for an aerospace company in their satellite division. You build a workspace called satellite apps in Power BI service that contains several reports and management level apps. You have a new analyst come on board and need to allow them to edit and publish reports.\nHow would you achieve this goal?",
+"images": [""],
+"choices": ["Configure the security group from Azure Active Directory", "Add the user as a member in the role section of the satellite apps workspace", "In Power BI Desktop set Row Level Security (RLS)", "Within the satellite apps workspace, select update app"],
+"correct": 1
+}, {
+"id": "q018",
+"text": "You have a line chart that shows units manufactured by month. You want to add the on-time delivery metric for each month when you hover the mouse over a data point.\nHow would you provide the additional piece of data?",
+"images": [""],
+"choices": ["Add on-time delivery to the drillthrough fields", "Add the on-time delivery column to the secondary values field", "Add on-time delivery column to the tooltips field", "Add the on-time delivery column to the small multiples field"],
+"correct": 2
+}, {
+"id": "q019",
+"text": "You create a Power BI report with a line chart as per the below exhibit.\nHow do you add the dotted horizontal line for the mean values?",
+"images": ["Q0019.webp"],
+"choices": ["Add a fixed forecast line for the time series in the analytics pane", "Add an Average line for Sales Total in the analytics pane", "Add a trend line across years in the analytics pane", "Add a min line in the analytics pane"],
+"correct": 1
+}, {
+"id": "q020",
+"text": "You have built several DAX measures. A senior Power BI member of your team asks you to improve the performance and readability of the below DAX expression?\nHow would you achieve this goal?\nAnnual Sales Growth % =\nDIVIDE(\n([Sales] – CALCULATE([Sales], PARALLELPERIOD(‘Date‘[Date], -12, MONTH))),\nCALCULATE([Sales], PARALLELPERIOD(‘Date‘[Date], -12, MONTH))\n)",
+"images": [""],
+"choices": ["Replace DIVIDE with a simple divide calculation using the symbol", "Instead of PARALLELPERIOD(), use DATEADD()", "Mark date table as date", "Use VARIABLES and a RETURN statement"],
+"correct": 3
+}, {
+"id": "q021",
+"text": "You work for an eCommerce company that sells ergonomic office products. You are tasked with creating a Power BI report from your company's transactional sales data in a table called ergoSales. Before you do anything with the data, you want to check that there are no negative amounts in the ergoSales [quantity] field.\nWhat is the most efficient way to check your data for negatives before creating the data model?",
+"images": [""],
+"choices": ["Select Column profile and then click on ergoSales [quantity]", "Select Column quality and then click on ergoSales [quantity]", "Click on ergoSales [quantity] and select replace values", "Create a custom column using a conditional statement to filter negatives out"],
+"correct": 0
+}, {
+"id": "q022",
+"text": "You are the head of analytics for a software company, and you want to understand the importance of factors that drive sales in your pre-sales team.\nWhat visual in Power BI can help you achieve your goal?",
+"images": [""],
+"choices": ["Custom R Dumbell Plot", "Q&A", "Decomposition Tree", "Key Influencers"],
+"correct": 3
+}, {
+"id": "q023",
+"text": "MULTI 0, 2, 3, 4  You have a busy report page called Sales and decide to use a detailed chart in a separate page using the drill through feature. The Sales page shows a visual of total sales by month.\nWhen you click on drill through on the sales by month chart, it should redirect to a detail page called Sales Detail that shows sales for the selected month by category. The Sales Detail page should also preserve the filters from the original sales page.\nWhat FOUR actions should you perform?",
+"images": [""],
+"choices": ["On the Sales Detail page, under drill through option add month as the drill through field", "On the Sales page, under drill through option add month as the drill through field", "Create a new page called Sales Detail", "On the Sales Detail page under Drill through, toggle Keep all filters on", "Create a table visual to show total sales by month and category", "On the Sales page under Drill through, toggle Keep all filters on"],
+"correct": 0
+}, {
+"id": "q024",
+"text": "You are asked to present your findings on your company's warehousing performance across several years. You have a number of column and line charts and a date slicer. You decide you will create a presentation using Power BI and will create a narrative using the date slicer.\nWhat should you do to save the views across different years for your presentation?",
+"images": [""],
+"choices": ["Create page level filters and create a new groups", "Filter the charts using the date slicer, then create bookmarks", "Create drill throughs for each of the warehouse charts", "Create report level filters and create a new groups"],
+"correct": 1
+}, {
+"id": "q025",
+"text": "You work in a marketing department as a Power BI professional.\nYou are asked to create three different types of visuals for the marketing department.\nWhich visualization should you use for the below three requirements?\n1. Show progress of conversion rates against a target\n2. Identify outliers in sentiment scores\n3. Show the factors that influence sentiment scores",
+"images": [""],
+"choices": ["KPI / Waterfall / Treemap", "Card / Scatter / Funnel", "KPI / Scatter / Key influencers", "Card / Funnel / Scatter"],
+"correct": 2
+}, {
+"id": "q026",
+"text": "You work for a College Football team as a Power BI sports analyst. You have built a report in Power BI Desktop that contains many visuals. The coaching team is pleased with the content of the visuals but wants the colors to match the college's color style guide.\nWhat should you do?",
+"images": [""],
+"choices": ["Adjust the report CSS file", " Customize the current theme", "Change the fonts on each text box", "Change the colors on each visual"],
+"correct": 1
+}, {
+"id": "q027",
+"text": "Your company uses Power BI Premium and your manager wants to create printed invoices. However, the reports must fit perfectly on a page.\nWhat would you suggest to your manager?",
+"images": [""],
+"choices": ["Change the page view in Power BI Desktop", "Use paginated reports", "Use gridlines and snap to grid", "Use lock objects"],
+"correct": 1
+}, {
+"id": "q028",
+"text": "You work in a shoe company's reporting team and have been tasked with building a Power BI report showing procurement analytics. You have an on-premises Microsoft SQL Server database that you use to build the procurement report using a DirectQuery connection.\nYou thoroughly test the report and then upload it to Power BI Service. However, once in Power BI Service, the visualizations no longer work.\nHow would you solve this problem?",
+"images": [""],
+"choices": ["hange the permissions on your Microsoft SQL Server database", "Upgrade your Power BI Desktop", "Install an on-premise data gateway", "Install Power BI Report Builder"],
+"correct": 2
+}, {
+"id": "q029",
+"text": "CASE 1\nYou work as a BI analyst for a software company that allows users to manipulate images online.\nYou have built a report that shows the conversion from free customers to premium customers.\nYour boss has asked you to provide a filter for the marketing industry.\nSolution:\n· Create a text parameter for industry\n· Set the parameter equal to marketing\n· Create a query parameter on the industry column\nDoes this solution meet the requirements?",
+"images": [""],
+"choices": ["YES", "NO"],
+"correct": 0
+}, {
+"id": "q030",
+"text": "CASE 1\nYou work as a BI analyst for a software company that allows users to manipulate images online.\nYou have built a report that shows the conversion from free customers to premium customers.\nYour boss has asked you to provide a filter for the marketing industry.\nSolution:\n· Add a slicer to the report and select the marketing industry\n· Sync slicers to all relevant pages of the report\nDoes this solution meet the requirements?",
+"images": [""],
+"choices": ["YES", "NO"],
+"correct": 0
+}, {
+"id": "q031",
+"text": "CASE 2\nYou work for a financial institution, and you have built a data model and report in Power BI desktop. The report ran fine during testing, but when in production, users are complaining of performance issues.\nHow can you improve the model's performance?\nSolution: Hide intermediate tables in the model view\nDoes this help improve performance?",
+"images": [""],
+"choices": ["YES", "NO"],
+"correct": 1
+}, {
+"id": "q032",
+"text": "CASE 2\nYou work for a financial institution, and you have built a data model and report in Power BI desktop. The report ran fine during testing, but when in production, users are complaining of performance issues.\nHow can you improve the model's performance?\nSolution: Remove unnecessary columns\nDoes this help improve performance?",
+"images": [""],
+"choices": ["YES", "NO"],
+"correct": 0
+}, {
+"id": "q033",
+"text": "CASE 3\nYou have the schema for the tables used in a bicycle franchise. In your role as a BI consultant, you have been asked to generate some insights from the data.\nCompany data schema:",
+"images": ["Q0019.webp"],
+"choices": ["Change the data type of Sales[ProductKey] to fixed decimal", "Create a calculated column of Product[ProductKey]", "Change the data type of Product[ProductKey] to whole number", "Create a measure for the sum of Sales[Order Quantity]"],
+"correct": 2
+}, {
+"id": "q034",
+"text": "CASE 3\nYou have the schema for the tables used in a bicycle franchise. In your role as a BI consultant, you have been asked to generate some insights from the data.\nCompany data schema:\n\n",
+"images": ["Q0034.webp"],
+"choices": ["Use add columns from examples to fix discrepancies", "Use transform and then adjust the rounding", "Go to the transform ribbon and click on Use first row as header", "Make sure the postcode data type is text and not whole number"],
+"correct": 3
+}, {
+"id": "q035",
+"text": "CASE 1\nYou are a Power BI specialist at your organization. In your finance table, you have a column called margin, which is defined as margin = revenue cost of goods sold. In your company, there are several different ways people refer to margin. Some people call margin by other terms such as income, profit or profit margin.\nTo use the Q&A feature successfully in your dashboard, you need to configure your dataset columns to enable users to type in variations for margin.\nSolution: Add a detailed description of how you defined margin\nDoes this solution meet the goal?",
+"images": [""],
+"choices": ["Yes", "No"],
+"correct": 1
+}, {
+"id": "q036",
+"text": "You are working on a fast moving R&D project for an autonomous vehicle company. You create a dashboard but find that management wants you to make quick changes to both content and layout that they can see immediately on the dashboard. Management is only comfortable using a dashboard.\nWhat should you do to achieve this goal?",
+"images": [""],
+"choices": ["Create an app", "Add management to the workspace as viewer roles", "Create a refresh schedule for twice a day", "Pin the report as a live page"],
+"correct": 3
+}, {
+"id": "q037",
+"text": "You want to show the trend of website traffic over time. Which chart type would be best to use?",
+"images": [""],
+"choices": ["A. Line chart", "B. Bar chart", "C. Scatter chart", "D. Pie chart"],
+"correct": 0
+}]
