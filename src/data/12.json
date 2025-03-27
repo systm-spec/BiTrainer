@@ -1,0 +1,552 @@
+[
+    {
+        "id": "q001",
+        "text": "You administer Power Bl for your organization. You prevent users from adding custom visuals from Microsoft AppSource by disabling the Allow visuals created using the Power Bl SDK option in the tenant settings of the Power Bl service. You need to provide a set of custom visuals for users to add to their reports in the Power Bl service. What should you do?",
+        "images": [],
+        "choices": [
+            "Publish the custom visuals to the Partner Center.",
+            "Apply an Active Directory Group Policy to set the EnableCustomMsuals registry key.",
+            "Give users the .pbiviz files for the permitted custom visuals to import themselves.",
+            "Add the permitted custom visuals to Organizational visuals."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q002",
+        "text": "You create a Power Bl dashboard for streaming data from Azure IOT devices. You need to configure Power Bl to visualize the IOT telemetry data. For each of the following statements, select Yes if the statement is true. Otherwise, select No. 1. The streaming data is added in the data model in Power Bl Desktop. 2. The real-time data visual is added directly to the dashboard. 3. Azure Stream Analytics can supply streaming data for Power BI.",
+        "images": [],
+        "choices": [
+            "1. Yes 2. Yes 3. Yes",
+            "1. No 2. Yes 3. Yes",
+            "1. Yes 2. No 3. No",
+            "1. No 2. No 3. Yes",
+            "1. Yes 2. Yes 3. No",
+            "1. No 2. Yes 3. No"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q003",
+        "text": "You create a Power Bl report. You need to improve report navigation. Which options should you use for the stated task? “Preserve slicer selection of a specific report page”",
+        "images": [],
+        "choices": [
+            "Buttons",
+            "Bookmarks"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q004",
+        "text": "You create a report page and pin the page to a dashboard in the Power BI service. You receive many enquiries from users asking you about the data and requesting additional visuals on the dashboard. You need to enable the Q&A feature that appears as “Ask a question about your data” at the top of the dashboard above the visuals. How should you enable this feature? Solution: Add the Q&A visual to the report page. Does this solution meet the goal?",
+        "images": [],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q005",
+        "text": "Imagine you have created a query named Customers in a Power BI Desktop to append the rows from three external tables with customer data into a single output table named Customers. What would be the best approach to add a new fabricated ID column to the Customers table to ensure that every row in the Customers table contains a unique ID value?",
+        "images": [],
+        "choices": [
+            "Modify the data model by extending the Customers table with an Index column",
+            "Modify the data model by extending the Customers table with a Counter column",
+            "Modify the Customers query by adding a Counter column",
+            "Modify the Customers query by adding an Index column"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q006",
+        "text": "You have a dataset that contains survey results for the percentage of internet access by year, age, and gender. The age of the respondents is between 15 and 85 years old. You need to create a bar chart showing the percentage of internet access for equal age ranges of 10 years. Which four actions should you perform in sequence? To answer, select the appropriate actions from the below listed options.",
+        "images": [],
+        "choices": [
+            "1. Set Group type to Bin. 2. Set the Bin type to Number of bins. 3. Set the Bin count to 7. 4. Set the Bin size to 7.",
+            "1. Right click on the Age column and select New Group. 2. Set Group type to List. 3. Set the Bin size to 7. 4. Set the Bin count to 10.",
+            "1. Right click on the Age column and select New Group. 2. Set Group type to Bin. 3. Set the Bin type to Number of bins. 4. Set the Bin count to 10.",
+            "1. Right click on the Age column and select New Group. 2. Set Group type to Bin. 3. Set the Bin type to Number of bins. 4. Set the Bin count to 7"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q007",
+        "text": "You build a Power Bl report showing vendor purchases. The dataset contains five hundred to a thousand rows. You need to add a visual that enables users to easily identify the outliers in the data. Which type of visual should you add?",
+        "images": [],
+        "choices": [
+            "Scatter chart",
+            "Chord",
+            "Key influencers",
+            "Decomposition Tree"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q008",
+        "text": "You are creating a Power Bl report for products ordered from vendors for the purchasing department. The purchasing department monitors suppliers and their performance against a suite of metrics. The department needs a visualization to assist in identifying the factors that affect vendor performance. Which type of visualization should you add?",
+        "images": [],
+        "choices": [
+            "Key influencers",
+            "Q&A",
+            "KPI",
+            "Decomposition Tree"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q009",
+        "text": "You create a Power Bl report that shows the visual in the below exhibit. /Table/ You need to show how the relationship between costs and sales changes over the months in the year. What should you do?",
+        "images": ["q009.png"],
+        "choices": [
+            "Add a relative date slicer to the page.",
+            "Add the month column to the Play Axis option for the visual.",
+            "Create a quick measure to calculate the month-over-month change of sales.",
+            "Add a Ratio line in the Analytics pane."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q010",
+        "text": "You have a Power BI Pro license. You want to use the Al features of Power BI to enhance your data. For each of the following statements, select Yes if the statement is true. Otherwise, select No. 1. You can analyze text in your dataset for positive or negative sentiment in Power Bl Desktop 2. The Key Influencers visual requires a Power BI premium subscription 3. You can create your own machine learning models and invoke the models from Power Bl Desktop.",
+        "images": [],
+        "choices": [
+            "1. No 2. No 3. No",
+            "1. No 2. Yes 3. No",
+            "1. No 2. No 3. Yes",
+            "1. Yes 2. Yes 3. No",
+            "1. Yes 2. No 3. No",
+            "1. Yes 2. No 3. Yes"
+        ],
+        "correct": 4
+    },
+    {
+        "id": "q011",
+        "text": "The marketing team needs a new dashboard to show the uptake of social users on the company’s corporate forum. The dashboard will contain one particular report that shows the total number of users that registered for the site in each of the months of the year. For this report you want to create a dataset with a calculated column that displays the date with the abbreviated month name followed by the four digit year e.g. Jan 2018. Which DAX expression should you use?",
+        "images": [],
+        "choices": [
+            "FORMAT( [RegistrationDate], \"MM yyyy\")",
+            "FORMAT( [RegistrationDate], \"mm yyyy\")",
+            "FORMAT( [RegistrationDate], \"MMM yyyy\")"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q012",
+        "text": "Multi = 1, 2 / You use the Key influencer visual to analyze which product lines influence customers’ decisions to choose certain payment methods.\nYou need to create a key influencer visual, as shown in the exhibit. Payment method is cash: /Table1/ Payment method is credit card: /Table2/ Payment method is e-wallet: /Table3/ How should you configure the visual? To answer, select the appropriate options for the setup screen menus. /Table4/ ",
+        "images": [["q012_1.png", "q012_2.png", "q012_3.png", "q012_4.png"]],
+        "choices": [
+            "Explain by > Payment Method",
+            "Explain by > Product Line",
+            "Analyze > Payment Method",
+            "Analyze > Product Line",
+            "Explain by > Sales",
+            "Analyze > Sales"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q013",
+        "text": "You are creating a Power Bl report for service requests received in your call center. The support department wants to be able to perform ad hoc analysis on calls against the company product range and determine the drivers behind incoming call volumes. You need to allow users to perform root cause analysis. Which visual should you use?",
+        "images": [],
+        "choices": [
+            "Key influencers",
+            "Treemap",
+            "Waterfall",
+            "Decomposition tree"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q014",
+        "text": "You create a report about product sales and customer churn rates. You need to restrict the visual to show the top five products with the highest churn rates. Solution: Create a measure of the top five products using the TOPN DAX function. Does this solution meet the goal?",
+        "images": [],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q015",
+        "text": "You create a report about product sales and customer churn rates. You need to restrict the visual to show the top five products with the highest churn rates. Solution: Apply Top N filter on Visual (Visual level filter) Does this solution meet the goal?",
+        "images": [],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q016",
+        "text": "Multi = 2, 3 / Which of the following strategies are recommended when designing the queries to import data from an OLTP-style database into a Power Bl Desktop project?",
+        "images": [],
+        "choices": [
+            "Refactoring the imported tables into a multidimensional cube.",
+            "Normalizing the data model to make it better suited for data analysis and reporting",
+            "Refactoring the imported tables into a star schema.",
+            "Denormalizing the data model to make it better suited for data analysis and reporting."
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q017",
+        "text": "When you optimize a data model for Q&A, which factor is the most important?",
+        "images": [],
+        "choices": [
+            "Column names",
+            "Data model size",
+            "Row count",
+            "DAX Formulas"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q018",
+        "text": "Multi = 0, 1, 3 / What are the reasons for which you might use calculated tables?",
+        "images": [],
+        "choices": [
+            "To union tables",
+            "To create a table based on the result of a function or formula",
+            "To improve the speed and performance of an existing table",
+            "To perform different types of merge join"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q019",
+        "text": "Multi = 1, 3 / You are creating a Power Bl report for products ordered by customers. You create a bar chart showing the number of units sold by product. You need to configure the chart to show the average number of units sold per order. What are two possible ways to achieve this goal? Each correct answer presents a complete solution.",
+        "images": [],
+        "choices": [
+            "Right click on the units sold column in Fields, add a new group, and set the bin size to 50.",
+            "Create a measure using the AVERAGE DAX function and replace the number of units sold with the measure.",
+            "Create a measure using the PERCENTILE DAX function at 50 percent and replace the number of units sold with the measure.",
+            "Right click on the units sold in Values for the visual and change the summarization to Average.",
+            "Right click on the units sold in Values for the visual and set show values as percent of grand total."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q020",
+        "text": "You create a Power Bl report containing a line chart that shows sales by month as shown in Exhibit 1 below. /Table1/ You need to configure the visual as shown in Exhibit 2 below. /Table2/ What should you do?",
+        "images": [["q020_1.png", "q020_2.png"]],
+        "choices": [
+            "Add a trend line in the Analytics pane.",
+            "Add an Average line in the Analytics pane.",
+            "Add a Play Axis to the visual",
+            "Add a forecast in the Analytics pane"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q021",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q022",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q023",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q024",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q025",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q026",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q027",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q028",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q029",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q030",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q031",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q032",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q033",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q034",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q035",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q036",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q037",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q038",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q039",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q040",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q041",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q042",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q043",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q044",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q045",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    },
+    {
+        "id": "q046",
+        "text": "word",
+        "images": [],
+        "choices": [
+            "foo",
+            "foo",
+            "foo",
+            "foo"
+        ],
+        "correct": 7
+    }
+]
