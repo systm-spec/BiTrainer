@@ -2,7 +2,7 @@
     {
         "id": "q001",
         "text": "You create a Power Bl report for regional sales data. You write a measure to calculate the Percentage of Sales. The measure is calculating the percentages incorrectly as shown in the exhibit named Incorrect below. /Table1/ Incorrect You need to re-write the measure so that the percentage is correct for each country and region and the total percentage is 100 percent. The measure should calculate the percentages as shown in the below exhibit named Correct. /Table2/ Correct How should you re-write the measure? To answer, select the appropriate option from the drop-down menu.",
-        "images": [["q001_1.png", "q001_2.png"]],
+        "images": ["q001_1.png", "q001_2.png"],
         "choices": [
             "Percentage of Sales = DIVIDE(SUM(RegionalSales[Sales]), CALCULATE(SUM(RegionaISaIes[Sales]), REMOVEFILTERS() ))",
             "Percentage of Sales = DIVIDE(SUM(RegionalSales[Sales]), CALCULATE(SUM(RegionaISaIes[Sales]), ALL(RegionalSales[Country]) ))",
@@ -13,7 +13,7 @@
     {
         "id": "q002",
         "text": "Overview: Company1 Pharmaceuticals develops, manufactures, and supplies healthcare products. Company1 has annual reporting requirements including a balance sheet, income statement, and a profit and loss report for the previous year with projections tor the current year. The reporting within the financial system is limited and does not meet the Company’s requirements. Historically, producing these statements and reports has taken significant manual effort that was error-prone, and it has not been possible to perform useful analysis on financial data. Planned Changes: Power BI service and Power BI Desktop will be used to generate financial reports, statements, and analysis tor financial data. Data Sources: The finance system holds all financial data including sales and expenses. The finance system holds the chart of accounts. The finance system stores its data in an on-premises SQL Server. Sales prediction and budget plans are stored in Excel workbooks in SharePoint Online. Reporting Requirements: The following information should be produced: > Income trend > Expenditure trend > Comparison of income and expenditure for the current year with the previous year > Comparison of planned income and expenditure for next year with the current year. Users should also be able to: > Drill down on data by country and territory. > Drill down using the chart of accounts structure. > Use the Q&A feature of Power BI. Security Requirements: C level executives should have access to all analysis. Country and Territory managers should only have access to data for their country/territory. /4Tables/ Question: You have a visualization that shows the Budget amount by Account Number. You need to enable the drill down on the chart of account structure on the visualization. Are the four actions mentioned below should be performed in sequence to achieve the goal? Select Yes if true, otherwise select No. 1. Click on the Parent Account Number column and select New hierarchy. 2. Click on the Account Number column and select Add to hierarchy. 3. In the visualization, replace the Account Number with the new hierarchy 4. Enable drill down on the visualization.",
-        "images": [["q002_1.png", "q002_2.png", "q002_3.png", "q002_4.png"]],
+        "images": ["q002_1.png", "q002_2.png", "q002_3.png", "q002_4.png"],
         "choices": [
             "No",
             "Yes"
@@ -23,7 +23,7 @@
     {
         "id": "q003",
         "text": "You work for a retail organization that uses Power Bl. The schema for the tables is shown in the below exhibits. /2Tables/ The Customer table contains the names and IDs of the customers. The Product table contains the ids and names of the products. When a customer purchases from the retail establishment, a record in the Basket table is created to link the Customer to that purchase. The Products added to their Basket are stored in the Basket Items table. You need to find the number of customers who purchased the same set of products. You add a slicer for Product Name to your report to choose the set of products. How should you create the measure to count the number of customers who purchased the products selected? To answer, select the appropriate option.",
-        "images": [["q003_1.png", "q003_2.png"]],
+        "images": ["q003_1.png", "q003_2.png"],
         "choices": [
             "ProductsSelected = COUNT('Product'[ProductID]) PurchasedSelected = IF(COUNT('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = SUM(VALUES(Customer[CustomerID]), [PurchasedSelected])",
             "ProductsSelected = COUNTX('Product'[ProductID]) PurchasedSelected = SUM(COUNTX('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = SUM(VALUES(Customer[CustomerID]), [PurchasedSelected])",
@@ -221,7 +221,7 @@
     {
         "id": "q019",
         "text": "Multi = 0, 3, 4, 5 / You have a matrix visual that shows Sales % and Sales by Product Line as shown in the exhibit. /Table1/ The Sales % measure shows as a percentage the contribution of sales in that product line for overall sales. You need to add a background color to the Sales measure as follows: When the Sales % contribution is >= 15 and <=17 percent, highlight it in light yellow. What should you do to configure conditional formatting? To answer, select the appropriate options for each of the blank field. /Table2/ ",
-        "images": [["q019_1.png", "q019_2.png"]],
+        "images": ["q019_1.png", "q019_2.png"],
         "choices": [
             "is greater than or equal to 0.15 Number",
             "Based on field > Sales",
