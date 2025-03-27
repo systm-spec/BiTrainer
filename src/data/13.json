@@ -408,7 +408,7 @@
   {
     "id": "q023",
     "text": "You model the data using Microsoft Power BI. The data model consists of a large Microsoft SQL Server table called 'Transactions' and more than 120 million records. During the development phase, it is necessary to import a sample of data from the 'Transactions' table. You decide to write a DAX expression that uses a filter function. Will this help you achieve your goal?",
-    "ger_text": "Sie modellieren Daten mit Microsoft Power BI. Das Datenmodell besteht aus einer großen Microsoft SQL Server-Tabelle namens „Transactions" mit mehr als 120 Millionen Datensätzen. Während der Entwicklungsphase ist es notwendig, eine Stichprobe der Daten aus der „Transactions"-Tabelle zu importieren. Sie entscheiden sich, einen DAX-Ausdruck zu schreiben, der eine Filterfunktion verwendet. Wird Ihnen dies helfen, Ihr Ziel zu erreichen?",
+    "ger_text": "Sie modellieren Daten mit Microsoft Power BI. Das Datenmodell besteht aus einer großen Microsoft SQL Server-Tabelle namens 'Transactions' mit mehr als 120 Millionen Datensätzen. Während der Entwicklungsphase ist es notwendig, eine Stichprobe der Daten aus der 'Transactions'-Tabelle zu importieren. Sie entscheiden sich, einen DAX-Ausdruck zu schreiben, der eine Filterfunktion verwendet. Wird Ihnen dies helfen, Ihr Ziel zu erreichen?",
     "images": [],
     "choices": [
       "No",
