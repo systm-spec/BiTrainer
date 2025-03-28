@@ -1,7 +1,7 @@
 [
     {
         "id": "q001",
-        "text": "You administer Power Bl for your organization. You prevent users from adding custom visuals from Microsoft AppSource by disabling the Allow visuals created using the Power Bl SDK option in the tenant settings of the Power Bl service. You need to provide a set of custom visuals for users to add to their reports in the Power Bl service. What should you do?",
+        "text": "You administer Power Bl for your organization.\nYou prevent users from adding custom visuals from Microsoft AppSource by disabling the Allow visuals created using the Power Bl SDK option in the tenant settings of the Power Bl service.\nYou need to provide a set of custom visuals for users to add to their reports in the Power Bl service.\nWhat should you do?",
         "images": [],
         "choices": [
             "Publish the custom visuals to the Partner Center.",
@@ -13,7 +13,7 @@
     },
     {
         "id": "q002",
-        "text": "You create a Power Bl dashboard for streaming data from Azure IOT devices. You need to configure Power Bl to visualize the IOT telemetry data. For each of the following statements, select Yes if the statement is true. Otherwise, select No. 1. The streaming data is added in the data model in Power Bl Desktop. 2. The real-time data visual is added directly to the dashboard. 3. Azure Stream Analytics can supply streaming data for Power BI.",
+        "text": "You create a Power Bl dashboard for streaming data from Azure IOT devices.\nYou need to configure Power Bl to visualize the IOT telemetry data. For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n1. The streaming data is added in the data model in Power Bl Desktop.\n2. The real-time data visual is added directly to the dashboard.\n3. Azure Stream Analytics can supply streaming data for Power BI.",
         "images": [],
         "choices": [
             "1. Yes 2. Yes 3. Yes",
@@ -27,7 +27,7 @@
     },
     {
         "id": "q003",
-        "text": "You create a Power Bl report. You need to improve report navigation. Which options should you use for the stated task? “Preserve slicer selection of a specific report page”",
+        "text": "You create a Power Bl report.\nYou need to improve report navigation.\nWhich options should you use for the stated task?\n“Preserve slicer selection of a specific report page”",
         "images": [],
         "choices": [
             "Buttons",
@@ -37,7 +37,7 @@
     },
     {
         "id": "q004",
-        "text": "You create a report page and pin the page to a dashboard in the Power BI service. You receive many enquiries from users asking you about the data and requesting additional visuals on the dashboard. You need to enable the Q&A feature that appears as “Ask a question about your data” at the top of the dashboard above the visuals. How should you enable this feature? Solution: Add the Q&A visual to the report page. Does this solution meet the goal?",
+        "text": "You create a report page and pin the page to a dashboard in the Power BI service. You receive many enquiries from users asking you about the data and requesting additional visuals on the dashboard.\nYou need to enable the Q&A feature that appears as “Ask a question about your data” at the top of the dashboard above the visuals.\nHow should you enable this feature?\nSolution: Add the Q&A visual to the report page.\nDoes this solution meet the goal?",
         "images": [],
         "choices": [
             "No",
@@ -47,7 +47,7 @@
     },
     {
         "id": "q005",
-        "text": "Imagine you have created a query named Customers in a Power BI Desktop to append the rows from three external tables with customer data into a single output table named Customers. What would be the best approach to add a new fabricated ID column to the Customers table to ensure that every row in the Customers table contains a unique ID value?",
+        "text": "Imagine you have created a query named Customers in a Power BI Desktop to append the rows from three external tables with customer data into a single output table named Customers.\nWhat would be the best approach to add a new fabricated ID column to the Customers table to ensure that every row in the Customers table contains a unique ID value?",
         "images": [],
         "choices": [
             "Modify the data model by extending the Customers table with an Index column",
@@ -59,7 +59,7 @@
     },
     {
         "id": "q006",
-        "text": "You have a dataset that contains survey results for the percentage of internet access by year, age, and gender. The age of the respondents is between 15 and 85 years old. You need to create a bar chart showing the percentage of internet access for equal age ranges of 10 years. Which four actions should you perform in sequence? To answer, select the appropriate actions from the below listed options.",
+        "text": "You have a dataset that contains survey results for the percentage of internet access by year, age, and gender. The age of the respondents is between 15 and 85 years old.\nYou need to create a bar chart showing the percentage of internet access for equal age ranges of 10 years. Which four actions should you perform in sequence? To answer, select the appropriate actions from the below listed options.",
         "images": [],
         "choices": [
             "1. Set Group type to Bin. 2. Set the Bin type to Number of bins. 3. Set the Bin count to 7. 4. Set the Bin size to 7.",
@@ -71,7 +71,7 @@
     },
     {
         "id": "q007",
-        "text": "You build a Power Bl report showing vendor purchases. The dataset contains five hundred to a thousand rows. You need to add a visual that enables users to easily identify the outliers in the data. Which type of visual should you add?",
+        "text": "You build a Power Bl report showing vendor purchases. The dataset contains five hundred to a thousand rows.\nYou need to add a visual that enables users to easily identify the outliers in the data. Which type of visual should you add?",
         "images": [],
         "choices": [
             "Scatter chart",
@@ -83,7 +83,7 @@
     },
     {
         "id": "q008",
-        "text": "You are creating a Power Bl report for products ordered from vendors for the purchasing department. The purchasing department monitors suppliers and their performance against a suite of metrics. The department needs a visualization to assist in identifying the factors that affect vendor performance. Which type of visualization should you add?",
+        "text": "You are creating a Power Bl report for products ordered from vendors for the purchasing department. The purchasing department monitors suppliers and their performance against a suite of metrics.\nThe department needs a visualization to assist in identifying the factors that affect vendor performance. Which type of visualization should you add?",
         "images": [],
         "choices": [
             "Key influencers",
@@ -95,7 +95,7 @@
     },
     {
         "id": "q009",
-        "text": "You create a Power Bl report that shows the visual in the below exhibit. /Table/ You need to show how the relationship between costs and sales changes over the months in the year. What should you do?",
+        "text": "You create a Power Bl report that shows the visual in the below exhibit.\n /Table/ You need to show how the relationship between costs and sales changes over the months in the year.\nWhat should you do?",
         "images": ["q009.png"],
         "choices": [
             "Add a relative date slicer to the page.",
@@ -107,7 +107,7 @@
     },
     {
         "id": "q010",
-        "text": "You have a Power BI Pro license. You want to use the Al features of Power BI to enhance your data. For each of the following statements, select Yes if the statement is true. Otherwise, select No. 1. You can analyze text in your dataset for positive or negative sentiment in Power Bl Desktop 2. The Key Influencers visual requires a Power BI premium subscription 3. You can create your own machine learning models and invoke the models from Power Bl Desktop.",
+        "text": "You have a Power BI Pro license.\nYou want to use the Al features of Power BI to enhance your data.\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n1. You can analyze text in your dataset for positive or negative sentiment in Power Bl Desktop\n2. The Key Influencers visual requires a Power BI premium subscription\n3. You can create your own machine learning models and invoke the models from Power Bl Desktop.",
         "images": [],
         "choices": [
             "1. No 2. No 3. No",
@@ -121,7 +121,7 @@
     },
     {
         "id": "q011",
-        "text": "The marketing team needs a new dashboard to show the uptake of social users on the company’s corporate forum. The dashboard will contain one particular report that shows the total number of users that registered for the site in each of the months of the year. For this report you want to create a dataset with a calculated column that displays the date with the abbreviated month name followed by the four digit year e.g. Jan 2018. Which DAX expression should you use?",
+        "text": "The marketing team needs a new dashboard to show the uptake of social users on the company’s corporate forum. The dashboard will contain one particular report that shows the total number of users that registered for the site in each of the months of the year. For this report you want to create a dataset with a calculated column that displays the date with the abbreviated month name followed by the four digit year e.g. Jan 2018.\nWhich DAX expression should you use?",
         "images": [],
         "choices": [
             "FORMAT( [RegistrationDate], \"MM yyyy\")",
@@ -132,8 +132,8 @@
     },
     {
         "id": "q012",
-        "text": "Multi = 1, 2 / You use the Key influencer visual to analyze which product lines influence customers’ decisions to choose certain payment methods.\nYou need to create a key influencer visual, as shown in the exhibit. Payment method is cash: /Table1/ Payment method is credit card: /Table2/ Payment method is e-wallet: /Table3/ How should you configure the visual? To answer, select the appropriate options for the setup screen menus. /Table4/ ",
-        "images": [["q012_1.png", "q012_2.png", "q012_3.png", "q012_4.png"]],
+        "text": "Multi = 1, 2 / You use the Key influencer visual to analyze which product lines influence customers’ decisions to choose certain payment methods.\nYou need to create a key influencer visual, as shown in the exhibit.\nPayment method is cash:\n/Table1/\nPayment method is credit card:\n/Table2/\nPayment method is e-wallet:\n/Table3/\nHow should you configure the visual? To answer, select the appropriate options for the setup screen menus.\n/Table4/",
+        "images": ["q012_1.png", "q012_2.png", "q012_3.png", "q012_4.png"],
         "choices": [
             "Explain by > Payment Method",
             "Explain by > Product Line",
@@ -146,7 +146,7 @@
     },
     {
         "id": "q013",
-        "text": "You are creating a Power Bl report for service requests received in your call center. The support department wants to be able to perform ad hoc analysis on calls against the company product range and determine the drivers behind incoming call volumes. You need to allow users to perform root cause analysis. Which visual should you use?",
+        "text": "You are creating a Power Bl report for service requests received in your call center. The support department wants to be able to perform ad hoc analysis on calls against the company product range and determine the drivers behind incoming call volumes.\nYou need to allow users to perform root cause analysis.\nWhich visual should you use?",
         "images": [],
         "choices": [
             "Key influencers",
@@ -158,7 +158,7 @@
     },
     {
         "id": "q014",
-        "text": "You create a report about product sales and customer churn rates. You need to restrict the visual to show the top five products with the highest churn rates. Solution: Create a measure of the top five products using the TOPN DAX function. Does this solution meet the goal?",
+        "text": "You create a report about product sales and customer churn rates.\nYou need to restrict the visual to show the top five products with the highest churn rates.\nSolution: Create a measure of the top five products using the TOPN DAX function.\nDoes this solution meet the goal?",
         "images": [],
         "choices": [
             "No",
@@ -168,7 +168,7 @@
     },
     {
         "id": "q015",
-        "text": "You create a report about product sales and customer churn rates. You need to restrict the visual to show the top five products with the highest churn rates. Solution: Apply Top N filter on Visual (Visual level filter) Does this solution meet the goal?",
+        "text": "You create a report about product sales and customer churn rates.\nYou need to restrict the visual to show the top five products with the highest churn rates.\nSolution: Apply Top N filter on Visual (Visual level filter)\nDoes this solution meet the goal?",
         "images": [],
         "choices": [
             "No",
@@ -214,7 +214,7 @@
     },
     {
         "id": "q019",
-        "text": "Multi = 1, 3 / You are creating a Power Bl report for products ordered by customers. You create a bar chart showing the number of units sold by product. You need to configure the chart to show the average number of units sold per order. What are two possible ways to achieve this goal? Each correct answer presents a complete solution.",
+        "text": "Multi = 1, 3 / You are creating a Power Bl report for products ordered by customers. You create a bar chart showing the number of units sold by product.\nYou need to configure the chart to show the average number of units sold per order.\nWhat are two possible ways to achieve this goal? Each correct answer presents a complete solution.",
         "images": [],
         "choices": [
             "Right click on the units sold column in Fields, add a new group, and set the bin size to 50.",
@@ -227,8 +227,8 @@
     },
     {
         "id": "q020",
-        "text": "You create a Power Bl report containing a line chart that shows sales by month as shown in Exhibit 1 below. /Table1/ You need to configure the visual as shown in Exhibit 2 below. /Table2/ What should you do?",
-        "images": [["q020_1.png", "q020_2.png"]],
+        "text": "You create a Power Bl report containing a line chart that shows sales by month as shown in Exhibit 1 below.\n/Table1/\nYou need to configure the visual as shown in Exhibit 2 below.\n/Table2/\nWhat should you do?",
+        "images": ["q020_1.png", "q020_2.png"],
         "choices": [
             "Add a trend line in the Analytics pane.",
             "Add an Average line in the Analytics pane.",
@@ -239,314 +239,292 @@
     },
     {
         "id": "q021",
-        "text": "word",
-        "images": [],
+        "text": "You have a table that contains details for your product sales as shown in the below exhibit.\n/Table1/\nThe salesperson is recorded on each sale. You have 1000 products with data spanning 30 years.\nYou create a Power Bl report with visuals that contain aggregations with the following visuals:\n• a column chart with products in the axis, but there are too many product columns displayed\n• a bar chart with the year of order in the axis, but there are too many bars displayed\n• a pie chart with the quantity of products per order as the legend but, there are too many slices\nYou need to combine the data to make the visual more readable.\nHow should you combine the data? To answer, select the appropriate option for each action.\n/Table2",
+        "images": ["q021_1.png","q021_2.png"],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "1. List 2. List 3. List",
+            "1. List 2. List 3. Bin",
+            "1. Bin 2. Bin 3. Bin",
+            "1. List 2. Bin 3. List",
+            "1. Bin 2. List 3. List",
+            "1. List 2. Bin 3. Bin"
         ],
-        "correct": 7
+        "correct": 5
     },
     {
         "id": "q022",
-        "text": "word",
-        "images": [],
+        "text": "Multi = 2, 4, 5 / You use the Decomposition tree visual to analyze sales across different attributes, payment methods, and product lines, as shown in the below exhibit.\n/Table1/\nYou need to create the visual. How should you complete the configuration? To answer, select the appropriate options for the setup menu.\n/Table2/",
+        "images": ["q022_1.png", "q022_2.png"],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Explain by (first field) > Sales",
+            "Explain by (second field) > Sales",
+            "Explain by (second field) > Product Line",
+            "Explain by (second field) > Payment Method",
+            "Explain by (first field) > Payment Method",
+            "Analyze > Sales"
         ],
-        "correct": 7
+        "correct": 2
     },
     {
         "id": "q023",
-        "text": "word",
+        "text": "Which of the following types of real-time datasets in Power Bl always store their data in Azure SQL Database?",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Streaming Datasets",
+            "Push Datasets",
+            "Hybrid Datasets"
         ],
-        "correct": 7
+        "correct": 1
     },
     {
         "id": "q024",
-        "text": "word",
+        "text": "Multi = 0, 1, 2, 4 / You create a new workspace named Department and publish your Power Bl report to this workspace.\nYou need to distribute a report among the executives without giving them direct access to the workspace.\nWhich four options are essential for an app to be published for the first time? Each correct answer presents part of the solution.",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Under the Setup tab, provide the App name and description.",
+            "Select the Department workspace.",
+            "Under the Permissions tab, specify users who can view the app.",
+            "Under the Navigation tab, provide report name.",
+            "Click the Publish App button.",
+            "Click the Update App button."
         ],
-        "correct": 7
+        "correct": 0
     },
     {
         "id": "q025",
-        "text": "word",
+        "text": "You create a Power Bl workspace in the new workspace experience.\nYou need to permit the following groups of users to access the workspace to perform specific actions on workspace content. You must use the principle of least privilege.\n• Users in GroupA must be able to publish Power Bl apps.\n• Users in GroupB must be able to publish Power Bl reports.\n• UserC must be able to build reports using the workspace datasets in different workspaces without any additional configuration.\nWhich workspace role should you assign to the users? To answer, select the appropriate role to the below-stated user.\n“Users in GroupA”",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Member",
+            "Viewer",
+            "Admin",
+            "Contributor"
         ],
-        "correct": 7
+        "correct": 0
     },
     {
         "id": "q026",
-        "text": "word",
+        "text": "Which of the following resources are automatically provisioned when you create a new app workspace in the Power Bl Service?",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "A storage container for Power Bl resources including datasets, reports and dashboards",
+            "An Office 365 Group which triggers the creation of a SharePoint team site",
+            "An Azure Active Directory user account to serve as the workspace identity",
+            "A shared capacity which is used to host the workspace"
         ],
-        "correct": 7
+        "correct": 0
     },
     {
         "id": "q027",
-        "text": "word",
+        "text": "You create datasets, reports, and dashboards in Power Bl.\nYou need to make these assets easily available to other users and indicate how they should be used. You need to configure the assets to meet the requirements.\nTo answer, select the appropriate option for the below requirement.\n“Configure a dashboard so that the sensitivity of its data is visible”",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Featured",
+            "Certified",
+            "Promoted",
+            "Data Classification"
         ],
-        "correct": 7
+        "correct": 3
     },
     {
         "id": "q028",
-        "text": "word",
+        "text": "You create a Power Bl workspace in the new workspace experience.\nYou need to permit the following groups of users to access the workspace to perform specific actions on workspace content. You must use the principle of least privilege.\n• Users in GroupA must be able to publish Power Bl apps.\n• Users in GroupB must be able to publish Power Bl reports.\n• UserC must be able to build reports using the workspace datasets in different workspaces without any additional configuration.\nWhich workspace role should you assign to the users? To answer, select the appropriate role for the below-stated user.\n“UserC”",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Viewer",
+            "Contributor",
+            "Admin",
+            "Member"
         ],
-        "correct": 7
+        "correct": 1
     },
     {
         "id": "q029",
-        "text": "word",
+        "text": "You need to assign the appropriate workspace roles to co-workers to perform certain tasks. You must use the lowest permission level necessary to accomplish the tasks.\nWhich roles should you use? To answer, select the appropriate option.\n“To read workspace reports”",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Member",
+            "Viewer",
+            "Contributor"
         ],
-        "correct": 7
+        "correct": 1
     },
     {
         "id": "q030",
-        "text": "word",
+        "text": "You have Power Bl Premium with allocated capacity.\nYou import data into Power Bl from a webpage and create a Power Bl report. You need to ensure that the data for your visuals that is extracted from the web page is up to date.\nYou decide to automate the updating process from the data source. How and where should you configure the dataset to meet the requirements?\n“The storage mode that requires a refresh schedule to be configured..”",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Import",
+            "Live Connect",
+            "DirectQuery"
         ],
-        "correct": 7
+        "correct": 0
     },
     {
         "id": "q031",
-        "text": "word",
+        "text": "Data in your organization must be classified as either None, Personal, or Confidential.\nYou need to protect confidential data in your Power BI reports within Power Bl and when data is exported from Power BI. Information protection has been enabled on your Power Bl tenant.\nWhich three actions should you perform in sequence? To answer, select the appropriate list of actions.",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "1. Create and publish labels in Microsoft 365. 2. Open Tenant settings in Power Bl Admin Portal. 3. Select the sensitivity label.",
+            "1. Create and publish labels in Microsoft 365. 2. Open the settings pane on the Power Bl report. 3. Select the sensitivity label.",
+            "1. Open the settings pane on the Power Bl report. 2. Set Export data to None. 3. Add a data classification tag.",
+            "1. Open Tenant settings in Power Bl Admin Portal. 2. Select the sensitivity label. 3. Add a data classification tag."
         ],
-        "correct": 7
+        "correct": 1
     },
     {
         "id": "q032",
-        "text": "word",
+        "text": "You create a Power Bl workspace in the new workspace experience.\nYou need to permit the following groups of users to access the workspace to perform specific actions on workspace content. You must use the principle of least privilege.\n• Users in GroupA must be able to publish Power Bl apps.\n• Users in GroupB must be able to publish Power Bl reports.\n• UserC must be able to build reports using the workspace datasets in different workspaces without any additional configuration.\nWhich workspace role should you assign to the users? To answer, select the appropriate role to the below-stated user.\n“Users in GroupB”",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Admin",
+            "Contributor",
+            "Member",
+            "Viewer"
         ],
-        "correct": 7
+        "correct": 1
     },
     {
         "id": "q033",
-        "text": "word",
+        "text": "Multi = 1, 3 / You implement a security role named EmployeeAddress to filter employees based on their login account in the Power Bl service.\nYou need to add 100 users to this role so they can view a report based on row-level security settings.\nWhich two actions should you perform? Each correct answer presents part of the solution.",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Add the newly created Power BI group to the EmployeeAddress security role.",
+            "Add the newly created security group to the EmployeeAddress security role.",
+            "Create a group in Power Bl and assign users to this group.",
+            "Create a security group in Active Directory and assign users to this group."
         ],
-        "correct": 7
+        "correct": 1
     },
     {
         "id": "q034",
-        "text": "word",
-        "images": [],
+        "text": "You have a data model as shown in the below exhibit for sales opportunity data.\n/Table/\nEach salesperson has a sales manager. You create a Power Bl report for a sales team’s opportunities. Salespeople must only be able to see their own data. Sales managers must be able to see all data. You create a DAX measure to calculate the monthly commission amount on sales.\nYou need to configure row-level security (RLS) and create two roles named SalesPerson and SalesManager. Salespeople are assigned to the SalesPerson role. Sales managers are assigned to the SalesManager role.\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n1. Setting the DAX Filter expression on the SalesPerson role to [Email Address] = userprincipalname() allows salespeople to only view their own data.\n2. Salespeople will be able to see their commission amount.\n3. Setting the DAX Filter expression on the SalesManager role to FALSE() allows Sales managers to view all data.",
+        "images": ["q034.png"],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "1. Yes 2. Yes 3. Yes",
+            "1. Yes 2. No 3. No",
+            "1. Yes 2. Yes 3. No",
+            "1. No 2. No 3. No",
+            "1. Yes 2. No 3. Yes",
+            "1. No 2. No 3. Yes"
         ],
-        "correct": 7
+        "correct": 2
     },
     {
         "id": "q035",
-        "text": "word",
+        "text": "You have Power Bl Premium with allocated capacity.\nYou import data into Power Bl from a webpage and create a Power Bl report. You need to ensure that the data for your visuals that is extracted from the web page is up to date.\nYou decide to automate the updating process from the data source. How and where should you configure the dataset to meet the requirements?\n“The number of time slots per day that can be configured in the refresh schedule..”",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "1",
+            "8",
+            "48"
         ],
-        "correct": 7
+        "correct": 2
     },
     {
         "id": "q036",
-        "text": "word",
+        "text": "You create datasets, reports, and dashboards in Power Bl.\nYou need to make these assets easily available to other users and indicate how they should be used. You need to configure the assets to meet the requirements.\nTo answer, select the appropriate option for the below requirement.\n“List a report on the Power BI Home page”",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Certified",
+            "Featured",
+            "Promoted",
+            "Data Classification"
         ],
-        "correct": 7
+        "correct": 1
     },
     {
         "id": "q037",
-        "text": "word",
+        "text": "Multi = 0, 1 / You are a data analyst at a company that uses Power Bl. The company has 12 departments. You have created a Power Bl report that shows data for the organization’s staff and training from the HR dataset. You have been asked to create the same report for each department.\nWhat are two possible ways to achieve this goal? Each correct answer presents a complete solution.",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Add a parameter to the report.",
+            "Create a URL for each department to filter the report by the department.",
+            "Create a dataset for each department, copy the report, and use the report with the department dataset.",
+            "Create a workspace for each department and add the report to the workspace."
         ],
-        "correct": 7
+        "correct": 0
     },
     {
         "id": "q038",
-        "text": "word",
+        "text": "You have Power Bl Premium with allocated capacity.\nYou import data into Power Bl from a webpage and create a Power Bl report. You need to ensure that the data for your visuals that is extracted from the web page is up to date.\nYou decide to automate the updating process from the data source. How and where should you configure the dataset to meet the requirements?\n“The tool where the refresh schedule is configured..”",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Power BI Desktop",
+            "Power BI Service",
+            "Power BI Mobile"
         ],
-        "correct": 7
+        "correct": 1
     },
     {
         "id": "q039",
-        "text": "word",
+        "text": "You need to assign the appropriate workspace roles to co-workers to perform certain tasks. You must use the lowest permission level necessary to accomplish the tasks.\nWhich roles should you use? To answer, select the appropriate option.\n“To publish content to the workspace”",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Contributor",
+            "Admin",
+            "Member"
         ],
-        "correct": 7
+        "correct": 0
     },
     {
         "id": "q040",
-        "text": "word",
+        "text": "Multi = 2, 3 / Overview:\nCompany1 is a manufacturing company that is adopting Power BI for its analytics and insights requirements.\nPower Bl Desktop and Power Bl Service will be used to generate reports and dashboards for Operations, Human Resources, Sales, and Finance departments.\nManagement are concerned over access to data and reports.\nYou need to plan the setup, security and administration of the Power Bl environment.\nYou will run a pilot with the Sales department to verify your proposed configuration before deploying the other departments.\nExisting environment:\nCompany1 has Office 365 deployed.\nCompany1 uses Azure AD Security groups for access control.\nOffice 365 Groups are used for collaboration.\nData Sources:\nExcel spreadsheets will be the source of data for the pilot.\nThere are other data sources that will be used after the pilot:\nSQL Server\nSharePoint lists\nJSON files\nZendesk\nReport development:\nThere is a team of business intelligence analysts who will create the reports and dashboards.\nThis team will load, transform, and cleanse the data. They will then model the data and create datasets for use across the organization.\nChanges made by the developers should be automatically deployed to users.\nSecurity requirements:\nDevelopers should not have access to production data.\nDevelopers should not have access to reports and dashboards in production.\nBusiness users should not have access to developer data or assets.\nBoard members must be able to access select reports and dashboards.\nExcel files used in reports should only be accessible from their workspace.\nUsers must only have access to the data in their department.\nUsers in the Sales department must only have access to data in their territory.\nThe reports and dashboards for a department should only be accessible by business users in the same department.\nBusiness users should not be able to edit the reports and dashboards. Business users should not be able to create new reports or dashboards.\nBoard members are not part of the company network.\nRequirement:\nWhat are two possible ways to control access to data in the Sales department? Each correct answer presents a complete solution.",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Create workspaces for each territory and assign users in each territory the Member role.",
+            "Publish the app from the Sales workspace and set Allow all users to connect to the app's underlying datasets using the Build permission.",
+            "Publish the app from the Sales workspace and add the users in the Sales department to the app.",
+            "Assign the Viewer role in the Sales workspace to the users in the Sales department."
         ],
-        "correct": 7
+        "correct": 2
     },
     {
         "id": "q041",
-        "text": "word",
+        "text": "You create a Power Bl report with a very large dataset. You want to improve the performance of the dataset refresh by using incremental refresh.\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n1. The Incremental Refresh feature should only be used on data sources that support query folding.\n2. Two PowerQuery parameters named RangeStart and RangeEnd are required for an incremental refresh.\n3. A date field is required on a table in the dataset.",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "1. No 2. No 3. Yes",
+            "1. Yes 2. Yes 3. Yes",
+            "1. Yes 2. No 3. Yes",
+            "1. Yes 2. Yes 3. No",
+            "1. No 2. No 3. No",
+            "1. No 2. Yes 3. Yes"
         ],
-        "correct": 7
+        "correct": 1
     },
     {
         "id": "q042",
-        "text": "word",
-        "images": [],
+        "text": "To complete the sentence below, select the appropriate option.\n/Table/",
+        "images": ["q042.png"],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Promoted",
+            "Certified"
         ],
         "correct": 7
     },
     {
         "id": "q043",
-        "text": "word",
+        "text": "You create a Power Bl dataset and report for a multi-national organization. You configure row-level security (RLS) in the data model. Users are restricted to accessing rows only for their own country. You should follow the best practices for managing security.\nYou create roles for each country. You add a DAX Filter expression for each role on the country table. You add the Azure Active Directory (Azure AD) security group for the country to each role. A new user starts in Country A.\nYou need to ensure that the user can only view data for Country A. What should you do?",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "Manage roles in Power Bl Desktop and change the DAX filter expression on the role for Country A.",
+            "Add the user to the Azure AD security group for County A.",
+            "Change Access in the Power BI workspace and add the user's email address with the Member role.",
+            "Edit Security on the dataset in Power BI service and add the user's email address to the role for Country A."
         ],
-        "correct": 7
+        "correct": 1
     },
     {
         "id": "q044",
-        "text": "word",
+        "text": "You manage the Power Bl admin portal. Company policy says that only specific people can create new workspaces. You have a security group named WorkspaceCreator. Some new users complain that they are unable to create a new workspace. These users are already added to WorkspaceCreator security group. You need to allow these users to create new workspaces within the stated guidelines.\nWhich four actions should you perform in sequence in the Power Bl admin portal? To answer, move the appropriate actions from the list of possible actions to the answer area and arrange them in the correct order.",
         "images": [],
         "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
+            "1. Go to Power Bl admin portal > Tenant settings. 2. Choose Workspace settings > Create workspaces (new workspace experience). 3. Under Apply to, choose Specific security groups, and add the WorkspaceCreator security group. 4. Click Apply.",
+            "1. Choose Workspace settings > Create workspaces (new workspace experience). 2. Click Apply. 3. Go to Power Bl admin portal > Tenant settings. 4. Choose Workspace settings > Block classic workspace creation.",
+            "1. Go to Power Bl admin portal > Tenant settings. 2. Choose Workspace settings > Block classic workspace creation. 3. Under Apply to, choose Specific security groups, and add the WorkspaceCreator security group. 4. Click Apply.",
+            "1. Choose Workspace settings > Block classic workspace creation. 2. Go to Power Bl admin portal > Tenant settings. 3. Under Apply to, choose Specific security groups, and add the WorkspaceCreator security group. 4. Click Apply."
         ],
-        "correct": 7
-    },
-    {
-        "id": "q045",
-        "text": "word",
-        "images": [],
-        "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
-        ],
-        "correct": 7
-    },
-    {
-        "id": "q046",
-        "text": "word",
-        "images": [],
-        "choices": [
-            "foo",
-            "foo",
-            "foo",
-            "foo"
-        ],
-        "correct": 7
+        "correct": 0
     }
 ]
