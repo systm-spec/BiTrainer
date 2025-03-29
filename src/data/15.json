@@ -1,0 +1,317 @@
+[
+    {
+        "id": "q001",
+        "text": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nYou have a data model with the Date table related to the Offline Sales table by columns of date data type (Date[Date] -> ‘Offline Sales‘[Due Date]). The Date table is marked as a date table.\n/Table1/\nGoal: You have to use the appropriate date field to create a quick measure for calculating the Month-over-month change of the Sales Amount.\nSolution: You use the Order Date column from the Offline Sales table in the Date field.\n/Table2/\nDoes the solution meet the stated goal?",
+        "images": ["q001_1.png", "q001_2.png"],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q002",
+        "text": "You are a stock trading analyst working with a table that contains Microsoft\u0092s daily closing stock prices for the past year.\n/Table/\nYou have to create a Power BI visual to monitor Microsoft\u0092s stock price along with the relevant information below:\n· 52-week high,\n· 52-week low\n· Current Microsoft stock price\n· Stock\u0092s 50 Day Moving Average (DMA)\nYou track the stock price, and if the price moves above/below 50 DMA, you plan to buy/sell the stock in large quantities. Which visual would you use?",
+        "images": ["q002.png"],
+        "choices": [
+            "KPI visual",
+            "Radial gauge",
+            "Funnel chart",
+            "Ribbon chart"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q003",
+        "text": "John Carmack is a new Power BI developer. He updates the dashboard theme by changing the Tile background color. He observes that, out of 3 visuals in the dashboard, one visual has no effect.\nWhat could be the reason for his observation?",
+        "images": [],
+        "choices": [
+            "The tile uses a dashboard theme",
+            "The tile uses a report theme",
+            "The tile uses a custom theme",
+            "The tile uses a built-in theme"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q004",
+        "text": "Which of the following statements about Measures and Calculated columns is TRUE?",
+        "images": [],
+        "choices": [
+            "Calculated columns are evaluated by using filter context at data refresh time, while measures are evaluated by using row context at query time",
+            "Calculated columns are evaluated by using row context at data refresh time, while measures are evaluated by using filter context at query time",
+            "Calculated columns are evaluated by using filter context at query time, while measures are evaluated by using row context at data refresh time",
+            "Calculated columns are evaluated by using row context at query time, while measures are evaluated by using filter context at data refresh time"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q005",
+        "text": "Multi = 0, 3 / Your manager has shared a technical requirements documentation that guides the Power BI project teams in your organization. One of the requirements is:\nUse query parameters instead of hardcoding data source connection details.\nYou create a Power BI model that combines data from 3 data sources: Azure SQL Server, Analysis Services, and Excel spreadsheet.\nYou realize that you can browse the Excel file and import data into your model, but Excel doesn‘t support data source parameterization in the default data connector.\nHow do you parameterize the Excel data source connection? (Select two possible options).",
+        "images": [],
+        "choices": [
+            "In the Power Query M code, replace the references to the file with a parameter",
+            "Create a new query that uses the parameter",
+            "Convert the Excel file to a Text/CSV. Then import the data using a parameter",
+            "Modify the Source step of the Excel query to use the parameter as the file path"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q006",
+        "text": "You have a Sales table that has sales transactions.\n/Table/\nYou have to find the percentage of transactions with empty Product ID values. Which data preview tool in Power Query is the most suitable choice?",
+        "images": ["q006.png"],
+        "choices": [
+            "Column distribution",
+            "Column profile",
+            "Column quality",
+            "Column statistics"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q007",
+        "text": "You import web analytics data from Google Analytics and the dimension table Browser from SQL Server. You merge the two queries in Power Query and publish the dataset to Power BI. You observe that the dataset refresh is very slow, with the refresh even timing out a few times.\nWhich of the following could be a possible reason?",
+        "images": [],
+        "choices": [
+            "The data source credentials expired.",
+            "The data source is unsupported.",
+            "Too many Power BI visuals.",
+            "Query folding is not achieved."
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q008",
+        "text": "Multi = 1, 3 / You have an app workspace Marketing Efficiency. You need to grant marketing users read-only access to all the reports in the workspace.\nWhich of the following solutions meet the stated goals? Select two options.",
+        "images": [],
+        "choices": [
+            "You assign a Member role for marketing users to the Marketing Efficiency workspace",
+            "You create an Azure AD group security group Marketing users. You share each report with the group.",
+            "You enable Include in app for all the reports in the workspace.",
+            "You publish the app Marketing Efficiency. And grant access to marketing users through the app.",
+            "You share individual reports with People in your organization."
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q009",
+        "text": "Here is a sample data model.\n/Table1\nYou create the below Power BI report.\n/Table2/\nYou need to design the Sales Value measure used in the table visual. This measure:\n1. Should display empty values only if the report is filtered by the Date field from the Dates table.\n2. Should honor any other filter and display [Total Sales] values if the report is filtered/sliced by other fields in the model.\nHow would you complete box 1, box 2, and box 3 respectively for the Sales Value measure?\n/Table3/",
+        "images": ["q009_1.png","q009_2.png", "q009_3.png"],
+        "choices": [
+            "ISFILTERED, Dates, ISBLANK ()",
+            "ISCROSSFILTERED, ‘Sales Orders‘[Order Date], BLANK ()",
+            "ISFILTERED, Dates[Date], BLANK ()",
+            "ISFILTERED, Dates, BLANK ()",
+            "ISCROSSFILTERED, Dates[Date], ISBLANK ()"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q010",
+        "text": "The IT bellwether Infosys serves its clients across five main verticals:\n1. BFSI\n2. Life sciences\n3. Manufacturing & hi-tech\n4. Energy & Utilities\n5. Communications & services.\nThe company develops a Power BI report that displays project information in these verticals. They define row-level security roles to enable bulk access for the SPMs, DMs, BU heads, etc., to the project‘s insights in their vertical. i.e., they can access project data only for their verticals via Azure AD security groups.\nYou, a delivery manager (DM) in the BFSI space, received a transfer to the Life sciences vertical.\nHow should your access be managed in Power BI?",
+        "images": [],
+        "choices": [
+            "Update the Azure AD security group membership",
+            "Update the role definition in Power BI Desktop",
+            "Add the DM to the appropriate security role of the dataset",
+            "Add/remove the Azure AD security group to the row-level security settings of the dataset"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q011",
+        "text": "Read the below information and answer the questions that are part of the case study.\nBelow is the sample data of a popular affiliate marketer from India. The dataset contains information on the traffic (Clicks) and Affiliate Income he generates from different advertisers via his blog.\n/Table1/\nYou have created two report pages in Power BI Desktop.\nThe report Clicks by Advertiser has a column chart displaying the number of clicks for each Advertiser. There is also an Affiliate channel slicer in this report.\n/Table2/\nThe report Sales by Advertiser has a bar chart displaying the Sales Amount for each Advertiser. There is also a Date slicer in this report.\n/Table3\nYou have to ensure that when a business user filters the first report page by any Affiliate channel, the same filters apply to the second report page as well. Which of the following options would you choose?",
+        "images": [],
+        "choices": [
+            " Create a bookmark for each slicer",
+            " Group both the slicer visuals",
+            " Use the Affiliate channel field in a page-level filter",
+            " Sync both the slicer visuals"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q012",
+        "text": "Multi = 0, 2 / Read the below information and answer the questions that are part of the case study.\nBelow is the sample data of a popular affiliate marketer from India. The dataset contains information on the traffic (Clicks) and Affiliate Income he generates from different advertisers via his blog.\n/Table1/\nYou have created two report pages in Power BI Desktop.\nThe report Clicks by Advertiser has a column chart displaying the number of clicks for each Advertiser. There is also an Affiliate channel slicer in this report.\n/Table2/\nThe report Sales by Advertiser has a bar chart displaying the Sales Amount for each Advertiser. There is also a Date slicer in this report.\n/Table3/\nSome records in the dataset have unknown values in the Affiliate Channel column [Observe the (blank) value in the Affiliate Channel slicer above].\nSo, you apply a visual-level filter to filter out the blank value in the slicer.\n/Table4/\nYou have to ensure that the Date slicer (on the second report page) displays only the dates that do not have any blank values for Affiliate Channel.\nWhat two actions would you do?\nNote: You have already synced both the slicers.",
+        "images": ["q012_1.png", "q012_2.png", "q012_3.png", "q012_4.png"],
+        "choices": [
+            "Mark both slicers as part of a group",
+            "Sync field changes to other slicers",
+            "Sync filter changes to other slicers",
+            "Give different group names for each slicer"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q013",
+        "text": "Multi = 1, 2 / Read the below information and answer the questions that are part of the case study.\nBelow is the sample data of a popular affiliate marketer from India. The dataset contains information on the traffic (Clicks) and Affiliate Income he generates from different advertisers via his blog.\n/Table1/\nYou have created two report pages in Power BI Desktop.\nThe report Clicks by Advertiser has:\n· A column chart displaying the number of clicks for each Advertiser.\n· An Affiliate Channel slicer.\n· In addition, you added a Line chart that displays Clicks by Year\n/Table2/\nThe report Sales by Advertiser has a bar chart displaying the Sales Amount for each Advertiser. There is also a Date slicer in this report.\n/Table3\nWhat two actions would you perform to ensure that if a business user selects any date in the Date slicer, all visuals on the first report page, except the Line chart, are filtered?\nNote: You have NOT synced both the slicers yet.",
+        "images": ["q013_1.png", "q013_2.png", "q013_3.png"],
+        "choices": [
+            "Sync both the slicers",
+            "Edit the interactions between the Date slicer and the Line chart",
+            "Copy, paste, and sync the Date slicer on the first report page",
+            "Edit the interactions between the Affiliate Channel slicer and the Line chart"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q014",
+        "text": "You want to publish a dataset to all users in the organization. i.e., even users who do not have access to the dataset should be able to view the dataset in the data hub and request access to it.\nWhich of the following actions do you need to perform?",
+        "images": [],
+        "choices": [
+            "Promote the dataset",
+            "Add all users as members to the workspace",
+            "Publish an app from the workspace",
+            "Host the workspace in a premium capacity"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q015",
+        "text": "Muli = 1, 4 / There is a table visual that displays Total Sales each quarter and the corresponding sales for the previous quarter from the Sales table.\n/Table/\nThe two measures used in the table are defined as below:\nTotal Sales =\nCALCULATE ( SUM ( Sales[Sales Amount] ) )\nSales Last Quarter =\nCALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) )\nDue to the workings of the PREVIOUSQUARTER DAX function, a blank value appears for Total Sales in the last row when you add the Sales Last Quarter measure to the visual.\nHow would you rewrite the measure for Sales Last Quarter in order to avoid this blank value? Select two options.",
+        "images": ["q015.png"],
+        "choices": [
+            "Sales Last Quarter = \nIF (ISBLANK([Total Sales]), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )",
+            "Sales Last Quarter = \nIF (NOT ISEMPTY(Sales), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )",
+            "Sales Last Quarter = \nIF (NOT ISBLANK([Total Sales]), BLANK(), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )",
+            "Sales Last Quarter = \nIF (NOT BLANK(), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )",
+            "Sales Last Quarter = \nIF (ISBLANK([Total Sales]), BLANK(), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q016",
+        "text": "Your Power BI team creates dashboards for the Marketing automation team. Where can the users share feedback by adding comments for effective collaboration?",
+        "images": [],
+        "choices": [
+            "Only at the individual tile level in a dashboard",
+            "Only at the dashboard level",
+            "Either at the dashboard level or individual tiles in a dashboard",
+            "Comments can be added only at the report level"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q017",
+        "text": "You build a Power BI report for graduates of a b-school. Given below is a sample dataset.\n/Table/\nThe final report has the following requirements:\n1. When a student logs in, the report should display their name (Graduate Name) and Grades.\n2. The report should display their peer grades without revealing personal information (name) about whom those grades belong. That is, the report should not display the names of their peers.\n3. The users should be able to compare their performance with the performance of the batch mates.\nHow would you create the report?",
+        "images": ["q017.png"],
+        "choices": [
+            "Mask data to anonymize sensitive data",
+            "Use row-level security to filter sensitive data",
+            "Use object-level security to hide student names",
+            "Use sensitivity labels to encrypt the data"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q018",
+        "text": "Business users in your organization connect to a financial data mart to develop financial reports like income analysis, P&L analysis, etc., and deploy them to service. Over time, this leads to a proliferation of datasets and reports and inefficient workspace storage consumption as many reports have a good overlap of measures & KPIs.\n/Table\nWhich of the following would you choose to optimize the self-service BI implementation?",
+        "images": ["q018.png"],
+        "choices": [
+            "Promote the dataset",
+            "Shared datasets",
+            "Power BI dataflows",
+            "Instruct users to delete the dataset after report publishing"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q019",
+        "text": "You have a dataset of the height and weight of Grade 10 students.\n/Table/\nYou need to use both height and weight to visualize and identify students who are very tall, a cut above the rest of the batch, for an inter-school basketball match.\nWhich Power BI visual would you use?",
+        "images": ["q019.png"],
+        "choices": [
+            "Dot plot",
+            "Bubble chart",
+            "Scatter plot",
+            "Line chart"
+        ],
+        "correct": 2
+    },
+    {
+        "id": "q020",
+        "text": "An organization publishes employee referral reports so employees can view upcoming opportunities and refer their pals to suitable job openings. They implement row-level security so employees can view the opportunities only in their department. Employees should not be able to modify report filters to view openings in other departments.\nHow would you manage employees\u0092 access to reports?",
+        "images": [],
+        "choices": [
+            "Add employees to the member role of the workspace",
+            "Distribute the referral reports as an app",
+            "Publish only the reports to the workspace, leaving out the dataset",
+            "Do not add the employee to any row-level security role"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q021",
+        "text": "In addition to telling stories in a Power BI report, there is a requirement to display table statistics and data distribution profiles of columns in a fact table for end users. Which of the following tools/scenarios is a feasible/best solution you would employ?\nNote: Assume the fact table has a large number of columns.",
+        "images": [],
+        "choices": [
+            "Use the Table.Profile function on the fact table in Power Query",
+            "In Power Query, use the column profile tool",
+            "In Power Query, use the column quality tool",
+            "Create a table visual in Power BI using aggregate functions"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q022",
+        "text": "You create multiple reports on the company\u0092s last quarter financial information. You would like to share these reports with the C-level executives of the company. How would you share the reports?\nNote: Ignore all aspects of Power BI licensing.",
+        "images": [],
+        "choices": [
+            "Directly share the report",
+            "Publish an app",
+            "Assign a viewer role to the workspace",
+            "Publish the report on the web"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q023",
+        "text": "You create the below data model in Power BI.\n/Table1\nThe Permissions table defines the Account Types that individual employees can access.\n/Table2\nSelect and order the actions you need to perform to ensure that dynamic row-level security works for users logged into Power BI.\n/Table3\nNote: A security role is created on the Permissions table with the DAX expression: [User Name] = USERPRINCIPALNAME ()",
+        "images": ["q023_1.png", "q023_2.png", "q023_3.png"],
+        "choices": [
+            "Set the cross filter direction between the Accounts and Account Types table to Both\nCheck Apply security filter in both directions",
+            "Set the cross filter direction between the Permissions and Account Types table to Both\nCheck Apply security filter in both directions",
+            "Change the relationship cardinality from Permissions -> Account Types to One to many\nSet the Cross filter direction between the Permissions and Account Types table to Both",
+            "Change the relationship cardinality from Permissions -> Account Types to One to many\nCheck Apply security filter in both directions"
+        ],
+        "correct": 1
+    },
+    {
+        "id": "q024",
+        "text": "You monitor an active fraudulent activity report in the Power BI service that connects to a backend financial data mart. The Teradata Database is updated whenever customers use a credit card. You have to detect counterfeit transactions as soon as they happen.\nHow would you set up the data connection from Power BI?",
+        "images": [],
+        "choices": [
+            "Use DirectQuery as Data Connectivity mode with reports on shared capacity",
+            "Use Import as Data Connectivity mode with reports on Premium capacity",
+            "Use Import as Data Connectivity mode with reports on shared capacity",
+            "Use DirectQuery as Data Connectivity mode with reports on Premium capacity"
+        ],
+        "correct": 3
+    },
+    {
+        "id": "q025",
+        "text": "Koovs is an online e-commerce store based in India that sells women\u0092s shoes. On each of their product pages, they display two metrics: Product ratings and Answered questions.\n/Table1/\nHere is a view of the sample dataset imported into Power BI.\n/Table2/\nThe Sales Manager has to understand the relationship between No. of. ratings and No. of. answered questions. They also need to find high-performing product categories (based on these metrics).\nWhich chart best meets the needs of the sales manager?",
+        "images": ["q025_1.png", "q025_2.png"],
+        "choices": [
+            "Scatter chart",
+            "Line chart",
+            "Stacked bar chart",
+            "Bubble chart"
+        ],
+        "correct": 0
+    },
+    {
+        "id": "q026",
+        "text": "You have a dataset on the bulk orders your company received from across India via different Sales Channels.\n/Table/\nYou have to create a transformation query for the No of bulk orders received from each City and Sales channel. Which of the following options would you choose?",
+        "images": [
+            "q026.png"
+        ],
+        "choices": [
+            "Create a Basic Group by transform. And set the Group by operation to Count Rows",
+            "Create an Advanced Group by transform. And set the Group by operation to Count Rows",
+            "Create a Basic Group by transform. And set the Group by operation to Count Distinct Rows",
+            "Create an Advanced Group by transform. And set the Group by operation to Count Distinct Rows"
+        ],
+        "correct": 1
+    }
+]
